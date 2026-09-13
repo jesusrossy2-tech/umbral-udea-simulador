@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "UDEA_2017_1_J1_CL_001",
+    "section": "CL",
+    "topic": "literal_comprehension",
+    "question": "Los contrastes presentados en el párrafo Uno son, EXCEPTO",
+    "options": {
+      "A": "las iglesias y los estados / industria editorial y academia",
+      "B": "enemigos feroces / enemigos cordiales",
+      "C": "el contacto con los libros / la aventura de leer",
+      "D": "las iglesias y la academia / los estados y la industria editorial"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 1,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_002",
+    "section": "CL",
+    "topic": "inference",
+    "question": "La distinción que hace el autor entre “cordiales” y “enemigos” (párrafo 1) implica que",
+    "options": {
+      "A": "detrás de un esfuerzo forzoso con el libro, no existe un interés real por generar el placer por la lectura",
+      "B": "la industria editorial está interesada en poner libros en las manos de los lectores sin considerar sus gustos",
+      "C": "la academia y la industria editorial tienen el mismo propósito: acabar con la aventura de leer",
+      "D": "se puede generar interés en la gente para que entre en contacto con los libros; pero esto no implica que se les pueda motivar para que lean"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 2,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_003",
+    "section": "CL",
+    "topic": "meaning_in_context",
+    "question": "La expresión “la aventura de leer”, es empleada por el autor para",
+    "options": {
+      "A": "señalar que leer es siempre una aventura",
+      "B": "indicar que son mejores los libros de aventuras",
+      "C": "referirse a la motivación por la lectura",
+      "D": "mostrar que leer puede ser divertido"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 3,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_004",
+    "section": "CL",
+    "topic": "meaning_in_context",
+    "question": "Un equivalente del concepto “experiencia de lectura”, sería",
+    "options": {
+      "A": "modelo de civilización",
+      "B": "enemigos cordiales",
+      "C": "aventura de leer",
+      "D": "contacto con los libros"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 4,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_005",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "Son proposiciones del párrafo 2, EXCEPTO",
+    "options": {
+      "A": "a la industria editorial solo le interesa la venta de libros",
+      "B": "la sociedad de consumo obstaculiza la experiencia lectora",
+      "C": "la sociedad de consumo contribuye a la experiencia lectora",
+      "D": "en las sociedades opulentas el acceso a los libros no es un problema"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 5,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_006",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "Del párrafo 4 se puede decir que es",
+    "options": {
+      "A": "propositivo, puesto que presenta la solución para que las personas sin recursos accedan a los libros",
+      "B": "crítico, ya que cuestiona la falta de creatividad de la industria editorial",
+      "C": "apelativo, ya que llama la atención de la industria editorial para que cree nuevas estrategias de accesibilidad a los libros",
+      "D": "explicativo, puesto que expone las razones por las cuales la industria editorial no subsidia a los que no tienen recursos"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 6,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_007",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "La piratería no es una señal de alarma para la industria editorial, porque quienes compran libros",
+    "options": {
+      "A": "piratas, son los mismos que compran libros legales",
+      "B": "piratas, no comprarían libros legales",
+      "C": "legales, jamás comprarían libros piratas",
+      "D": "legales, son los mismos que compran libros piratas"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 7,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_008",
+    "section": "CL",
+    "topic": "inference",
+    "question": "El proceso de producción y recepción de libros implica un conjunto de agentes como el autor, la editorial, los lectores, los críticos, entre otros. Si en este sistema el target es lo que en la teoría se denomina el destinatario, entonces la industria editorial correspondería al",
+    "options": {
+      "A": "plagiador",
+      "B": "productor",
+      "C": "emisor",
+      "D": "receptor"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 8,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_009",
+    "section": "CL",
+    "topic": "inference",
+    "question": "Del párrafo seis se puede inferir que la piratería",
+    "options": {
+      "A": "es producto de la falta de creatividad de la industria editorial",
+      "B": "aparece debido a la desigualdad social que hace posible que unos tengan poder adquisitivo y otros no",
+      "C": "es el resultado de la ambición adquisitiva de unos cuantos que quieren enriquecer sus arcas con las ideas de otros",
+      "D": "surge cuando las editoriales producen libros costosísimos"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 9,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_010",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "Cuando el autor dice “hay aquí un conflicto estimulante para la imaginación” (párrafo 6), quiere decir que",
+    "options": {
+      "A": "las comunidades pobres son muy creativas ya que leen réplicas defectuosas y versiones degradadas de los libros originales",
+      "B": "leer réplicas defectuosas y versiones degradadas de los libros originales estimula la creatividad",
+      "C": "todo conflicto genera nuevas posibilidades de comprender la realidad",
+      "D": "los estados, las dirigencias culturales y la industria editorial tienen el deber de crear nuevas formas de acceso a los libros"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 10,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_011",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "Una situación que ilustra un mecanismo “fatal” empleado por los maestros (párrafo 7) sería, EXCEPTO",
+    "options": {
+      "A": "el docente de matemáticas de un colegio estimula a sus estudiantes para que lean las biografías de los matemáticos más brillantes de la historia",
+      "B": "un promotor de lectura lleva a sus estudiantes a la biblioteca para que cada uno elija el libro que más le llame la atención",
+      "C": "un profesor de literatura le pide a los estudiantes hacer un análisis riguroso de un libro que él les ha pedido que lean",
+      "D": "el profesor de poesía les pide a los estudiantes que escojan un autor inglés y resuelvan un cuestionario que él elaboró"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 11,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_012",
+    "section": "CL",
+    "topic": "literal_comprehension",
+    "question": "Con desvelo el autor se refiere a que los maestros",
+    "options": {
+      "A": "no duermen por estar pensando en la razón por la cual los estudiantes no leen",
+      "B": "se preocupan por encontrar estrategias adecuadas para que sus estudiantes lean",
+      "C": "pasan la noche en vela pensando en la manera de lograr que sus estudiantes lean",
+      "D": "le quitan el velo al tabú según el cual a los jóvenes no les gusta leer"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 12,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_013",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "En el párrafo 7 se presentan los siguientes contrastes, EXCEPTO",
+    "options": {
+      "A": "mecanismos fatales / encuentros casuales",
+      "B": "finalidad precisa / juegos de azar",
+      "C": "obligación de leer / tentación de leer",
+      "D": "recomendación / prohibición"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 13,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_014",
+    "section": "CL",
+    "topic": "main_idea_and_structure",
+    "question": "La idea que resume lo expuesto en el párrafo 7 es",
+    "options": {
+      "A": "los maestros solamente utilizan mecanismos de obligatoriedad en la enseñanza de la lectura",
+      "B": "la enseñanza de la lectura requiere estrategias de seducción y no mecanismos de obligatoriedad",
+      "C": "los mejores métodos de enseñanza lectora son el contagio y la prohibición",
+      "D": "el padre de Emily Dickinson era un buen maestro de lectura"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 14,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_015",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "Los términos contagio y tentación pueden entenderse como _______ y como _______, respectivamente",
+    "options": {
+      "A": "transmisión de un sentimiento favorable por la lectura / estímulo que induce a leer en circunstancias prohibidas",
+      "B": "estímulo que induce a leer en circunstancias prohibidas / transmisión de un sentimiento favorable por la lectura",
+      "C": "acción de regalar libros con la prohibición de leerlos / estímulo que induce a obrar mal",
+      "D": "transmisión de una enfermedad por contacto con un virus / prohibición de la lectura de ciertos libros por parte de la iglesia católica"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 15,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_016",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "Una afirmación análoga a la tomada por Ospina de Baudelaire es",
+    "options": {
+      "A": "la vida es aquello que sucede mientras se hacen otros planes",
+      "B": "no se tome la vida demasiado en serio, nunca saldrá vivo de ella",
+      "C": "la vida no es un problema para ser resuelto, es un misterio para ser vivido",
+      "D": "la vida es el arte de sacar conclusiones suficientes de premisas insuficientes"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 16,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_017",
+    "section": "CL",
+    "topic": "intertextual_relations",
+    "question": "La cita que el autor toma de Lugones",
+    "options": {
+      "A": "es un contraargumento que se opone a la idea de Baudelaire",
+      "B": "es una burla que desmiente todo lo que dijo a lo largo del texto",
+      "C": "contradice la convicción de Baudelaire y el argumento del autor",
+      "D": "reafirma la convicción de Baudelaire y el argumento del autor"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 17,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_018",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "El autor del texto culpa del déficit de lectura a, EXCEPTO",
+    "options": {
+      "A": "la industria editorial",
+      "B": "los estados",
+      "C": "los lectores",
+      "D": "la academia"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 18,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_019",
+    "section": "CL",
+    "topic": "meaning_in_context",
+    "question": "Con el concepto de “imagen emblemática” el autor se refiere a",
+    "options": {
+      "A": "la situación en la cual el universitario lee fotografías",
+      "B": "el mecanismo por medio del cual una persona es capaz de hacer cuatro actividades al mismo tiempo",
+      "C": "un lugar común pero simbólico de los que significa leer en el siglo XXI",
+      "D": "la figura o representación gráfica de un joven universitario lector que viaja en el transporte público"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 19,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_020",
+    "section": "CL",
+    "topic": "literal_comprehension",
+    "question": "La idea según la cual en la alta edad media los monjes leían oralmente es atributiva de",
+    "options": {
+      "A": "el joven universitario",
+      "B": "Umberto Eco",
+      "C": "Carlos Sánchez",
+      "D": "Malcolm Parkes"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 20,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_021",
+    "section": "CL",
+    "topic": "main_idea_and_structure",
+    "question": "El propósito del párrafo dos es",
+    "options": {
+      "A": "insinuar que los sujetos del siglo XXI son apocalípticos o integrados",
+      "B": "poner en evidencia, a través de las tres preguntas, que el joven universitario realmente no está leyendo",
+      "C": "plantear los problemas que el autor se propone tratar",
+      "D": "cuestionar la actitud multifacética del joven universitario"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 21,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_022",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "A partir del punto de vista de Carr, se puede afirmar que la lectura basada en la multitarea",
+    "options": {
+      "A": "no es funcional, ya que el lector pierde el propósito inicial de la lectura",
+      "B": "favorece la estructura cognitiva de las personas",
+      "C": "estimula la capacidad de leer en ámbitos multimediales",
+      "D": "lleva a que las personas solamente lean fragmentos de textos"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 22,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_023",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "Teniendo en cuenta los párrafos 3 y 4, se puede afirmar que para Nicholas Carr el problema de la lectura está en _______, mientras que para Carlos Sánchez está en _______",
+    "options": {
+      "A": "el ambiente multimedial que lleva a leer fragmentos —el insuficiente apoyo durante la educación básica en el desarrollo de competencias lectoras",
+      "B": "las estructuras cognitivas y la capacidad de leer de las personas — la dificultad que tienen los estudiantes para construir el significado global de los textos",
+      "C": "la presencia simultánea de audio, foto, video, lenguaje alfabético, signos no verbales —la incapacidad de los lectores para establecer relaciones intertextuales",
+      "D": "el insuficiente apoyo durante la educación básica en el desempeño de competencias lectoras — el ámbito multimodal que lleva a leer fragmentos"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 23,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_024",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "Dentro de las deficiencias lectoras de los universitarios (párrafo 4) están, EXCEPTO",
+    "options": {
+      "A": "léxico básico, saberes enciclopédicos y limitaciones para criticar lo que leen",
+      "B": "incapacidad para establecer relaciones intertextuales",
+      "C": "dificultad para construir el significado global de los textos",
+      "D": "falta de apoyo durante la educación básica"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 24,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_025",
+    "section": "CL",
+    "topic": "meaning_in_context",
+    "question": "La expresión es muy factible indica que el autor",
+    "options": {
+      "A": "está complemente seguro que lo que está afirmando es cierto",
+      "B": "no está seguro de que los universitarios hayan contado con suficiente apoyo durante la educación básica",
+      "C": "hizo una encuesta y descubrió que la mayoría de los universitarios no contó con suficiente apoyo en la educación básica",
+      "D": "entiende que algo es factible porque es cierto"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 25,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_026",
+    "section": "CL",
+    "topic": "meaning_in_context",
+    "question": "Una expresión que explica el sentido de “a la vuelta de la esquina” empleada por el autor es, EXCEPTO",
+    "options": {
+      "A": "voy a empezar a estudiar porque los exámenes se realizaran próximamente",
+      "B": "tengo que ir a comprar el traje, porque queda poco tiempo para el bautizo de mi ahijado",
+      "C": "te sugiero comprar el vestido girando en la próxima esquina de la manzana",
+      "D": "piensa en lo que harás en estos días, porque el fin de semana está cercano"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 26,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_027",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "Las críticas del párrafo 4 están dirigidas a _________ y __________",
+    "options": {
+      "A": "los estudiantes — los profesores",
+      "B": "los profesores —la internet",
+      "C": "los estudiantes — la educación básica",
+      "D": "la educación básica — la universidad"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 27,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_028",
+    "section": "CL",
+    "topic": "rhetoric_and_discourse",
+    "question": "La expresión “más sencillos” (párrafo 4) está entre comillas porque el autor quiere",
+    "options": {
+      "A": "resaltar el hecho de que no existen textos sencillos",
+      "B": "enfatizar la actitud mediocre de los estudiantes que esperan hacer el mínimo esfuerzo en la actividad lectora",
+      "C": "demostrar lo contrario de lo que se está afirmando: los verdaderos culpables son los profesores",
+      "D": "mostrar, de forma irónica, que los textos denominados “más sencillos “son realmente complejos"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 28,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_029",
+    "section": "CL",
+    "topic": "literal_comprehension",
+    "question": "Una situación que ilustra lo expuesto en el párrafo 4 es",
+    "options": {
+      "A": "los estudiantes de una clase de literatura leen novelas de tramas lineales ya que son estructuras más sencillas",
+      "B": "un estudiante afirma: “es mejor leer la Nueva historia económica de Colombia que ¡La culpa es de la vaca!”",
+      "C": "un estudiante afirma: “es mejor leer la ¡La culpa es de la vaca! que Nueva historia económica de Colombia",
+      "D": "los estudiantes de una clase de literatura leen una novela multimedial"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 29,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_030",
+    "section": "CL",
+    "topic": "inference",
+    "question": "La afirmación “basta una prueba diagnóstica de lectura para comprobarlo” se refiere a _______ e implica que el autor _______",
+    "options": {
+      "A": "las limitaciones lectoras de los universitarios / espera comprobarlo con una prueba diagnóstica",
+      "B": "las competencias lectoras y hábito lector deficiente / considera cierta su afirmación aún sin haberla comprobado",
+      "C": "el apoyo durante la educación básica / ya lo comprobó a través de una prueba de lectura",
+      "D": "su léxico básico y los saberes enciclopédicos de los estudiantes / no tiene cómo comprobar su afirmación, pero especula al respecto"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 30,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_031",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "Los procesos por los que pasan los docentes, indicados en el párrafo 5, se pueden ordenar como sigue",
+    "options": {
+      "A": "confianza en la autonomía del estudiante, verificación de la expectativa, cambios curriculares, expectativa, nuevo desarrollo de las clases, frustración",
+      "B": "expectativa, confianza en la autonomía del estudiante, frustración, cambios curriculares, nuevo desarrollo de las clases, verificación de la expectativa",
+      "C": "esperanza, determinación de la autonomía estudiantil, lectura diversificada, debates en clase, verificación de la lectura literal y fragmentada, frustración, traducción de hechos",
+      "D": "expectativa, confianza en la autonomía del estudiante, verificación de la expectativa y de la autonomía, frustración, cambios curriculares, nuevo desarrollo de las clases"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 31,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_032",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "Es una relación causa / efecto (párrafo 5)",
+    "options": {
+      "A": "la frustración por una lectura literal y fragmentada / los cambios en la organización curricular y en el desarrollo de las clases",
+      "B": "los cambios en la organización curricular y en el desarrollo de las clases / la no verificación de una lectura rápida y autónoma",
+      "C": "la expectativa de los docentes frente a la actitud lectora de los estudiantes / la frustración por una lectura literal y fragmentada",
+      "D": "la no verificación de una lectura rápida y autónoma / la compresión literal y fragmentada de los estudiantes"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 32,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_033",
+    "section": "CL",
+    "topic": "literal_comprehension",
+    "question": "De acuerdo con el párrafo 6, se puede afirmar que la pedagogía es, EXCEPTO",
+    "options": {
+      "A": "la ciencia que debe dar respuesta a los problemas de la lectura en la universidad",
+      "B": "un área de las ciencias sociales que se ocupa de la educación",
+      "C": "el área encargada de definir el tipo de sujeto que se debe formar a través de la educación",
+      "D": "una disciplina transversal"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 33,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_034",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "Estos temas (párrafo 6) son, EXCEPTO",
+    "options": {
+      "A": "la competencia lectora en la universidad",
+      "B": "las expectativas que los docentes tienen frente a la lectura de sus estudiantes",
+      "C": "los tipos de textos que los estudiantes deben leer de forma autónoma",
+      "D": "los cambios curriculares generados por las dificultades lectoras de los estudiantes"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 34,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_035",
+    "section": "CL",
+    "topic": "main_idea_and_structure",
+    "question": "Se puede afirmar sobre los temas de la lectura que el texto Uno _______ mientras que el dos _______",
+    "options": {
+      "A": "aborda el tópico de forma global y se centra en la dimensión política / hace énfasis en las nuevas formas de lectura y el apoyo insuficiente de la educación",
+      "B": "señala que es un problema cuya responsabilidad exclusiva recae en la industria editorial / inculpa a las estrategias insuficientes empleadas por los profesores",
+      "C": "hace énfasis en las nuevas formas de lectura y el apoyo insuficiente de la educación / aborda el tópico de forma global y se centra en la dimensión política",
+      "D": "inculpa a las estrategias insuficientes empleadas por la academia / responsabiliza al internet por cambiar los hábitos de lectura"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 35,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_036",
+    "section": "CL",
+    "topic": "unclassified",
+    "question": "Robert Coover señala que la narración hipertextual establece un espacio descentrado en el que la lectura se hace a través de redes y en función. Esta idea tiene relación con lo planteado por",
+    "options": {
+      "A": "William Ospina",
+      "B": "Carlos Sánchez",
+      "C": "el padre de Emily Dickinson",
+      "D": "Nicholas Carr"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 36,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_037",
+    "section": "CL",
+    "topic": "intertextual_relations",
+    "question": "Dice el narrador del Quijote de la Mancha que “los ratos que estaba ocioso ‒que eran los más del año‒, se daba a leer libros de caballería, con tanta afición y gusto, que olvidó casi de todo punto el ejercicio de la caza y aun la administración de su hacienda; y llegó a tanto su curiosidad y desatino en esto, que vendió muchas anegas de tierra de sembradura, para comprar libros de caballería en que leer, y, así, llevó a su casa todos cuanto pudo haber dellos”. La idea de lectura que subyace a esta narración concuerda con",
+    "options": {
+      "A": "la pregunta de Carr ¿Qué está haciendo internet con nuestras mentes? (Texto dos)",
+      "B": "la prohibición del padre de Emily Dickinson de que no leyera los libros que le regalaba para que no perturbara su espíritu",
+      "C": "el verso de Lugones: Y la luna servía para mirarla mucho (texto uno)",
+      "D": "el planteamiento de Parkes según el cual en el medioevo las personas leían oralmente"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 37,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_038",
+    "section": "CL",
+    "topic": "intertextual_relations",
+    "question": "Ambos textos coinciden en la crítica a",
+    "options": {
+      "A": "la industria editorial",
+      "B": "la internet",
+      "C": "el sistema educativo",
+      "D": "los estados y las dirigencias culturales"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 38,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_039",
+    "section": "CL",
+    "topic": "literal_comprehension",
+    "question": "Según Pierre Bayard, los libros leídos son “un amontonamiento heteróclito de fragmentos de textos, remodelados por nuestra imaginación y sin conexión alguna con los libros de otros, por mucho que materialmente sean idénticos a los que han pasado por nuestras manos”. Este planteamiento es analógico a una idea de",
+    "options": {
+      "A": "la lectura multimedial en la que el resultado del proceso lector es una amalgama de fragmentos y conexiones azarosas",
+      "B": "anti-utilitarismo de la lectura en la que cada quien lee lo que quiere leer y va acumulando experiencias lectoras heteróclitas por placer y gusto",
+      "C": "competencia lectora como el proceso transversal en el que los sujetos leen rápido diversos tipos de textos",
+      "D": "un amontonamiento de expresiones lectoras surgidas del azar en la que los libros son encontrados por los lectores a su gusto"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 39,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_1_J1_CL_040",
+    "section": "CL",
+    "topic": "intertextual_relations",
+    "question": "En otro texto William Ospina dice: “Toda pregunta por la educación tiene que partir de qué tipo de seres humanos queremos tener, lo cual significa qué tipo de mundo queremos construir”. Esta idea se relaciona con la de",
+    "options": {
+      "A": "William Ospina cuando afirma que es grave y estéril imponer finalidades demasiado limitadas a la lectura",
+      "B": "Carlos Sánchez cuando plantea que la pedagogía debe discutir los temas de los problemas lectores y sus implicaciones curriculares en la universidad",
+      "C": "William Ospina cuando sostiene que las crisis de algunas sociedades debería sugerir nuevas estrategias de publicación y divulgación",
+      "D": "Carlos Sánchez cuando señala que la pedagogía debería establecer qué tipo de educación, sujeto y sociedad queremos proponer para el siglo XXI"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 40,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_045",
+    "section": "RL",
+    "topic": "arithmetic",
+    "question": "La cantidad de números diferentes que se pueden formar con los números 1, 2, 3, 4 sin repetir",
+    "options": {
+      "A": "25",
+      "B": "30",
+      "C": "45",
+      "D": "64"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 41,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_046",
+    "section": "RL",
+    "topic": "arithmetic",
+    "question": "Un número se considera un número vecino si sus 3 dígitos se diferencian en exactamente una unidad. Por ejemplo, el número 789 es un número vecino así como el número 323, con lo anterior, cuantos números vecinos se pueden formar con los dígitos 1, 2, 3, 4.",
+    "options": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "12"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 42,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_047",
+    "section": "RL",
+    "topic": "unclassified",
+    "question": "Se tiene la siguiente operación * definida así El valor de es",
+    "options": {
+      "A": "0",
+      "B": "-2",
+      "C": "2",
+      "D": "-4"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 43,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_050",
+    "section": "RL",
+    "topic": "logical_relations",
+    "question": "Ordenados de menor a mayor se obtiene:",
+    "options": {
+      "A": "101101, 100111, 110001, 101010",
+      "B": "110001, 101101, 101010, 100111",
+      "C": "101010, 100111, 110001, 101101",
+      "D": "100111, 101010, 101101, 110001"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 44,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_051",
+    "section": "RL",
+    "topic": "sets",
+    "question": "Luisa quiere sumar 2 números distintos del conjunto 9, 10, 8, y Andrés quiere multiplicar 2 números distintos del conjunto 3, 5, 6. ¿En cuántos casos es posible que la suma de los números de luisa sea mayor que la multiplicación de dos números de Andrés?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 45,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_052",
+    "section": "RL",
+    "topic": "arithmetic",
+    "question": "Ana y Bernardo tienen el siguiente dialogo: Ana: Piense un número, Bernardo Bernardo: ¡listo! Ana: Ahora súmale 2 a ese número Bernardo: O.K. Ana: Multiplica el resultado por el número que pensaste inicialmente Bernardo: O.K. Ana: Súmale ahora 1 a ese resultado Bernardo: O.K. Ana: ¿Cuál fue el resultado? En ese momento Bernardo responde y casi que inmediatamente Ana le dice: Ana: el número que pensaste fue… El mínimo número de operaciones que Ana debe efectuar para descubrir el número que pensó Bernardo es:",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "1"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 46,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_053",
+    "section": "RL",
+    "topic": "unclassified",
+    "question": "Ana tiene 18 dulces menos que Beatriz y Carolina juntos. Beatriz tiene 8 dulces menos que Ana y Carolina juntas. Son verdaderas Ana tiene menos dulces que Beatriz Carolina tiene 13 La diferencia entre los dulces de Beatriz y Ana es 5",
+    "options": {
+      "A": "II y III",
+      "B": "I y II",
+      "C": "I y III",
+      "D": "I, II y III"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 47,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_054",
+    "section": "RL",
+    "topic": "geometry",
+    "question": "Si la longitud de una circunferencia aumenta en 40%, entonces el área aumenta en",
+    "options": {
+      "A": "96%",
+      "B": "16%",
+      "C": "140%",
+      "D": "60%"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 48,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_055",
+    "section": "RL",
+    "topic": "arithmetic",
+    "question": "Considere los números impares entre 1 y 200, la cantidad de ellos que son múltiplos de 3 y 5 simultáneamente",
+    "options": {
+      "A": "7",
+      "B": "13",
+      "C": "14",
+      "D": "20"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 49,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_059",
+    "section": "RL",
+    "topic": "unclassified",
+    "question": "Sobre una mesa hay 3 cajas y 3 objetos, cada objeto en una caja diferente: un clavo, una llave, una moneda. Se sabe que:",
+    "options": {
+      "A": "La caja verde está a la izquierda de la azul",
+      "B": "El clavo está inmediatamente a la izquierda de la moneda",
+      "C": "La roja está inmediatamente a la derecha de la llave",
+      "D": "La moneda está a la derecha de la roja"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 50,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_060",
+    "section": "RL",
+    "topic": "unclassified",
+    "question": "La caja en la que está el clavo es",
+    "options": {
+      "A": "verde",
+      "B": "roja",
+      "C": "azul",
+      "D": "no puede determinarse"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 51,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_061",
+    "section": "RL",
+    "topic": "unclassified",
+    "question": "José da una vuelta al parque caminando a una velocidad constante, María da la vuelta corriendo también a una velocidad constante que es mayor que la de José. Si ambos salen del mismo punto y al mismo tiempo, María pasa a José dos veces y llegan juntos al lugar de partida ¿Cuántas vueltas da María mientras que José da una?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 52,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_062",
+    "section": "RL",
+    "topic": "unclassified",
+    "question": "Si hacen el mismo recorrido, pero en sentido contrario entonces ¿cuántas veces se encuentran en el recorrido?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 53,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_063",
+    "section": "RL",
+    "topic": "geometry",
+    "question": "Si el área de un rectángulo es 1, el área del triángulo determinado al interior del rectángulo cuando se unen los puntos medios de dos lados adyacentes",
+    "options": {
+      "A": "1/8",
+      "B": "1/6",
+      "C": "1/4",
+      "D": "½"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 54,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_065",
+    "section": "RL",
+    "topic": "percentages_and_proportions",
+    "question": "En una mezcla de agua pura y azúcar de 60L, hay una concentración de azúcar del 60%, sí se quiere llegar a una concentración de 80% de azúcar ¿Cuánta agua hay qué destilar?",
+    "options": {
+      "A": "9",
+      "B": "15",
+      "C": "24",
+      "D": "12"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 55,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_066",
+    "section": "RL",
+    "topic": "unclassified",
+    "question": "2 relojes se sincronizaron a las 3 p.m. Uno se adelanta un minuto cada 2 horas, y el otro se atrasa 1 minuto cada 3 horas. La diferencia que habrá entre los 2 relojes a los 9 a.m. del día siguiente es",
+    "options": {
+      "A": "15 minutos",
+      "B": "20 minutos",
+      "C": "30 minutos",
+      "D": "10 minutos"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 56,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_067",
+    "section": "RL",
+    "topic": "arithmetic",
+    "question": "Si , la suma de los dígitos de x es",
+    "options": {
+      "A": "19",
+      "B": "20",
+      "C": "21",
+      "D": "22"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 57,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_068",
+    "section": "RL",
+    "topic": "sequences_and_patterns",
+    "question": "Se tiene la siguiente secuencia de dígitos 1, 0, 2, 0, 3, 0, 1, 0, 2, 0, 3, 0, 1, 0… La suma de los 100 primeros términos es",
+    "options": {
+      "A": "96",
+      "B": "99",
+      "C": "100",
+      "D": "106"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 58,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_069",
+    "section": "RL",
+    "topic": "sequences_and_patterns",
+    "question": "En la siguiente secuencia de números 3, 15, 35, 63, 99... El siguiente número de la secuencia es",
+    "options": {
+      "A": "105",
+      "B": "201",
+      "C": "143",
+      "D": "146"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 59,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_070",
+    "section": "RL",
+    "topic": "probability",
+    "question": "Carlos tiene 10 pares de zapatos 3 pares de color rojo dos pares de color azul y cinco pares de color verde si saca varios al azar cuantos zapatos como mínimo debe sacar para obtener un par del mismo color (que se pueda calzar) es",
+    "options": {
+      "A": "15",
+      "B": "9",
+      "C": "10",
+      "D": "11"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 60,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_071",
+    "section": "RL",
+    "topic": "arithmetic",
+    "question": "Un local tiene un saco con 200 camisas de 20 colores distintos, si Sandra quiere comprar 10 camisas del mismo color, ¿cuál es el mínimo número de camisas que debe sacar para garantizarlo?",
+    "options": {
+      "A": "165",
+      "B": "95",
+      "C": "181",
+      "D": "190"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 61,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_074",
+    "section": "RL",
+    "topic": "probability",
+    "question": "Se tienen 4 bolitas marcadas con el número 6, 4 bolitas marcadas con el número 5 y 4 marcadas con el 1, se introducen en tres bolsas de forma que hayan cuatro bolitas en cada una, se sabe que en la bolsa 1 la suma de las balotas es 19, en la bolsa 2 es 17 y en la bolsa 3 es 12, acerca de la bolsa 3 se tiene certeza que",
+    "options": {
+      "A": "hay tres cincos",
+      "B": "hay tres unos",
+      "C": "hay dos unos",
+      "D": "hay un seis"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 62,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_076",
+    "section": "RL",
+    "topic": "percentages_and_proportions",
+    "question": "En una conferencia había 120 jóvenes de Medellín, Bogotá, Cartagena, Popayán. Los de Popayán son el 50% de los de Cartagena y un tercio de los de Medellín. Si el número de jóvenes de Medellín es igual al 75% de los de Bogotá Entonces cuantos son los jóvenes de Cartagena y Bogotá",
+    "options": {
+      "A": "100",
+      "B": "72",
+      "C": "54",
+      "D": "28"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 63,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_077",
+    "section": "RL",
+    "topic": "logical_relations",
+    "question": "Yo tengo 3 amigos1, 2 y 3 cuyos nombres son Juan, Pedro y Pablo, no necesariamente en este orden. Cuando se les pregunta por su nombre solo uno dice la verdad 1: Yo me llamo Juan 2: Yo no me llamo Juan 3: Yo no me llamo Pedro Los nombres de 1, 2 y 3 respectivamente son",
+    "options": {
+      "A": "Pablo, Pedro y Juan",
+      "B": "Juan, Pedro y Pablo",
+      "C": "Pedro, Juan, Pablo,",
+      "D": "Pablo, Juan y Pedro"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 64,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_078",
+    "section": "RL",
+    "topic": "sequences_and_patterns",
+    "question": "En la siguiente secuencia El primero y el último de la fila 30 son",
+    "options": {
+      "A": "900 y 960",
+      "B": "850 y 900",
+      "C": "841 y 902",
+      "D": "925 y 999"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 65,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_079",
+    "section": "RL",
+    "topic": "unclassified",
+    "question": "Se tienen dos cajas con ganchos. De la primera se sacan 3/8 del total y de la segunda 2/7, si en la caja 1 se sacan 13 ganchos más que en la 2 y lo que queda en la caja dos es 4/7 de lo que quedo en la caja uno, las cantidades iniciales en la caja 1 y 2 eran",
+    "options": {
+      "A": "56 y 28",
+      "B": "48 y 35",
+      "C": "64 y 28",
+      "D": "56 y 35"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 66,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_080",
+    "section": "RL",
+    "topic": "data_interpretation",
+    "question": "Se están comparando tres algoritmos de programación con las mismas tres preguntas. Las respuestas obtenidas se muestran en la tabla: Si todos los algoritmos hubiesen estado correctos, las respuestas con los tres habrían sido iguales. Se sabe que uno falló en todas las preguntas, otro solo falló en una y solo uno de los algoritmos respondió a todas las preguntas correctamente. El algoritmo que falló en las tres preguntas es el algoritmo",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "No puede determinarse"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "position": 67,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_041",
+    "section": "RL",
+    "topic": "percentages_and_proportions",
+    "question": "Si A es el de B, entonces el porcentaje de A que representa a B es:",
+    "options": {
+      "A": "40.000%",
+      "B": "400.000%",
+      "C": "400%",
+      "D": "4.000%"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "position": 68,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_042",
+    "section": "RL",
+    "topic": "sets",
+    "question": "El número de posibles escogencias de tres números diferentes del conjunto {9, 10, 11, 12, 13, 14} de tal modo que su suma sea divisible por 3 es:",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "4"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "position": 69,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_043",
+    "section": "RL",
+    "topic": "probability",
+    "question": "En una bolsa opaca hay 20 bolas blancas, 12 negras y 16 verdes, todas idénticas, excepto por el color. La mínima cantidad de bolas que se deben sacar al azar para estar seguro de que se extrajeron por lo menos 6 bolas de cada color es:",
+    "options": {
+      "A": "18",
+      "B": "42",
+      "C": "38",
+      "D": "24"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "position": 70,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_044",
+    "section": "RL",
+    "topic": "arithmetic",
+    "question": "Si escribiéramos consecutivamente los números del 1 al 150: 1234567891011…148149150, de tal forma que pudiéramos determinar el lugar que cada dígito ocupa. Entonces el dígito que ocupa el lugar 200 es:",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "2",
+      "D": "3"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "position": 71,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_045",
+    "section": "RL",
+    "topic": "arithmetic",
+    "question": "La cantidad de números de seis cifras mayores que 100.000 que contienen exactamente 5 nueves es:",
+    "options": {
+      "A": "45",
+      "B": "53",
+      "C": "30",
+      "D": "9"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "position": 72,
+    "correct_answer": "B"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_046",
+    "section": "RL",
+    "topic": "arithmetic",
+    "question": "Dos números son entre sí como 7 es a 13. Si al menor se le suma 140, el valor del otro número debe multiplicarse por 5 para que la relación no se altere. El mayor de los números es:",
+    "options": {
+      "A": "78",
+      "B": "54",
+      "C": "120",
+      "D": "65"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "position": 73,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_047",
+    "section": "RL",
+    "topic": "sets",
+    "question": "En una carrera de maratón intervienen 4 africanos, 4 europeos, 4 asiáticos y 4 norteamericanos. Aceptando que un podio consiste en un conjunto de 3 deportistas que ganan medalla de oro, plata y bronce y si suponemos que todos los corredores terminan la carrera, entonces el número de podios que pueden darse al finalizar la carrera si ningún norteamericano queda en el podio es:",
+    "options": {
+      "A": "1.728",
+      "B": "1.348",
+      "C": "1.570",
+      "D": "1.320"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "position": 74,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_048",
+    "section": "RL",
+    "topic": "arithmetic",
+    "question": "Se tienen un número de dos dígitos. Al intercambiar los dígitos de A se crea un segundo número de dos dígitos, B. Si se debe cumplir que , entonces la suma de los dos dígitos del mayor valor que puede tomar A es:",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "16",
+      "D": "9"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "position": 75,
+    "correct_answer": "D"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_051",
+    "section": "RL",
+    "topic": "geometry",
+    "question": "A una lámina rectangular de “x” centímetros de ancho por “y” centímetros de largo se le cortan en sus esquinas cuadrados de lados 2, 3, 4 y 5, en centímetros, para desecharlos. El valor del perímetro, en centímetros, de la lámina resultante es:",
+    "options": {
+      "A": "A.",
+      "B": "B.",
+      "C": "C.",
+      "D": "D."
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "position": 76,
+    "correct_answer": "A"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_054",
+    "section": "RL",
+    "topic": "geometry",
+    "question": "El área de la región sombreada es:",
+    "options": {
+      "A": "22",
+      "B": "20",
+      "C": "16",
+      "D": "24"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "position": 77,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_056",
+    "section": "RL",
+    "topic": "geometry",
+    "question": "Se tiene un rectángulo cuya longitud de la base es el doble de la altura. Se tiene que el 40% del área es igual al 60% del perímetro. El valor de la diagonal de este rectángulo es:",
+    "options": {
+      "A": "A.",
+      "B": "B.",
+      "C": "C.",
+      "D": "D."
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "position": 78,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_057",
+    "section": "RL",
+    "topic": "arithmetic",
+    "question": "Se tiene un terreno rectangular de medidas , se va a partir en parcelas cuadradas iguales, el menor número de parcelas posibles. Si se planta una lechuga en cada una de las esquinas de los cuadrados, el número de lechugas que se plantearán es:",
+    "options": {
+      "A": "180",
+      "B": "165",
+      "C": "184",
+      "D": "150"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "position": 79,
+    "correct_answer": "C"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_059",
+    "section": "RL",
+    "topic": "arithmetic",
+    "question": "Miguel arranca accidentalmente las páginas de un libro: 30, 47, 48, 54, 56, 121, 122, 198 y 199. El libro tenía 100 hojas. El número de hojas que queda:",
+    "options": {
+      "A": "91",
+      "B": "93",
+      "C": "92",
+      "D": "95"
+    },
+    "assets": [],
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "position": 80,
+    "correct_answer": "C"
+  }
+]
