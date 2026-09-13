@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://umbral-udea-simulador.poetic-flint-5588.chatgpt.site'),
+  metadataBase: new URL('https://umbral-udea-simulador.ciovonhorst.chatgpt.site'),
   title: 'Umbral UdeA — Simulador de admisión',
   description: 'Simulacros UdeA construidos desde exámenes históricos verificados.',
   openGraph: {
