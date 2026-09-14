@@ -99,3 +99,14 @@ El usuario autorizó usar todo el contenido pertinente del ZIP. Para mantener la
 - El banco alcanza 212 preguntas elegibles: 119 CL y 93 RL, procedentes de cuatro exámenes históricos UdeA con clave.
 - Hay 23 preguntas elegibles con recursos visuales verificados.
 - Las preguntas 47 a 77 continúan bloqueadas hasta reconstruir su numeración, escenarios compartidos, fórmulas y figuras sin pérdidas.
+
+## Avance 6 - reconstrucción completa de Razonamiento Lógico 2018-1 Jornada 3
+
+- Se corrigió el desplazamiento de numeración que afectaba las preguntas 47 a 77.
+- Se reconstruyeron y verificaron las 31 preguntas del bloque contra las páginas 6 a 10 del DOCX y la clave original.
+- Se recuperaron escenarios compartidos de regiones, pirámide numérica, terreno, código secreto, conjuntos, calendario y juego de cartas.
+- Se restituyeron ecuaciones, intervalos, expresiones algebraicas, listas de condiciones y unidades de medida.
+- Se vincularon correctamente los recursos visuales de la estrella, pirámide, terreno, rectas paralelas, gráficas de velocidad, conteo de triángulos, intervalos, cubo perforado, vista de libros y volúmenes.
+- Las opciones visuales de las preguntas 70 y 76 se asignaron individualmente a A, B, C y D.
+- El examen `UDEA_2018_1_J3` queda con sus 37 preguntas RL disponibles y sus preguntas CL bloqueadas porque la clave aportada no contiene respuestas para esa sección.
+- El banco alcanza 467 registros, con 243 preguntas elegibles: 119 CL y 124 RL. Hay 37 preguntas elegibles con material visual verificado.

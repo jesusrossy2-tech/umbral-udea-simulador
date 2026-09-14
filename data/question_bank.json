@@ -17337,21 +17337,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 47,
-    "question": "Si a y c se duplican, entonces el valor de 1/b para que se mantenga la misma relación",
+    "question": "La anterior figura tiene seis regiones, todas ellas con un área diferente y correspondiente a un número entero menor que 10. El área total de toda la figura es de 29 unidades cuadradas. Si se sabe que el área del triángulo AFD es un número par, lo mismo que el área del triángulo BFD, entonces sobre las áreas de las regiones A, F, B y D se tienen las siguientes afirmaciones: I. Todas son pares. II. Todas son impares. III. Una de estas es par, mientras que el resto impar. ¿Cuáles de las anteriores afirmaciones no son posibles?",
     "options": {
-      "A": "Se duplica",
-      "B": "Se reduce a la mitad",
-      "C": "Se reduce a un tercio",
-      "D": "Se triplica"
+      "A": "Solo la II",
+      "B": "Solo la III",
+      "C": "La I y la II",
+      "D": "La I y la III"
     },
-    "correct_answer": null,
-    "topic": "percentages_and_proportions",
-    "subtopic": "proportional_reasoning",
-    "skill": "proportional_reasoning",
+    "correct_answer": "C",
+    "topic": "logical_relations",
+    "subtopic": "logical_relations",
+    "skill": "logical_relations",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -17360,32 +17360,40 @@
       337
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J3/42670f7c1bc1db46.png"
     ],
-    "assets": [],
     "asset_candidates_nearby": [],
-    "asset_link_status": "none",
+    "asset_link_status": "direct",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "high",
     "classification_evidence": [
       "(?:%|\\bporcentaje|proporci[oó]n|regla de tres|razón|duplica|triple|mitad|tercera parte)"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/42670f7c1bc1db46.png",
+        "placement": "stimulus"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_048",
@@ -17396,21 +17404,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 48,
-    "question": "Una maquina trabaja 100 hora con 12,5 litros de gasolina. En un instante solo contiene 1 litro. El número máximo de horas que esta máquina podrá funcionar es",
+    "question": "La anterior figura tiene seis regiones, todas ellas con un área diferente y correspondiente a un número entero menor que 10. El área total de toda la figura es de 29 unidades cuadradas. Si se sabe que el área de cada uno de los triángulos formados por tres regiones es par, entonces el área de la región F es",
     "options": {
-      "A": "6",
-      "B": "8",
-      "C": "10",
-      "D": "12"
+      "A": "2",
+      "B": "4",
+      "C": "3",
+      "D": "7"
     },
-    "correct_answer": null,
-    "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "correct_answer": "B",
+    "topic": "logical_relations",
+    "subtopic": "logical_relations",
+    "skill": "logical_relations",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -17419,32 +17427,40 @@
       343
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J3/42670f7c1bc1db46.png"
     ],
-    "assets": [],
     "asset_candidates_nearby": [],
-    "asset_link_status": "none",
+    "asset_link_status": "direct",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "medium",
     "classification_evidence": [
       "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/42670f7c1bc1db46.png",
+        "placement": "stimulus"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_049",
@@ -17455,21 +17471,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 49,
-    "question": "Dos relojes solo marcan la hora y los minutos. Si en un momento se muestran las 12:05 y 12:07, entonces el resultado de restar la diferencia máxima y la mínima en segundos entre estos dos relojes es",
+    "question": "Se tienen a, b y c perteneciente a los números reales distintos entre sí y diferentes de cero que satisfacen la expresión: 1/a = 1/b + 1/c. Si a y c se duplican, entonces el valor de 1/b para que se mantenga la misma relación",
     "options": {
-      "A": "124",
-      "B": "122",
-      "C": "120",
-      "D": "118"
+      "A": "Se duplica",
+      "B": "Se reduce a la mitad",
+      "C": "Se reduce a un tercio",
+      "D": "Se triplica"
     },
-    "correct_answer": null,
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_relation",
-    "skill": "quantitative_relation",
+    "correct_answer": "B",
+    "topic": "algebra_and_equations",
+    "subtopic": "algebra_and_equations",
+    "skill": "algebra_and_equations",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -17478,12 +17494,8 @@
       349
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -17492,18 +17504,20 @@
     "classification_evidence": [
       "quantitative_relation"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_050",
@@ -17514,21 +17528,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 50,
-    "question": "Si se sabe que y , entonces hallar el valor de",
+    "question": "Una maquina trabaja 100 hora con 12,5 litros de gasolina. En un instante solo contiene 1 litro. El número máximo de horas que esta máquina podrá funcionar es",
     "options": {
-      "A": "1",
-      "B": "½",
-      "C": "1/3",
-      "D": "2"
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "12"
     },
-    "correct_answer": null,
-    "topic": "algebra_and_equations",
-    "subtopic": "equation_or_defined_operation",
-    "skill": "equation_or_defined_operation",
+    "correct_answer": "B",
+    "topic": "percentages_and_proportions",
+    "subtopic": "percentages_and_proportions",
+    "skill": "percentages_and_proportions",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "two_question_block_part_1",
@@ -17537,12 +17551,8 @@
       355
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -17551,18 +17561,20 @@
     "classification_evidence": [
       "equation_or_defined_operation"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_051",
@@ -17573,21 +17585,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 51,
-    "question": "Dado un número positivo con varios dígitos es posible borrarle algunos dígitos para obtener otro número. Por ejemplo: si al número 2336 le borramos el 2 y el 3 obtenemos 36 y si borramos el 2 y 6 obtenemos 33. ¿Cuántos son los números diferentes que se obtienen al borrar dos dígitos del número 55667788?",
+    "question": "Dos relojes solo marcan la hora y los minutos. Si en un momento se muestran las 12:05 y 12:07, entonces el resultado de restar la diferencia máxima y la mínima en segundos entre estos dos relojes es",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "124",
+      "B": "122",
+      "C": "120",
+      "D": "118"
     },
-    "correct_answer": null,
-    "topic": "probability",
-    "subtopic": "random_events",
-    "skill": "random_events",
+    "correct_answer": "D",
+    "topic": "arithmetic",
+    "subtopic": "arithmetic",
+    "skill": "arithmetic",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "two_question_block_part_2",
@@ -17596,12 +17608,8 @@
       360
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -17610,18 +17618,20 @@
     "classification_evidence": [
       "\\b(probabilidad|azar|balotas?|bolas?|dados?|cartas?)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_052",
@@ -17632,34 +17642,31 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 52,
-    "question": "",
-    "options": {},
-    "correct_answer": null,
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "question": "Si se sabe que △(5)=3 y △(x+5)=△(x)·△(5), entonces hallar el valor de △(-5)",
+    "options": {
+      "A": "1",
+      "B": "½",
+      "C": "1/3",
+      "D": "2"
+    },
+    "correct_answer": "C",
+    "topic": "algebra_and_equations",
+    "subtopic": "algebra_and_equations",
+    "skill": "algebra_and_equations",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
-    ],
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
     "extraction_method": "range_gap_placeholder",
     "source_paragraphs": [
       362,
       362
     ],
     "embedded_image_markers": 1,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -17668,18 +17675,20 @@
     "classification_evidence": [
       "quantitative_reasoning"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "incomplete",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_053",
@@ -17690,34 +17699,31 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 53,
-    "question": "",
-    "options": {},
-    "correct_answer": null,
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "question": "Dado un número positivo con varios dígitos es posible borrarle algunos dígitos para obtener otro número. Por ejemplo: si al número 2336 le borramos el 2 y el 3 obtenemos 36 y si borramos el 2 y 6 obtenemos 33. ¿Cuántos son los números diferentes que se obtienen al borrar dos dígitos del número 55667788?",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "13"
+    },
+    "correct_answer": "A",
+    "topic": "counting",
+    "subtopic": "counting",
+    "skill": "counting",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
-    ],
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
     "extraction_method": "range_gap_placeholder",
     "source_paragraphs": [
       362,
       362
     ],
     "embedded_image_markers": 1,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -17726,18 +17732,20 @@
     "classification_evidence": [
       "quantitative_reasoning"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "incomplete",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_054",
@@ -17748,21 +17756,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 54,
-    "question": "El número de veces que aparece el número 50 en la pirámide es",
+    "question": "Se tiene una pirámide con diez cajones en la base, nueve en la siguiente y así sucesivamente hasta llegar a la punta en donde hay un solo cajón. Se sabe que a partir de los cajones de la base cada uno de los números de los cajones corresponde al promedio de los números de los dos cajones de inmediatamente abajo. El número que corresponde al cajón de la punta es",
     "options": {
-      "A": "0",
-      "B": "3",
-      "C": "5",
-      "D": "10"
+      "A": "50",
+      "B": "55",
+      "C": "60",
+      "D": "75"
     },
-    "correct_answer": null,
-    "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "correct_answer": "B",
+    "topic": "sequences_and_patterns",
+    "subtopic": "sequences_and_patterns",
+    "skill": "sequences_and_patterns",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -17771,32 +17779,40 @@
       376
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J3/be3ef5ca6658a17a.png"
     ],
-    "assets": [],
     "asset_candidates_nearby": [],
-    "asset_link_status": "none",
+    "asset_link_status": "direct",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "medium",
     "classification_evidence": [
       "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/be3ef5ca6658a17a.png",
+        "placement": "stimulus"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_055",
@@ -17807,54 +17823,63 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 55,
-    "question": "",
-    "options": {},
-    "correct_answer": null,
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "question": "Se tiene una pirámide con diez cajones en la base, nueve en la siguiente y así sucesivamente hasta llegar a la punta en donde hay un solo cajón. Se sabe que a partir de los cajones de la base cada uno de los números de los cajones corresponde al promedio de los números de los dos cajones de inmediatamente abajo. El número de veces que aparece el número 50 en la pirámide es",
+    "options": {
+      "A": "0",
+      "B": "3",
+      "C": "5",
+      "D": "10"
+    },
+    "correct_answer": "C",
+    "topic": "sequences_and_patterns",
+    "subtopic": "sequences_and_patterns",
+    "skill": "sequences_and_patterns",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
-    ],
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
     "extraction_method": "range_gap_placeholder",
     "source_paragraphs": [
       383,
       383
     ],
     "embedded_image_markers": 1,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J3/be3ef5ca6658a17a.png"
     ],
-    "assets": [],
     "asset_candidates_nearby": [],
-    "asset_link_status": "none",
+    "asset_link_status": "direct",
     "classification_method": "semantic_review_phase11",
     "classification_confidence": "medium",
     "classification_evidence": [
       "quantitative_reasoning"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/be3ef5ca6658a17a.png",
+        "placement": "stimulus"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "incomplete",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_056",
@@ -17865,34 +17890,31 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 56,
-    "question": "",
-    "options": {},
-    "correct_answer": null,
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "question": "Se tiene la expresión z = ax² + bx + c perteneciente a los números reales. Se sabe que cuando x es igual a 0, entonces z es igual a 3 y cuando x es igual a -3, entonces z es igual a 6. El valor de 3a - b es",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "A",
+    "topic": "algebra_and_equations",
+    "subtopic": "algebra_and_equations",
+    "skill": "algebra_and_equations",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
-    ],
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
     "extraction_method": "range_gap_placeholder",
     "source_paragraphs": [
       383,
       383
     ],
     "embedded_image_markers": 1,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -17901,18 +17923,20 @@
     "classification_evidence": [
       "quantitative_reasoning"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "incomplete",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_057",
@@ -17923,21 +17947,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 57,
-    "question": "Si se supone que x es igual a 15 metros y el costo lineal de cada metro es de $5.000, entonces el costo para cercar el terreno del césped es",
+    "question": "Se tiene un terreno el cual se ha dividido en una parte cuadrada para la huerta de lado x con 0 < x ≤ 50 y el resto para el césped. Considera: I. El área total del terreno es menor o igual a 3.000 m². II. El perímetro del terreno antes de ser dividido es x² + x + 520. Son verdaderas",
     "options": {
-      "A": "$650.000",
-      "B": "$800.000",
-      "C": "$950.000",
-      "D": "$985.000"
+      "A": "Solo I",
+      "B": "Solo II",
+      "C": "I y II",
+      "D": "Ninguna"
     },
-    "correct_answer": null,
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "correct_answer": "A",
+    "topic": "geometry",
+    "subtopic": "geometry",
+    "skill": "geometry",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -17946,32 +17970,40 @@
       399
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J3/35fdf935526d2083.png"
     ],
-    "assets": [],
     "asset_candidates_nearby": [],
-    "asset_link_status": "none",
+    "asset_link_status": "direct",
     "classification_method": "semantic_review_phase11",
     "classification_confidence": "medium",
     "classification_evidence": [
       "quantitative_reasoning"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/35fdf935526d2083.png",
+        "placement": "stimulus"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_058",
@@ -17982,54 +18014,63 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 58,
-    "question": "",
-    "options": {},
-    "correct_answer": null,
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "question": "Se tiene un terreno el cual se ha dividido en una parte cuadrada para la huerta de lado x con 0 < x ≤ 50 y el resto para el césped. Si se supone que x es igual a 15 metros y el costo lineal de cada metro es de $5.000, entonces el costo para cercar el terreno del césped es",
+    "options": {
+      "A": "$650.000",
+      "B": "$800.000",
+      "C": "$950.000",
+      "D": "$985.000"
+    },
+    "correct_answer": "A",
+    "topic": "geometry",
+    "subtopic": "geometry",
+    "skill": "geometry",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
-    ],
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
     "extraction_method": "range_gap_placeholder",
     "source_paragraphs": [
       401,
       401
     ],
     "embedded_image_markers": 1,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J3/35fdf935526d2083.png"
     ],
-    "assets": [],
     "asset_candidates_nearby": [],
-    "asset_link_status": "none",
+    "asset_link_status": "direct",
     "classification_method": "semantic_review_phase11",
     "classification_confidence": "medium",
     "classification_evidence": [
       "quantitative_reasoning"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/35fdf935526d2083.png",
+        "placement": "stimulus"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "incomplete",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_059",
@@ -18040,21 +18081,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 59,
-    "question": "Con una numeración diferente y la función usando la palabra AMOR y los números 4, 76, 94 y 112, entonces la numeración inicial a la que corresponden las letras M, O, R son",
+    "question": "Un código secreto entre dos personas consta de darle un valor numérico a las 27 letras y una función lineal, tales que los valores que toma la función en cada valor asignado a la letra corresponden a un mensaje. Por ejemplo: A=1, B=2, C=3 y D=4; además la primera persona ha escogido la función f(x)=2x+1. La otra persona debe despejar la letra x de la función, entonces la palabra EDAD corresponde a 11, 9, 3, 9. Utilizando la misma función y valores, entonces los valores que recibirá la palabra MEDIA son",
     "options": {
-      "A": "39, 45, 51",
-      "B": "39, 48, 57",
-      "C": "31, 43, 54",
-      "D": "31, 45, 51"
+      "A": "27, 13, 9, 17, 3",
+      "B": "21, 11, 13, 19, 1",
+      "C": "27, 11, 9, 19, 3",
+      "D": "20, 8, 11, 15, 5"
     },
-    "correct_answer": null,
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "correct_answer": "C",
+    "topic": "algebra_and_equations",
+    "subtopic": "algebra_and_equations",
+    "skill": "algebra_and_equations",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -18063,12 +18104,8 @@
       413
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -18077,18 +18114,20 @@
     "classification_evidence": [
       "quantitative_reasoning"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_060",
@@ -18099,34 +18138,31 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 60,
-    "question": "",
-    "options": {},
-    "correct_answer": null,
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "question": "Un código secreto entre dos personas consta de darle un valor numérico a las 27 letras y una función lineal, tales que los valores que toma la función en cada valor asignado a la letra corresponden a un mensaje. Por ejemplo: A=1, B=2, C=3 y D=4; además la primera persona ha escogido la función f(x)=2x+1. La otra persona debe despejar la letra x de la función, entonces la palabra EDAD corresponde a 11, 9, 3, 9. Con una numeración diferente y la función f(x)=2x-2 usando la palabra AMOR y los números 4, 76, 94 y 112, entonces la numeración inicial a la que corresponden las letras M, O, R son",
+    "options": {
+      "A": "39, 45, 51",
+      "B": "39, 48, 57",
+      "C": "31, 43, 54",
+      "D": "31, 45, 51"
+    },
+    "correct_answer": "B",
+    "topic": "algebra_and_equations",
+    "subtopic": "algebra_and_equations",
+    "skill": "algebra_and_equations",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
-    ],
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
     "extraction_method": "range_gap_placeholder",
     "source_paragraphs": [
       415,
       415
     ],
     "embedded_image_markers": 1,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -18135,18 +18171,20 @@
     "classification_evidence": [
       "quantitative_reasoning"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "incomplete",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_061",
@@ -18157,21 +18195,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 61,
-    "question": "La cantidad de elementos de A es",
+    "question": "Sea n perteneciente a los números naturales pares, entonces consideremos el conjunto de los números A: A={n², (n+3)², (n+6)², (n+9)², …, (n+60)², (n+63)²}. La cantidad de elementos de A es",
     "options": {
       "A": "21",
       "B": "22",
       "C": "23",
       "D": "24"
     },
-    "correct_answer": null,
-    "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "correct_answer": "B",
+    "topic": "sets",
+    "subtopic": "sets",
+    "skill": "sets",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -18180,12 +18218,8 @@
       422
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -18194,18 +18228,21 @@
     "classification_evidence": [
       "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_RL_062",
@@ -18216,21 +18253,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 62,
-    "question": "La probabilidad de que al tomar un número al azar del conjunto A este sea par es",
+    "question": "Sea n perteneciente a los números naturales pares, entonces consideremos el conjunto de los números A: A={n², (n+3)², (n+6)², (n+9)², …, (n+60)², (n+63)²}. La probabilidad de que al tomar un número al azar del conjunto A este sea par es",
     "options": {
       "A": "1/3",
       "B": "½",
       "C": "1/5",
       "D": "1/7"
     },
-    "correct_answer": null,
+    "correct_answer": "B",
     "topic": "probability",
-    "subtopic": "random_events",
-    "skill": "random_events",
+    "subtopic": "probability",
+    "skill": "probability",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "two_question_block_part_1",
@@ -18239,12 +18276,8 @@
       428
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -18253,18 +18286,21 @@
     "classification_evidence": [
       "\\b(probabilidad|azar|balotas?|bolas?|dados?|cartas?)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_RL_063",
@@ -18282,14 +18318,14 @@
       "C": "4",
       "D": "5"
     },
-    "correct_answer": null,
+    "correct_answer": "D",
     "topic": "sets",
-    "subtopic": "set_operations",
-    "skill": "set_operations",
+    "subtopic": "sets",
+    "skill": "sets",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "two_question_block_part_2",
@@ -18298,12 +18334,8 @@
       433
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -18312,18 +18344,21 @@
     "classification_evidence": [
       "\\b(conjuntos?|subconjuntos?|intersección|unión|pertenece|cardinal)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_RL_064",
@@ -18334,21 +18369,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 64,
-    "question": "El día en que podría iniciar el mes para que el número de clases sea máximo",
+    "question": "Una escuela de idiomas ofrece un curso intensivo de mandarín durante los meses calendario de 31 días. La metodología es de clases diarias en las tardes, excepto los domingos y en la mañana los días martes, jueves y sábado. Si el mes inicia un lunes, entonces el número de clases de este curso de mandarín es",
     "options": {
-      "A": "Martes",
-      "B": "Miércoles",
-      "C": "Viernes",
-      "D": "Sábado"
+      "A": "30",
+      "B": "35",
+      "C": "40",
+      "D": "42"
     },
-    "correct_answer": null,
+    "correct_answer": "C",
     "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "subtopic": "arithmetic",
+    "skill": "arithmetic",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -18357,12 +18392,8 @@
       447
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -18371,18 +18402,21 @@
     "classification_evidence": [
       "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_RL_065",
@@ -18393,34 +18427,31 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 65,
-    "question": "",
-    "options": {},
-    "correct_answer": null,
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "question": "Una escuela de idiomas ofrece un curso intensivo de mandarín durante los meses calendario de 31 días. La metodología es de clases diarias en las tardes, excepto los domingos y en la mañana los días martes, jueves y sábado. El día en que podría iniciar el mes para que el número de clases sea máximo",
+    "options": {
+      "A": "Martes",
+      "B": "Miércoles",
+      "C": "Viernes",
+      "D": "Sábado"
+    },
+    "correct_answer": "A",
+    "topic": "arithmetic",
+    "subtopic": "arithmetic",
+    "skill": "arithmetic",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
-    ],
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
     "extraction_method": "range_gap_placeholder",
     "source_paragraphs": [
       455,
       455
     ],
     "embedded_image_markers": 1,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -18429,18 +18460,21 @@
     "classification_evidence": [
       "quantitative_reasoning"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "incomplete",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_RL_066",
@@ -18451,34 +18485,31 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 66,
-    "question": "",
-    "options": {},
-    "correct_answer": null,
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "question": "Mauricio y Nicolás están jugando un juego en el que en cada ronda uno de ellos pierde y debe triplicar el dinero que el ganador tiene. Por ejemplo, si el que ganó tiene $50 el otro debe darle $100, para que el ganador triplique la cantidad que tenía. En una partida se jugaron dos rondas, en la cual se sabe que en la primera perdió Mauricio y en la segunda perdió Nicolás. Si ambos quedaron con $18.000, entonces la cantidad de dinero que tenía inicialmente Nicolás era",
+    "options": {
+      "A": "$20.000",
+      "B": "$12.000",
+      "C": "$10.000",
+      "D": "$6.000"
+    },
+    "correct_answer": "C",
+    "topic": "arithmetic",
+    "subtopic": "arithmetic",
+    "skill": "arithmetic",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
-    ],
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
     "extraction_method": "range_gap_placeholder",
     "source_paragraphs": [
       455,
       455
     ],
     "embedded_image_markers": 1,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -18487,18 +18518,21 @@
     "classification_evidence": [
       "quantitative_reasoning"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "incomplete",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_RL_067",
@@ -18509,21 +18543,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 67,
-    "question": "Se inicia en el monto de la izquierda con 10 cartas y en el de la derecha con 7. El mínimo número de jugadas para alcanzar el objetivo es",
+    "question": "Una persona realiza un juego de cartas para jugar sola. Inicialmente se debe separar la baraja en dos montos y en donde cada jugada obedece a solo uno de los siguientes pasos: I. Del monto de la izquierda solo puede tomar tres cartas. II. Del monto de la derecha solo puede tomar dos cartas. III. De cada uno de los montos puede tomar simultáneamente una carta. El objetivo del juego es tomar todas las cartas de ambos montones. Se inicia en el monto de la izquierda con 10 cartas y en el de la derecha con 7. El mínimo número de jugadas para alcanzar el objetivo es",
     "options": {
       "A": "6",
       "B": "8",
       "C": "13",
       "D": "7"
     },
-    "correct_answer": null,
-    "topic": "probability",
-    "subtopic": "random_events",
-    "skill": "random_events",
+    "correct_answer": "D",
+    "topic": "logical_relations",
+    "subtopic": "logical_relations",
+    "skill": "logical_relations",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 8,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -18532,12 +18566,8 @@
       466
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -18546,18 +18576,21 @@
     "classification_evidence": [
       "\\b(probabilidad|azar|balotas?|bolas?|dados?|cartas?)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_RL_068",
@@ -18568,69 +18601,54 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 68,
-    "question": "En esta jugada se inicia con 7 en el monto de la izquierda y con 10 en el de la derecha. La única afirmación verdadera acerca del número de jugadas con relación a lo anterior es es mayor que 10",
+    "question": "Una persona realiza un juego de cartas para jugar sola. Inicialmente se debe separar la baraja en dos montos y en donde cada jugada obedece a solo uno de los siguientes pasos: I. Del monto de la izquierda solo puede tomar tres cartas. II. Del monto de la derecha solo puede tomar dos cartas. III. De cada uno de los montos puede tomar simultáneamente una carta. El objetivo del juego es tomar todas las cartas de ambos montones. En esta jugada se inicia con 7 en el monto de la izquierda y con 10 en el de la derecha. La única afirmación verdadera acerca del número de jugadas con relación a lo anterior",
     "options": {
-      "A": "es mayor o igual a 12",
-      "B": "es mayor que 14",
-      "C": "es menor o igual a 8",
-      "D": ""
+      "A": "es mayor que 10",
+      "B": "es mayor o igual a 12",
+      "C": "es mayor que 14",
+      "D": "es menor o igual a 8"
     },
-    "correct_answer": null,
-    "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "correct_answer": "D",
+    "topic": "logical_relations",
+    "subtopic": "logical_relations",
+    "skill": "logical_relations",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
-    ],
+    "source_page": 8,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
     "extraction_method": "blank_block_last_four",
     "source_paragraphs": [
       468,
       473
     ],
     "embedded_image_markers": 1,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
-    "assets": [
-      "assets/UDEA_2018_1_J3/fa5da41421588bb6.png"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
     "asset_candidates_nearby": [],
-    "asset_link_status": "direct",
+    "asset_link_status": "none",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "medium",
     "classification_evidence": [
       "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
-    "visual_resources": [
-      {
-        "type": "image",
-        "asset": "assets/UDEA_2018_1_J3/fa5da41421588bb6.png",
-        "placement": "question"
-      }
-    ],
-    "verbatim_confidence": "needs_review",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "incomplete",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [
-      "visual"
-    ],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_RL_069",
@@ -18641,21 +18659,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 69,
-    "question": "En la anterior gráfica las líneas L1, L2 y L3 son paralelas y los triángulos ABD y ABC tienen áreas de 13 y 7 unidades cuadradas respectivamente. Si entre L1 y L3 hay una distancia de 8 unidades, entonces el valor del segmento es",
+    "question": "En la anterior gráfica las líneas L1, L2 y L3 son paralelas y los triángulos ABD y ABC tienen áreas de 13 y 7 unidades cuadradas respectivamente. Si entre L1 y L3 hay una distancia de 8 unidades, entonces el valor del segmento AB es",
     "options": {
       "A": "4 unidades",
       "B": "5 unidades",
       "C": "6 unidades",
       "D": "7 unidades"
     },
-    "correct_answer": null,
-    "topic": "data_interpretation",
-    "subtopic": "tables_and_charts",
-    "skill": "tables_and_charts",
+    "correct_answer": "B",
+    "topic": "geometry",
+    "subtopic": "geometry",
+    "skill": "geometry",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 8,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -18664,35 +18682,41 @@
       486
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
       "assets/UDEA_2018_1_J3/fa5da41421588bb6.png"
     ],
-    "asset_link_status": "needs_visual_confirmation",
+    "asset_candidates_nearby": [],
+    "asset_link_status": "direct",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "high",
     "classification_evidence": [
       "\\b(tabla|gráfica|diagrama|encuesta|promedio|media aritmética)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/fa5da41421588bb6.png",
+        "placement": "stimulus"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_RL_070",
@@ -18705,42 +18729,34 @@
     "original_question_number": 70,
     "question": "Un cuerpo de masa m se encuentra en reposo sobre una superficie horizontal sin fricción. Se aplica una fuerza horizontal y constante desde t=0 hasta un tiempo t1, en este instante se retira la fuerza aplicada. La gráfica que representa la situación anterior es",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Gráfica A",
+      "B": "Gráfica B",
+      "C": "Gráfica C",
+      "D": "Gráfica D"
     },
-    "correct_answer": null,
+    "correct_answer": "A",
     "topic": "data_interpretation",
-    "subtopic": "tables_and_charts",
-    "skill": "tables_and_charts",
+    "subtopic": "data_interpretation",
+    "skill": "data_interpretation",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
-    ],
+    "source_page": 8,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
     "extraction_method": "blank_block_plus_four_options",
     "source_paragraphs": [
       488,
       494
     ],
     "embedded_image_markers": 4,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
-      "assets/UDEA_2018_1_J3/00a5a239dd488fd1.png",
-      "assets/UDEA_2018_1_J3/325ca9801af427c3.png",
       "assets/UDEA_2018_1_J3/51eb9c703c44ceda.png",
-      "assets/UDEA_2018_1_J3/dc82322d20b50fca.png"
+      "assets/UDEA_2018_1_J3/dc82322d20b50fca.png",
+      "assets/UDEA_2018_1_J3/325ca9801af427c3.png",
+      "assets/UDEA_2018_1_J3/00a5a239dd488fd1.png"
     ],
     "asset_candidates_nearby": [],
     "asset_link_status": "direct",
@@ -18749,41 +18765,49 @@
     "classification_evidence": [
       "\\b(tabla|gráfica|diagrama|encuesta|promedio|media aritmética)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [
       {
         "type": "image",
-        "asset": "assets/UDEA_2018_1_J3/00a5a239dd488fd1.png",
-        "placement": "question"
-      },
-      {
-        "type": "image",
-        "asset": "assets/UDEA_2018_1_J3/325ca9801af427c3.png",
-        "placement": "question"
-      },
-      {
-        "type": "image",
         "asset": "assets/UDEA_2018_1_J3/51eb9c703c44ceda.png",
-        "placement": "question"
+        "placement": "option_A"
       },
       {
         "type": "image",
         "asset": "assets/UDEA_2018_1_J3/dc82322d20b50fca.png",
-        "placement": "question"
+        "placement": "option_B"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/325ca9801af427c3.png",
+        "placement": "option_C"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/00a5a239dd488fd1.png",
+        "placement": "option_D"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "incomplete",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {
+      "A": "assets/UDEA_2018_1_J3/51eb9c703c44ceda.png",
+      "B": "assets/UDEA_2018_1_J3/dc82322d20b50fca.png",
+      "C": "assets/UDEA_2018_1_J3/325ca9801af427c3.png",
+      "D": "assets/UDEA_2018_1_J3/00a5a239dd488fd1.png"
+    }
   },
   {
     "id": "UDEA_2018_1_J3_RL_071",
@@ -18794,44 +18818,37 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 71,
-    "question": "A un cuadrado de 4 x 4 se le traza una de sus diagonales y se sombrea una de sus mitades de la siguiente forma: Figura 1 Haciendo uso de la diagonal principal y sin adicionar líneas en esta figura se identifican triángulos diferentes con las siguientes formas: Si se quieren conocer la cantidad de triángulos en total para el cuadrado, por simetría es suficiente contar los triángulos de la región sombreada y después multiplicar por 2. En total, la figura 1 tiene 20 triángulos formados con estas condiciones. En un cuadrado de 5 x 5 la cantidad de triángulos que se forman es",
+    "question": "A un cuadrado de 4 x 4 se le traza una de sus diagonales y se sombrea una de sus mitades de la siguiente forma: Figura 1. Haciendo uso de la diagonal principal y sin adicionar líneas en esta figura se identifican triángulos diferentes con las siguientes formas. Si se quieren conocer la cantidad de triángulos en total para el cuadrado, por simetría es suficiente contar los triángulos de la región sombreada y después multiplicar por 2. En total, la figura 1 tiene 20 triángulos formados con estas condiciones. En un cuadrado de 5 x 5 la cantidad de triángulos que se forman es",
     "options": {
       "A": "25",
       "B": "30",
       "C": "40",
       "D": "100"
     },
-    "correct_answer": null,
+    "correct_answer": "B",
     "topic": "geometry",
-    "subtopic": "plane_or_solid_geometry",
-    "skill": "plane_or_solid_geometry",
+    "subtopic": "geometry",
+    "skill": "geometry",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
-    "verification_status": "needs_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
+    "source_page": 8,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
     "extraction_method": "blank_block_last_four",
     "source_paragraphs": [
       496,
       506
     ],
     "embedded_image_markers": 2,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
-      "assets/UDEA_2018_1_J3/445a30e8d5a58346.png",
+      "assets/UDEA_2018_1_J3/fdbd4c4e2bc63bc7.png",
       "assets/UDEA_2018_1_J3/7da66df99a2e5457.png",
+      "assets/UDEA_2018_1_J3/445a30e8d5a58346.png",
       "assets/UDEA_2018_1_J3/88f2723eafa25513.png",
-      "assets/UDEA_2018_1_J3/aaede67c3ad340d0.png",
-      "assets/UDEA_2018_1_J3/fdbd4c4e2bc63bc7.png"
+      "assets/UDEA_2018_1_J3/aaede67c3ad340d0.png"
     ],
     "asset_candidates_nearby": [],
     "asset_link_status": "direct",
@@ -18840,46 +18857,49 @@
     "classification_evidence": [
       "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [
       {
         "type": "image",
-        "asset": "assets/UDEA_2018_1_J3/445a30e8d5a58346.png",
-        "placement": "question"
+        "asset": "assets/UDEA_2018_1_J3/fdbd4c4e2bc63bc7.png",
+        "placement": "stimulus"
       },
       {
         "type": "image",
         "asset": "assets/UDEA_2018_1_J3/7da66df99a2e5457.png",
-        "placement": "question"
+        "placement": "stimulus"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/445a30e8d5a58346.png",
+        "placement": "stimulus"
       },
       {
         "type": "image",
         "asset": "assets/UDEA_2018_1_J3/88f2723eafa25513.png",
-        "placement": "question"
+        "placement": "stimulus"
       },
       {
         "type": "image",
         "asset": "assets/UDEA_2018_1_J3/aaede67c3ad340d0.png",
-        "placement": "question"
-      },
-      {
-        "type": "image",
-        "asset": "assets/UDEA_2018_1_J3/fdbd4c4e2bc63bc7.png",
-        "placement": "question"
+        "placement": "stimulus"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_RL_072",
@@ -18890,21 +18910,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 72,
-    "question": "Al respecto de la región de es igual a",
+    "question": "Un intervalo abierto es un conjunto de números entre dos números dados (puntos finales), sin incluirlos. Se representa entre paréntesis. A=(-3, 2), B=(-∞, 1) y C=(0, ∞). Utilizando la anterior información, podemos decir que la ubicación del intervalo (0, 1) es",
     "options": {
-      "A": "la intersección de A con la intersección de B unido C.",
-      "B": "la intersección de C con la intersección de A unido B.",
-      "C": "la intersección de A con la intersección de B y C.",
-      "D": "la unión de A con la intersección de C y B."
+      "A": "C ∪ (A ∪ B)",
+      "B": "B ∩ C",
+      "C": "C ∩ (B ∪ A)",
+      "D": "C ∩ A"
     },
-    "correct_answer": null,
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "correct_answer": "B",
+    "topic": "sets",
+    "subtopic": "sets",
+    "skill": "sets",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 9,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -18913,32 +18933,53 @@
       527
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J3/16c0cc494bbe76fc.png",
+      "assets/UDEA_2018_1_J3/6b84f0a3554b1d3e.png",
+      "assets/UDEA_2018_1_J3/a664a1066d6c2d0a.png"
     ],
-    "assets": [],
     "asset_candidates_nearby": [],
-    "asset_link_status": "none",
+    "asset_link_status": "direct",
     "classification_method": "semantic_review_phase11",
     "classification_confidence": "medium",
     "classification_evidence": [
       "quantitative_reasoning"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/16c0cc494bbe76fc.png",
+        "placement": "stimulus"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/6b84f0a3554b1d3e.png",
+        "placement": "stimulus"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/a664a1066d6c2d0a.png",
+        "placement": "stimulus"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_RL_073",
@@ -18949,21 +18990,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 73,
-    "question": "El área superficial de la figura que queda después de las perforaciones es",
+    "question": "Un intervalo abierto es un conjunto de números entre dos números dados (puntos finales), sin incluirlos. Se representa entre paréntesis. A=(-3, 2), B=(-∞, 1) y C=(0, ∞). Al respecto de la región de A ∩ C es igual a",
     "options": {
-      "A": "24",
-      "B": "96",
-      "C": "120",
-      "D": "124"
+      "A": "A ∩ (B ∪ C), la intersección de A con la intersección de B unido C.",
+      "B": "C ∩ (A ∪ B), la intersección de C con la intersección de A unido B.",
+      "C": "A ∩ (C ∩ B), la intersección de A con la intersección de B y C.",
+      "D": "A ∪ (C ∩ B), la unión de A con la intersección de C y B."
     },
-    "correct_answer": null,
-    "topic": "geometry",
-    "subtopic": "plane_or_solid_geometry",
-    "skill": "plane_or_solid_geometry",
+    "correct_answer": "B",
+    "topic": "sets",
+    "subtopic": "sets",
+    "skill": "sets",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 9,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -18972,35 +19013,53 @@
       545
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J3/16c0cc494bbe76fc.png",
+      "assets/UDEA_2018_1_J3/6b84f0a3554b1d3e.png",
+      "assets/UDEA_2018_1_J3/a664a1066d6c2d0a.png"
     ],
-    "assets": [],
-    "asset_candidates_nearby": [
-      "assets/UDEA_2018_1_J3/0747d7673f280a52.png"
-    ],
-    "asset_link_status": "needs_visual_confirmation",
+    "asset_candidates_nearby": [],
+    "asset_link_status": "direct",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "high",
     "classification_evidence": [
       "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/16c0cc494bbe76fc.png",
+        "placement": "stimulus"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/6b84f0a3554b1d3e.png",
+        "placement": "stimulus"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/a664a1066d6c2d0a.png",
+        "placement": "stimulus"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_RL_074",
@@ -19011,21 +19070,21 @@
     "session": "J3",
     "section": "RL",
     "original_question_number": 74,
-    "question": "De 1914 a 1963 hubo 4 papas cuyos nombres papales fueron Juan XXIII, Pio XI, Benedicto XV, Pio XII, aunque sus verdaderos nombres eran Achille, Giacomo, Giuseppe y Eugenio no necesariamente en ese orden. De la correspondencia de los nombres y los nombres papales se sabe que -El sucesor del papa Pio XI se llamaba Eugenio y fue papa más tiempo que Pio XII -Giacomo eligió como nombre papal Benedicto XV -El predecesor de Pio XII se llamaba Achille y fue menos popular que Juan XXIII De lo anterior se puede decir que el nombre papal de Giuseppe era",
+    "question": "Un cubo se partió en 64 cubitos iguales y se le hicieron 3 perforaciones de lado a lado como muestra la figura. El área superficial de la figura que queda después de las perforaciones es",
     "options": {
-      "A": "Benedicto XV",
-      "B": "Pio XI",
-      "C": "Pio XII",
-      "D": "Juan XXIII"
+      "A": "24 cm²",
+      "B": "96 cm²",
+      "C": "120 cm²",
+      "D": "124 cm²"
     },
-    "correct_answer": null,
-    "topic": "logical_relations",
-    "subtopic": "ordering_or_deductive_relation",
-    "skill": "ordering_or_deductive_relation",
+    "correct_answer": "C",
+    "topic": "geometry",
+    "subtopic": "geometry",
+    "skill": "geometry",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 9,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -19034,12 +19093,76 @@
       555
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J3/0747d7673f280a52.png"
     ],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "direct",
+    "classification_method": "semantic_review_phase11",
+    "classification_confidence": "medium",
+    "classification_evidence": [
+      "ordering_or_deductive_relation"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/0747d7673f280a52.png",
+        "placement": "stimulus"
+      }
+    ],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "manual_rendered_page_transcription_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
+    },
+    "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J3_RL_075",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J3",
+    "section": "RL",
+    "original_question_number": 75,
+    "question": "De 1914 a 1963 hubo 4 papas cuyos nombres papales fueron Juan XXIII, Pio XI, Benedicto XV, Pio XII, aunque sus verdaderos nombres eran Achille, Giacomo, Giuseppe y Eugenio no necesariamente en ese orden. De la correspondencia de los nombres y los nombres papales se sabe que: -El sucesor del papa Pio XI se llamaba Eugenio y fue papa más tiempo que Pio XII. -Giacomo eligió como nombre papal Benedicto XV. -El predecesor de Pio XII se llamaba Achille y fue menos popular que Juan XXIII. De lo anterior se puede decir que el nombre papal de Giuseppe era",
+    "options": {
+      "A": "Benedicto XV",
+      "B": "Pio XI",
+      "C": "Pio XII",
+      "D": "Juan XXIII"
+    },
+    "correct_answer": "C",
+    "topic": "logical_relations",
+    "subtopic": "logical_relations",
+    "skill": "logical_relations",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 9,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
+    "extraction_method": "blank_block_last_four",
+    "source_paragraphs": [
+      547,
+      555
+    ],
+    "embedded_image_markers": 0,
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -19048,18 +19171,192 @@
     "classification_evidence": [
       "ordering_or_deductive_relation"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J3_RL_076",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J3",
+    "section": "RL",
+    "original_question_number": 76,
+    "question": "Ana tiene 7 libros de varios tamaños y los está mirando desde la izquierda como se muestra en la figura a escala. La vista posible que tiene Ana de sus libros es",
+    "options": {
+      "A": "Vista A",
+      "B": "Vista B",
+      "C": "Vista C",
+      "D": "Vista D"
+    },
+    "correct_answer": "B",
+    "topic": "spatial_reasoning",
+    "subtopic": "spatial_reasoning",
+    "skill": "spatial_reasoning",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 9,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
+    "extraction_method": "blank_block_last_four",
+    "source_paragraphs": [
+      547,
+      555
+    ],
+    "embedded_image_markers": 0,
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J3/f24e5f51293bf1bd.png",
+      "assets/UDEA_2018_1_J3/40973b762f5f4cff.png",
+      "assets/UDEA_2018_1_J3/aba6c6e9233ad108.png",
+      "assets/UDEA_2018_1_J3/a17e41ee00ffcf28.png",
+      "assets/UDEA_2018_1_J3/9ccf04b422264e97.png",
+      "assets/UDEA_2018_1_J3/1785c6fee11f83f4.png"
+    ],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "direct",
+    "classification_method": "semantic_review_phase11",
+    "classification_confidence": "medium",
+    "classification_evidence": [
+      "ordering_or_deductive_relation"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/f24e5f51293bf1bd.png",
+        "placement": "stimulus"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/40973b762f5f4cff.png",
+        "placement": "stimulus"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/aba6c6e9233ad108.png",
+        "placement": "option_A"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/a17e41ee00ffcf28.png",
+        "placement": "option_B"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/9ccf04b422264e97.png",
+        "placement": "option_C"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/1785c6fee11f83f4.png",
+        "placement": "option_D"
+      }
+    ],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "manual_rendered_page_transcription_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
+    },
+    "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {
+      "A": "assets/UDEA_2018_1_J3/aba6c6e9233ad108.png",
+      "B": "assets/UDEA_2018_1_J3/a17e41ee00ffcf28.png",
+      "C": "assets/UDEA_2018_1_J3/9ccf04b422264e97.png",
+      "D": "assets/UDEA_2018_1_J3/1785c6fee11f83f4.png"
+    }
+  },
+  {
+    "id": "UDEA_2018_1_J3_RL_077",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J3",
+    "section": "RL",
+    "original_question_number": 77,
+    "question": "La diferencia entre 2 volúmenes de las cajas cúbicas de lado x, y con x>y (figura 1) se puede describir por la suma de los volúmenes de 3 cuerpos (figura 2). El volumen del cuerpo III se puede expresar en relación de las medidas x y y como",
+    "options": {
+      "A": "y²(x-y)",
+      "B": "x²(x-y)",
+      "C": "y²x",
+      "D": "y³"
+    },
+    "correct_answer": "A",
+    "topic": "geometry",
+    "subtopic": "geometry",
+    "skill": "geometry",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 10,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
+    "extraction_method": "blank_block_last_four",
+    "source_paragraphs": [
+      547,
+      555
+    ],
+    "embedded_image_markers": 0,
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J3/9d22ed0807c46bfa.png"
+    ],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "direct",
+    "classification_method": "semantic_review_phase11",
+    "classification_confidence": "medium",
+    "classification_evidence": [
+      "ordering_or_deductive_relation"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J3/9d22ed0807c46bfa.png",
+        "placement": "stimulus"
+      }
+    ],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "manual_rendered_page_transcription_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
+    },
+    "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2019_1_J1_CL_001",

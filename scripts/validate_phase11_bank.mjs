@@ -43,9 +43,16 @@ const eligible = bank.filter((question) => question.official_exam_eligible);
 const sections = Object.groupBy(eligible, (question) => question.section);
 const sources = new Set(eligible.map((question) => `${question.year}-${question.period}-${question.session}`));
 const visual = eligible.filter((question) => (question.visual_resources ?? []).length > 0);
+const j3Rl = eligible
+  .filter((question) => question.year === 2018 && question.period === '1' && question.session === 'J3' && question.section === 'RL')
+  .map((question) => question.original_question_number)
+  .sort((a, b) => a - b);
 if ((sections.CL?.length ?? 0) < 40 || (sections.RL?.length ?? 0) < 40) throw new Error('The eligible bank cannot support 40 CL + 40 RL.');
 if (sources.size < 2) throw new Error('The eligible bank does not contain multiple historical exams.');
 if (visual.length < 23) throw new Error(`Expected at least 23 eligible visual questions, found ${visual.length}.`);
+if (j3Rl.length !== 37 || j3Rl.some((number, index) => number !== index + 41)) {
+  throw new Error('UDEA 2018-1 J3 logical reasoning must contain the verified consecutive block 41-77.');
+}
 
 console.log(JSON.stringify({
   total: bank.length,
