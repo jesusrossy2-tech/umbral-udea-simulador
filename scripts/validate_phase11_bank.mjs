@@ -61,6 +61,13 @@ const j1_2017_2_answerKey = [
   'BADACBCCDB', 'ACBDCACBCD', 'BACBCBBCAD', 'AADDCBCDDA',
   'ABBBBCDDBA', 'ACCCCCCACB', 'BDCCCACCBA', 'CDBDBDCADC',
 ].join('');
+const j2_2018_1 = eligible
+  .filter((question) => question.year === 2018 && question.period === '1' && question.session === 'J2')
+  .sort((a, b) => a.original_question_number - b.original_question_number);
+const j2_2018_1_answerKey = [
+  'CACDDDADBC', 'CACDDADCDB', 'ADDCBBAABA', 'CAACCBBBAD',
+  'CBCBDDCACB', 'CACDBAAACC', 'BADDACAACC', 'BCDBBCCDDC',
+].join('');
 if ((sections.CL?.length ?? 0) < 40 || (sections.RL?.length ?? 0) < 40) throw new Error('The eligible bank cannot support 40 CL + 40 RL.');
 if (sources.size < 2) throw new Error('The eligible bank does not contain multiple historical exams.');
 if (visual.length < 23) throw new Error(`Expected at least 23 eligible visual questions, found ${visual.length}.`);
@@ -99,8 +106,27 @@ for (const [number, expectedVisuals] of new Map([[50, 1], [51, 1], [53, 4], [54,
     throw new Error(`UDEA 2017-2 J1 question ${number} does not have its complete verified visual material.`);
   }
 }
+if (j2_2018_1.length !== 80
+  || j2_2018_1.filter((question) => question.section === 'CL').length !== 40
+  || j2_2018_1.filter((question) => question.section === 'RL').length !== 40
+  || j2_2018_1.some((question, index) => question.original_question_number !== index + 1)) {
+  throw new Error('UDEA 2018-1 J2 must be a verified consecutive historical exam with 40 CL + 40 RL.');
+}
+if (j2_2018_1_answerKey.length !== 80
+  || j2_2018_1.some((question, index) => question.correct_answer !== j2_2018_1_answerKey[index])) {
+  throw new Error('UDEA 2018-1 J2 does not match the independently transcribed 80-answer key.');
+}
+for (const [number, expectedVisuals] of new Map([
+  [43, 1], [54, 1], [67, 1], [70, 1], [71, 1], [72, 1], [73, 1],
+  [74, 3], [75, 1], [76, 1], [77, 1], [78, 1], [79, 2], [80, 7],
+])) {
+  const question = j2_2018_1.find((item) => item.original_question_number === number);
+  if ((question?.visual_resources?.length ?? 0) !== expectedVisuals) {
+    throw new Error(`UDEA 2018-1 J2 question ${number} does not have its complete verified visual material.`);
+  }
+}
 
-const readyHistoricalExams = [j1_2017, j1_2017_2]
+const readyHistoricalExams = [j1_2017, j1_2017_2, j2_2018_1]
   .filter((questions) => questions.length === 80
     && questions.filter((question) => question.section === 'CL').length === 40
     && questions.filter((question) => question.section === 'RL').length === 40)

@@ -12326,15 +12326,15 @@
     "question_type": null,
     "source_page": 4,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       272,
       276
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -12350,14 +12350,16 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_042",
@@ -12383,15 +12385,15 @@
     "question_type": null,
     "source_page": 4,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       278,
       282
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -12407,14 +12409,16 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_043",
@@ -12425,7 +12429,7 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 43,
-    "question": "Cuatro palabras OLA, RÍO, SER y ESA se codifican en los siguientes símbolos: □△●‚ ⍟⟐#‚ △□#‚ ●⬆⍟, cada código representa una palabra, no necesariamente en el mismo orden. La letra que corresponde al símbolo ⍟ es",
+    "question": "Cuatro palabras OLA, RÍO, SER y ESA se codifican en los siguientes símbolos: □△●, ⍟⟐#, △□#, ●⬆⍟; cada código representa una palabra, no necesariamente en el mismo orden. La letra que corresponde al símbolo ⍟ es",
     "options": {
       "A": "E",
       "B": "A",
@@ -12440,40 +12444,50 @@
     "question_type": null,
     "source_page": 4,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       284,
       288
     ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "embedded_image_markers": 1,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J2/q43_codigos_fuente.png"
     ],
-    "assets": [],
     "asset_candidates_nearby": [],
-    "asset_link_status": "none",
+    "asset_link_status": "direct",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "high",
     "classification_evidence": [
       "\\b(afirmaciones?|pronóstico|verdad|fals[ao]|ordenad[oa]s?|posición|parentesco|hermano|abuelo|código|codifica)\\b"
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J2/q43_codigos_fuente.png",
+        "placement": "question"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_044",
@@ -12499,15 +12513,15 @@
     "question_type": null,
     "source_page": 5,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       290,
       294
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -12523,14 +12537,16 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_045",
@@ -12556,15 +12572,15 @@
     "question_type": null,
     "source_page": 5,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       296,
       300
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -12580,14 +12596,16 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_046",
@@ -12613,15 +12631,15 @@
     "question_type": null,
     "source_page": 5,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       302,
       311
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -12637,14 +12655,16 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_047",
@@ -12655,30 +12675,30 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 47,
-    "question": "Un niño tiene 7 monedas con las siguientes denominaciones: dos de $50, dos de $100, dos de $200 y una de $500. Si el niño coge dos monedas al azar, la cantidad de sumas diferentes que puede obtener es",
+    "question": "Tres amigos se encuentran un tesoro con 21 monedas: 7 de oro, 7 de plata y 7 de bronce. Ellos van a repartirse las monedas que a cada uno le toque la misma cantidad de monedas que los otros dos, además, quieren que cada uno quede con la misma cantidad de dinero. Se sabe que una moneda de oro vale 2 puntos, una de plata vale 1 punto y una de bronce vale 0 puntos. Si ninguno puede tener más de cinco monedas de la misma denominación, la máxima cantidad de monedas de bronce que puede tener uno de ellos es",
     "options": {
-      "A": "9",
-      "B": "12",
-      "C": "15",
-      "D": "16"
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
     },
     "correct_answer": "C",
-    "topic": "probability",
+    "topic": "combinatorics",
     "subtopic": "random_events",
     "skill": "random_events",
     "difficulty": null,
     "question_type": null,
     "source_page": 5,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       313,
       317
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -12694,14 +12714,16 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_048",
@@ -12712,6 +12734,65 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 48,
+    "question": "Un niño tiene 7 monedas con las siguientes denominaciones: dos de $50, dos de $100, dos de $200 y una de $500. Si el niño coge dos monedas al azar, la cantidad de sumas diferentes que puede obtener es",
+    "options": {
+      "A": "9",
+      "B": "12",
+      "C": "15",
+      "D": "16"
+    },
+    "correct_answer": "A",
+    "topic": "probability",
+    "subtopic": "random_events",
+    "skill": "random_events",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 5,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
+    "source_paragraphs": [
+      313,
+      317
+    ],
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "high",
+    "classification_evidence": [
+      "\\b(probabilidad|azar|balotas?|bolas?|dados?|cartas?)\\b"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
+    },
+    "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J2_RL_049",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J2",
+    "section": "RL",
+    "original_question_number": 49,
     "question": "Dos niños y dos niñas hacen una fila, de cuantas formas pueden hacer la fila si las dos niñas van siempre juntas",
     "options": {
       "A": "2",
@@ -12719,7 +12800,7 @@
       "C": "12",
       "D": "24"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "topic": "logical_relations",
     "subtopic": "ordering_or_deductive_relation",
     "skill": "ordering_or_deductive_relation",
@@ -12727,15 +12808,15 @@
     "question_type": null,
     "source_page": 5,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       319,
       323
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -12751,24 +12832,26 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J2_RL_049",
+    "id": "UDEA_2018_1_J2_RL_050",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
     "year": 2018,
     "period": "1",
     "session": "J2",
     "section": "RL",
-    "original_question_number": 49,
+    "original_question_number": 50,
     "question": "El valor de a en la siguiente ecuación es: 3⁹ - 3⁷ + 3⁸ = a·3⁷.",
     "options": {
       "A": "10",
@@ -12776,7 +12859,7 @@
       "C": "12",
       "D": "13"
     },
-    "correct_answer": "C",
+    "correct_answer": "B",
     "topic": "algebra_and_equations",
     "subtopic": "symbolic_reasoning",
     "skill": "symbolic_reasoning",
@@ -12786,13 +12869,13 @@
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_plus_four_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       325,
       330
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -12808,71 +12891,16 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
-      "rendered_page_located": true,
-      "supporting_material_verified": true
-    },
-    "admin_status": "verified",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "complete_verified"
-  },
-  {
-    "id": "UDEA_2018_1_J2_RL_050",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
-    "year": 2018,
-    "period": "1",
-    "session": "J2",
-    "section": "RL",
-    "original_question_number": 50,
-    "question": "Se tienen placas con los números del 0 al 9, cada placa tiene un digito, si se quiere formar un número se utiliza una o más placas y cada placa vale $1. Si se cuenta con $498, la cantidad máxima de enteros positivos que se pueden formar es",
-    "options": {
-      "A": "200",
-      "B": "201",
-      "C": "202",
-      "D": "203"
-    },
-    "correct_answer": "B",
-    "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": 5,
-    "confidence": "confirmed_by_key",
-    "verification_status": "clean",
-    "review_reasons": [],
-    "extraction_method": "labelled_options",
-    "source_paragraphs": [
-      332,
-      336
-    ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": true,
-    "eligibility_reasons": [],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "deterministic_semantic_rules_v1",
-    "classification_confidence": "medium",
-    "classification_evidence": [
-      "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "verified",
-    "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_051",
@@ -12883,73 +12911,14 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 51,
-    "question": "Se tienen dos bolsas con seis balotas cada una, con los números y , la probabilidad de sacar una balota de cada bolsa y que su suma sea un número par es",
+    "question": "Se tienen placas con los números del 0 al 9, cada placa tiene un digito, si se quiere formar un número se utiliza una o más placas y cada placa vale $1. Si se cuenta con $498, la cantidad máxima de enteros positivos que se pueden formar es",
     "options": {
-      "A": "A.",
-      "B": "B.",
-      "C": "C.",
-      "D": "D."
+      "A": "200",
+      "B": "201",
+      "C": "202",
+      "D": "203"
     },
     "correct_answer": "C",
-    "topic": "probability",
-    "subtopic": "random_events",
-    "skill": "random_events",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": null,
-    "confidence": "confirmed_by_key",
-    "verification_status": "clean",
-    "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
-    "source_paragraphs": [
-      338,
-      342
-    ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "deterministic_semantic_rules_v1",
-    "classification_confidence": "high",
-    "classification_evidence": [
-      "\\b(probabilidad|azar|balotas?|bolas?|dados?|cartas?)\\b"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
-    "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": true,
-      "rendered_page_located": false
-    },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
-  },
-  {
-    "id": "UDEA_2018_1_J2_RL_052",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
-    "year": 2018,
-    "period": "1",
-    "session": "J2",
-    "section": "RL",
-    "original_question_number": 52,
-    "question": "Los estudiantes de un curso tienen 24 cubos de 1 cm3 cada uno, y forman sólidos con caras rectangulares usando los 24 cubos cada uno. La máxima cantidad de sólidos diferentes que se puede obtener entre los estudiantes es",
-    "options": {
-      "A": "2",
-      "B": "4",
-      "C": "6",
-      "D": "12"
-    },
-    "correct_answer": "A",
     "topic": "arithmetic",
     "subtopic": "quantitative_reasoning",
     "skill": "quantitative_reasoning",
@@ -12957,15 +12926,15 @@
     "question_type": null,
     "source_page": 5,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
-      344,
-      348
+      332,
+      336
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -12981,14 +12950,75 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J2_RL_052",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J2",
+    "section": "RL",
+    "original_question_number": 52,
+    "question": "Se tienen dos bolsas con seis balotas cada una, con los números 11, 14, 15, 26, 28 y 35 en la primera bolsa, y 13, 23, 29, 30, 31 y 32 en la segunda. La probabilidad de sacar una balota de cada bolsa y que su suma sea un número par es",
+    "options": {
+      "A": "1/2",
+      "B": "1/6",
+      "C": "1/4",
+      "D": "2/3"
+    },
+    "correct_answer": "A",
+    "topic": "probability",
+    "subtopic": "random_events",
+    "skill": "random_events",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 5,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
+    "source_paragraphs": [
+      338,
+      342
+    ],
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "high",
+    "classification_evidence": [
+      "\\b(probabilidad|azar|balotas?|bolas?|dados?|cartas?)\\b"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
+    },
+    "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_053",
@@ -12999,6 +13029,69 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 53,
+    "question": "Los estudiantes de un curso tienen 24 cubos de 1 cm3 cada uno, y forman sólidos con caras rectangulares usando los 24 cubos cada uno. La máxima cantidad de sólidos diferentes que se puede obtener entre los estudiantes es",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "12"
+    },
+    "correct_answer": "C",
+    "topic": "arithmetic",
+    "subtopic": "quantitative_reasoning",
+    "skill": "quantitative_reasoning",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 5,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
+    "source_paragraphs": [
+      344,
+      348
+    ],
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "medium",
+    "classification_evidence": [
+      "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
+    },
+    "admin_status": "verified",
+    "source_question_number": 54,
+    "source_pages": [
+      5
+    ],
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J2_RL_054",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J2",
+    "section": "RL",
+    "original_question_number": 54,
     "question": "Se tienen cuatro cartas, cada una con un número en cada una de sus caras, en la cara visible de estas cuatro cartas el número que se muestra es el resultado de la multiplicación de los números de las caras no visibles de las otras tres cartas. La suma de los números de las caras no visibles de las cartas es",
     "options": {
       "A": "11",
@@ -13006,7 +13099,7 @@
       "C": "15",
       "D": "17"
     },
-    "correct_answer": "C",
+    "correct_answer": "D",
     "topic": "probability",
     "subtopic": "random_events",
     "skill": "random_events",
@@ -13015,16 +13108,14 @@
     "source_page": 5,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "labelled_options",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       350,
       354
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -13048,31 +13139,32 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
       "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
-    "source_question_number": 54,
-    "source_pages": [
-      5
-    ],
     "text_resource_ids": [],
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "complete_verified",
+    "source_question_number": 54,
+    "source_pages": [
+      5
+    ],
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J2_RL_054",
+    "id": "UDEA_2018_1_J2_RL_055",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
     "year": 2018,
     "period": "1",
     "session": "J2",
     "section": "RL",
-    "original_question_number": 54,
+    "original_question_number": 55,
     "question": "Se tiene que una vasija de barro mas su tapa más su contenido completo pesa 21 Kg, la vasija (sin su tapa) y la mitad de su contenido peso 11 Kg, y el peso de la vasija y su tapa es igual a la sexta parte de su contenido. El peso de la vasija de barro es igual a",
     "options": {
       "A": "1,5",
@@ -13080,7 +13172,7 @@
       "C": "2,5",
       "D": "3,0"
     },
-    "correct_answer": "D",
+    "correct_answer": "B",
     "topic": "percentages_and_proportions",
     "subtopic": "proportional_reasoning",
     "skill": "proportional_reasoning",
@@ -13088,15 +13180,15 @@
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       356,
       360
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -13112,71 +13204,16 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
-  },
-  {
-    "id": "UDEA_2018_1_J2_RL_055",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
-    "year": 2018,
-    "period": "1",
-    "session": "J2",
-    "section": "RL",
-    "original_question_number": 55,
-    "question": "En una excursión a un parque se tienen los siguientes precios: Niños: $20.000 Estudiantes: $25.000 Adultos: $35.000 Si en la excursión se gastaron $180.000 y se sabe que hay como mínimo un niño, un estudiante y un adulto, el mínimo número de niños que asistió a la excursión fue",
-    "options": {
-      "A": "1",
-      "B": "2",
-      "C": "3",
-      "D": "4"
-    },
-    "correct_answer": "B",
-    "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": 6,
-    "confidence": "confirmed_by_key",
-    "verification_status": "clean",
-    "review_reasons": [],
-    "extraction_method": "labelled_options",
-    "source_paragraphs": [
-      362,
-      370
-    ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": true,
-    "eligibility_reasons": [],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "deterministic_semantic_rules_v1",
-    "classification_confidence": "medium",
-    "classification_evidence": [
-      "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "verified",
-    "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
-    },
-    "admin_status": "verified",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_056",
@@ -13187,130 +13224,12 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 56,
-    "question": "Se tiene una jarra con 1 litro (1000 cm3), si se quiere verter su contenido completo en envases de de su contenido, entonces los dos envases que no se utilizarán son",
+    "question": "En una excursión a un parque se tienen los siguientes precios: Niños: $20.000 Estudiantes: $25.000 Adultos: $35.000 Si en la excursión se gastaron $180.000 y se sabe que hay como mínimo un niño, un estudiante y un adulto, el mínimo número de niños que asistió a la excursión fue",
     "options": {
-      "A": "A.",
-      "B": "B.",
-      "C": "C.",
-      "D": "D."
-    },
-    "correct_answer": "A",
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": null,
-    "confidence": "confirmed_by_key",
-    "verification_status": "clean",
-    "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
-    "source_paragraphs": [
-      372,
-      376
-    ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "semantic_review_phase11",
-    "classification_confidence": "medium",
-    "classification_evidence": [
-      "quantitative_reasoning"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
-    "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": true,
-      "rendered_page_located": false
-    },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
-  },
-  {
-    "id": "UDEA_2018_1_J2_RL_057",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
-    "year": 2018,
-    "period": "1",
-    "session": "J2",
-    "section": "RL",
-    "original_question_number": 57,
-    "question": "por ejemplo: y Además se sabe que , el resultado de la suma de los posibles valores para los cuales a cumple con la ecuación anterior es",
-    "options": {
-      "A": "-2",
-      "B": "0",
-      "C": "1",
-      "D": "2"
-    },
-    "correct_answer": "A",
-    "topic": "algebra_and_equations",
-    "subtopic": "symbolic_reasoning",
-    "skill": "symbolic_reasoning",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": null,
-    "confidence": "confirmed_by_key",
-    "verification_status": "clean",
-    "review_reasons": [],
-    "extraction_method": "labelled_options",
-    "source_paragraphs": [
-      380,
-      385
-    ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "deterministic_semantic_rules_v1",
-    "classification_confidence": "high",
-    "classification_evidence": [
-      "(?:\\b(ecuaci[oó]n|igualdad|variable|despej|valor de [xyzabn]|sistema binario|operaci[oó]n \\*|algoritmo)\\b|[xyz]\\s*[=<>])"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
-    "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": true,
-      "rendered_page_located": false
-    },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
-  },
-  {
-    "id": "UDEA_2018_1_J2_RL_058",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
-    "year": 2018,
-    "period": "1",
-    "session": "J2",
-    "section": "RL",
-    "original_question_number": 58,
-    "question": "Se tiene un número entre 50 y 90, el número es un múltiplo de 5 mas tres unidades, también es un múltiplo de 6 menos tres unidades. El número es",
-    "options": {
-      "A": "81",
-      "B": "78",
-      "C": "63",
-      "D": "43"
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
     },
     "correct_answer": "A",
     "topic": "arithmetic",
@@ -13320,15 +13239,15 @@
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
-      387,
-      391
+      362,
+      370
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -13344,14 +13263,134 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J2_RL_057",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J2",
+    "section": "RL",
+    "original_question_number": 57,
+    "question": "Se tiene una jarra con 1 litro (1000 cm³). Si se quiere verter su contenido completo en envases de 1/2, 1/4, 1/6, 1/8, 1/10 y 1/12 de su contenido, entonces los dos envases que no se utilizarán son",
+    "options": {
+      "A": "1/8 y 1/10",
+      "B": "1/10 y 1/12",
+      "C": "1/2 y 1/4",
+      "D": "1/4 y 1/6"
+    },
+    "correct_answer": "A",
+    "topic": "arithmetic_quantitative",
+    "subtopic": "quantitative_reasoning",
+    "skill": "quantitative_reasoning",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
+    "source_paragraphs": [
+      372,
+      376
+    ],
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "semantic_review_phase11",
+    "classification_confidence": "medium",
+    "classification_evidence": [
+      "quantitative_reasoning"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
+    },
+    "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J2_RL_058",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J2",
+    "section": "RL",
+    "original_question_number": 58,
+    "question": "Se define la operación a*b = a/(3 - 2b); por ejemplo, 2*2 = -2 y 1*(-1) = 1/5. Además, se sabe que a²*a = 1. El resultado de la suma de los posibles valores para los cuales a cumple con la ecuación anterior es",
+    "options": {
+      "A": "-2",
+      "B": "0",
+      "C": "1",
+      "D": "2"
+    },
+    "correct_answer": "A",
+    "topic": "algebra",
+    "subtopic": "symbolic_reasoning",
+    "skill": "symbolic_reasoning",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
+    "source_paragraphs": [
+      380,
+      385
+    ],
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "high",
+    "classification_evidence": [
+      "(?:\\b(ecuaci[oó]n|igualdad|variable|despej|valor de [xyzabn]|sistema binario|operaci[oó]n \\*|algoritmo)\\b|[xyz]\\s*[=<>])"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
+    },
+    "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_059",
@@ -13362,6 +13401,65 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 59,
+    "question": "Se tiene un número entre 50 y 90, el número es un múltiplo de 5 mas tres unidades, también es un múltiplo de 6 menos tres unidades. El número es",
+    "options": {
+      "A": "81",
+      "B": "78",
+      "C": "63",
+      "D": "43"
+    },
+    "correct_answer": "C",
+    "topic": "arithmetic",
+    "subtopic": "quantitative_reasoning",
+    "skill": "quantitative_reasoning",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
+    "source_paragraphs": [
+      387,
+      391
+    ],
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "medium",
+    "classification_evidence": [
+      "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
+    },
+    "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J2_RL_060",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J2",
+    "section": "RL",
+    "original_question_number": 60,
     "question": "En una mezcla de malteada (compuesta por helado y leche) se conoce que la cantidad de helado es 25% de la cantidad de leche. En la malteada, el porcentaje que es leche es",
     "options": {
       "A": "40%",
@@ -13377,15 +13475,15 @@
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       393,
       397
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -13401,71 +13499,16 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
-  },
-  {
-    "id": "UDEA_2018_1_J2_RL_060",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
-    "year": 2018,
-    "period": "1",
-    "session": "J2",
-    "section": "RL",
-    "original_question_number": 60,
-    "question": "Se tienen bancas alargadas y se acomodan niños en ellas, si en cada banca se sientan 4 niños, sobran 4; y si en cada banca se sientan 5 niños, sobran dos espacios en una banca. El número de niños que hay es",
-    "options": {
-      "A": "24",
-      "B": "28",
-      "C": "32",
-      "D": "35"
-    },
-    "correct_answer": "C",
-    "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": 6,
-    "confidence": "confirmed_by_key",
-    "verification_status": "clean",
-    "review_reasons": [],
-    "extraction_method": "labelled_options",
-    "source_paragraphs": [
-      399,
-      403
-    ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": true,
-    "eligibility_reasons": [],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "deterministic_semantic_rules_v1",
-    "classification_confidence": "medium",
-    "classification_evidence": [
-      "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "verified",
-    "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
-    },
-    "admin_status": "verified",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_061",
@@ -13476,12 +13519,12 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 61,
-    "question": "Pedro quiere llenar su alcancía con 225 monedas. El primer día mete una moneda, el segundo día tres monedas, el tercer día 5 monedas y así sucesivamente completar el total de monedas. La cantidad máxima de días que se demora Pedro para llenar su alcancía es",
+    "question": "Se tienen bancas alargadas y se acomodan niños en ellas, si en cada banca se sientan 4 niños, sobran 4; y si en cada banca se sientan 5 niños, sobran dos espacios en una banca. El número de niños que hay es",
     "options": {
-      "A": "15",
-      "B": "17",
-      "C": "18",
-      "D": "19"
+      "A": "24",
+      "B": "28",
+      "C": "32",
+      "D": "35"
     },
     "correct_answer": "B",
     "topic": "arithmetic",
@@ -13491,15 +13534,15 @@
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
-      405,
-      409
+      399,
+      403
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -13515,14 +13558,16 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_062",
@@ -13533,12 +13578,12 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 62,
-    "question": "El profesor en un salón escribe los siguientes números y pide hallar su promedio: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11. Cuatro estudiantes obtienen los siguientes resultados: Camilo: 6,5; Luisa: 6,0; Andrés: 5,5; Juanita: 5,0. De entre ellos tres realizaron bien la suma, pero dejaron de coger un número, mientras que el último escogió todos los números, pero hizo una operación mal. El estudiante que no omitió algún número fue:",
+    "question": "Pedro quiere llenar su alcancía con 225 monedas. El primer día mete una moneda, el segundo día tres monedas, el tercer día 5 monedas y así sucesivamente completar el total de monedas. La cantidad máxima de días que se demora Pedro para llenar su alcancía es",
     "options": {
-      "A": "Camilo",
-      "B": "Luis",
-      "C": "Andrés",
-      "D": "Juanita"
+      "A": "15",
+      "B": "17",
+      "C": "18",
+      "D": "19"
     },
     "correct_answer": "A",
     "topic": "arithmetic",
@@ -13550,13 +13595,13 @@
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
-      413,
-      421
+      405,
+      409
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -13572,14 +13617,16 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
+      "source_text_match": true,
       "rendered_page_located": true,
-      "supporting_material_verified": true
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_063",
@@ -13590,6 +13637,65 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 63,
+    "question": "El profesor en un salón escribe los siguientes números y pide hallar su promedio: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11. Cuatro estudiantes obtienen los siguientes resultados: Camilo: 6,5; Luisa: 6,0; Andrés: 5,5; Juanita: 5,0. De entre ellos tres realizaron bien la suma, pero dejaron de coger un número, mientras que el último escogió todos los números, pero hizo una operación mal. El estudiante que no omitió algún número fue:",
+    "options": {
+      "A": "Camilo",
+      "B": "Luis",
+      "C": "Andrés",
+      "D": "Juanita"
+    },
+    "correct_answer": "D",
+    "topic": "arithmetic",
+    "subtopic": "quantitative_reasoning",
+    "skill": "quantitative_reasoning",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
+    "source_paragraphs": [
+      413,
+      421
+    ],
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "medium",
+    "classification_evidence": [
+      "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
+    },
+    "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J2_RL_064",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J2",
+    "section": "RL",
+    "original_question_number": 64,
     "question": "Andrés, Beto, Carlos y Darío tienen cantidades enteras y distintas de dinero: la cantidad de Beto es la mitad de la cantidad de Andrés, la de Carlos es la tercera parte de la de Andrés y la de Darío es la cuarta parte de la de Andrés. Si Darío tiene por lo menos $4, la mínima cantidad de dinero que tienen entre los cuatro es",
     "options": {
       "A": "24",
@@ -13605,15 +13711,15 @@
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       423,
       427
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -13629,76 +13735,16 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
-  },
-  {
-    "id": "UDEA_2018_1_J2_RL_064",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
-    "year": 2018,
-    "period": "1",
-    "session": "J2",
-    "section": "RL",
-    "original_question_number": 64,
-    "question": "El valor de n es",
-    "options": {
-      "A": "0",
-      "B": "1",
-      "C": "50",
-      "D": "100"
-    },
-    "correct_answer": "D",
-    "topic": "algebra_and_equations",
-    "subtopic": "symbolic_reasoning",
-    "skill": "symbolic_reasoning",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": 7,
-    "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
-    "review_reasons": [
-      "short_stem_possible_missing_equation_or_image"
-    ],
-    "extraction_method": "labelled_options",
-    "source_paragraphs": [
-      431,
-      435
-    ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "deterministic_semantic_rules_v1",
-    "classification_confidence": "high",
-    "classification_evidence": [
-      "(?:\\b(ecuaci[oó]n|igualdad|variable|despej|valor de [xyzabn]|sistema binario|operaci[oó]n \\*|algoritmo)\\b|[xyz]\\s*[=<>])"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
-    "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": true,
-      "rendered_page_located": true
-    },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_065",
@@ -13709,6 +13755,65 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 65,
+    "question": "Se tiene la siguiente sucesión: n = 1 - 2 - 3 + 4 + 5 - 6 - 7 + 8 + 9 - 10 - 11 + 12 + 13 … - 99. El valor de n es",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "50",
+      "D": "100"
+    },
+    "correct_answer": "A",
+    "topic": "arithmetic",
+    "subtopic": "symbolic_reasoning",
+    "skill": "symbolic_reasoning",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
+    "source_paragraphs": [
+      431,
+      435
+    ],
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "high",
+    "classification_evidence": [
+      "(?:\\b(ecuaci[oó]n|igualdad|variable|despej|valor de [xyzabn]|sistema binario|operaci[oó]n \\*|algoritmo)\\b|[xyz]\\s*[=<>])"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
+    },
+    "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J2_RL_066",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J2",
+    "section": "RL",
+    "original_question_number": 66,
     "question": "Se tienen dos números enteros a y b mayores que cero y menores que 20 tales que a/3 - b/2 = 1/6. El número de parejas posibles que cumplen con la ecuación es:",
     "options": {
       "A": "4",
@@ -13716,7 +13821,7 @@
       "C": "6",
       "D": "7"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "topic": "counting",
     "subtopic": "combinatorics",
     "skill": "combinatorics",
@@ -13726,13 +13831,13 @@
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       439,
       443
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -13748,24 +13853,30 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
+      "source_text_match": true,
       "rendered_page_located": true,
-      "supporting_material_verified": true
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
+    "source_question_number": 67,
+    "source_pages": [
+      7
+    ],
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J2_RL_066",
+    "id": "UDEA_2018_1_J2_RL_067",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
     "year": 2018,
     "period": "1",
     "session": "J2",
     "section": "RL",
-    "original_question_number": 66,
+    "original_question_number": 67,
     "question": "Se tiene el siguiente arreglo en donde cada uno de ellos hace parte de una sucesión: El valor de x es",
     "options": {
       "A": "118",
@@ -13773,7 +13884,7 @@
       "C": "142",
       "D": "156"
     },
-    "correct_answer": "C",
+    "correct_answer": "A",
     "topic": "algebra_and_equations",
     "subtopic": "symbolic_reasoning",
     "skill": "symbolic_reasoning",
@@ -13782,16 +13893,14 @@
     "source_page": 7,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "labelled_options",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       445,
       451
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -13815,31 +13924,32 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
       "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
-    "source_question_number": 67,
-    "source_pages": [
-      7
-    ],
     "text_resource_ids": [],
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "complete_verified",
+    "source_question_number": 67,
+    "source_pages": [
+      7
+    ],
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J2_RL_067",
+    "id": "UDEA_2018_1_J2_RL_068",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
     "year": 2018,
     "period": "1",
     "session": "J2",
     "section": "RL",
-    "original_question_number": 67,
+    "original_question_number": 68,
     "question": "Se realiza un arreglo con 5 figuras, siguiendo las siguientes condiciones. -La estrella se encuentra inmediatamente a la izquierda del cuadrado. -la medialuna se encuentra justo a la derecha del triángulo -el cuadrado se encuentra a tres lugares del circulo. La figura que se encuentra inmediatamente a la izquierda del triángulo es",
     "options": {
       "A": "el cuadrado",
@@ -13855,26 +13965,21 @@
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       453,
       461
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
-    "asset_candidates_nearby": [
-      "assets/UDEA_2018_1_J2/39d50783735fd9d8.png"
-    ],
-    "asset_link_status": "needs_visual_confirmation",
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "high",
     "classification_evidence": [
@@ -13882,26 +13987,28 @@
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J2_RL_068",
+    "id": "UDEA_2018_1_J2_RL_069",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
     "year": 2018,
     "period": "1",
     "session": "J2",
     "section": "RL",
-    "original_question_number": 68,
+    "original_question_number": 69,
     "question": "Se tiene un número de tres cifras mayor que 200, con las siguientes condiciones: la diferencia entre el mayor y el menor dígito es siete; las cifras de las decenas y las unidades son impares consecutivos; el número es divisible entre nueve. El número que va en la mitad es:",
     "options": {
       "A": "3",
@@ -13909,7 +14016,7 @@
       "C": "7",
       "D": "8"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "topic": "arithmetic",
     "subtopic": "quantitative_reasoning",
     "skill": "quantitative_reasoning",
@@ -13919,13 +14026,13 @@
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       463,
       469
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -13941,73 +14048,16 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
+      "source_text_match": true,
       "rendered_page_located": true,
-      "supporting_material_verified": true
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "complete_verified"
-  },
-  {
-    "id": "UDEA_2018_1_J2_RL_069",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
-    "year": 2018,
-    "period": "1",
-    "session": "J2",
-    "section": "RL",
-    "original_question_number": 69,
-    "question": "El área de la región sombreada es",
-    "options": {
-      "A": "A.",
-      "B": "B.",
-      "C": "C.",
-      "D": "D."
-    },
-    "correct_answer": "C",
-    "topic": "geometry",
-    "subtopic": "plane_or_solid_geometry",
-    "skill": "plane_or_solid_geometry",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": 7,
-    "confidence": "confirmed_by_key",
-    "verification_status": "clean",
-    "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
-    "source_paragraphs": [
-      480,
-      484
-    ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "deterministic_semantic_rules_v1",
-    "classification_confidence": "high",
-    "classification_evidence": [
-      "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
-    "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": true,
-      "rendered_page_located": true
-    },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_070",
@@ -14018,12 +14068,12 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 70,
-    "question": "En la figura la distancia entre los puntos de los lados es 1. El área de la región sombreada es:",
+    "question": "Se tiene la siguiente figura. El área de la región sombreada es",
     "options": {
-      "A": "7",
-      "B": "8",
-      "C": "9",
-      "D": "10"
+      "A": "4π + 2",
+      "B": "2π - 3",
+      "C": "3π",
+      "D": "4π"
     },
     "correct_answer": "C",
     "topic": "geometry",
@@ -14034,16 +14084,87 @@
     "source_page": 7,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
+    "source_paragraphs": [
+      480,
+      484
     ],
-    "extraction_method": "blank_block_plus_four_options",
+    "embedded_image_markers": 1,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J2/10e3898345acc215.png"
+    ],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "direct",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "high",
+    "classification_evidence": [
+      "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J2/10e3898345acc215.png",
+        "placement": "question"
+      }
+    ],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
+    },
+    "admin_status": "verified",
+    "source_question_number": 71,
+    "source_pages": [
+      7
+    ],
+    "text_resource_ids": [],
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J2_RL_071",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J2",
+    "section": "RL",
+    "original_question_number": 71,
+    "question": "En la figura la distancia entre los puntos de los lados es 1. El área de la región sombreada es:",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "correct_answer": "B",
+    "topic": "geometry",
+    "subtopic": "plane_or_solid_geometry",
+    "skill": "plane_or_solid_geometry",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       486,
       494
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -14067,10 +14188,10 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
       "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "source_question_number": 71,
@@ -14081,17 +14202,18 @@
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J2_RL_071",
+    "id": "UDEA_2018_1_J2_RL_072",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
     "year": 2018,
     "period": "1",
     "session": "J2",
     "section": "RL",
-    "original_question_number": 71,
+    "original_question_number": 72,
     "question": "La figura está compuesta por cuadrados de diferente tamaño donde el lado de cada cuadrado es la mitad del lado del cuadrado inmediatamente anterior, y el área total de la figura es 84 cm2. El perímetro de la figura es",
     "options": {
       "A": "100",
@@ -14099,7 +14221,7 @@
       "C": "44",
       "D": "32"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "topic": "geometry",
     "subtopic": "plane_or_solid_geometry",
     "skill": "plane_or_solid_geometry",
@@ -14108,16 +14230,14 @@
     "source_page": 7,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "blank_block_plus_four_options",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       496,
       505
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -14141,83 +14261,22 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
       "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
-    "source_question_number": 72,
-    "source_pages": [
-      7
-    ],
     "text_resource_ids": [],
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
-  },
-  {
-    "id": "UDEA_2018_1_J2_RL_072",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
-    "year": 2018,
-    "period": "1",
-    "session": "J2",
-    "section": "RL",
-    "original_question_number": 72,
-    "question": "El valor de x es",
-    "options": {
-      "A": "4",
-      "B": "7",
-      "C": "3",
-      "D": "9"
-    },
-    "correct_answer": "C",
-    "topic": "algebra_and_equations",
-    "subtopic": "symbolic_reasoning",
-    "skill": "symbolic_reasoning",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": 7,
-    "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
-    "review_reasons": [
-      "short_stem_possible_missing_equation_or_image"
+    "supporting_material_status": "complete_verified",
+    "source_question_number": 72,
+    "source_pages": [
+      7
     ],
-    "extraction_method": "labelled_options",
-    "source_paragraphs": [
-      512,
-      516
-    ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "deterministic_semantic_rules_v1",
-    "classification_confidence": "high",
-    "classification_evidence": [
-      "(?:\\b(ecuaci[oó]n|igualdad|variable|despej|valor de [xyzabn]|sistema binario|operaci[oó]n \\*|algoritmo)\\b|[xyz]\\s*[=<>])"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
-    "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": true,
-      "rendered_page_located": true
-    },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_073",
@@ -14228,58 +14287,65 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 73,
-    "question": "Si se forma un sólido de dimensiones 2x2x1 cm3, con la condición de que las caras que se tocan entre los cubos debe tener el mismo valor, entonces el menor valor de las caras ocultas del arreglo es",
+    "question": "En la siguiente suma se tienen todos los números del 1 al 9 una sola vez. El valor de x es",
     "options": {
-      "A": "20",
-      "B": "18",
-      "C": "15",
-      "D": "12"
+      "A": "4",
+      "B": "7",
+      "C": "3",
+      "D": "9"
     },
     "correct_answer": "D",
-    "topic": "geometry",
-    "subtopic": "plane_or_solid_geometry",
-    "skill": "plane_or_solid_geometry",
+    "topic": "arithmetic",
+    "subtopic": "symbolic_reasoning",
+    "skill": "symbolic_reasoning",
     "difficulty": null,
     "question_type": null,
-    "source_page": 8,
+    "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
-      530,
-      534
+      512,
+      516
     ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "embedded_image_markers": 1,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J2/41151d71332d862d.png"
     ],
-    "assets": [],
-    "asset_candidates_nearby": [
-      "assets/UDEA_2018_1_J2/71004971b1fc1c6d.png"
-    ],
-    "asset_link_status": "needs_visual_confirmation",
+    "asset_candidates_nearby": [],
+    "asset_link_status": "direct",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "high",
     "classification_evidence": [
-      "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
+      "(?:\\b(ecuaci[oó]n|igualdad|variable|despej|valor de [xyzabn]|sistema binario|operaci[oó]n \\*|algoritmo)\\b|[xyz]\\s*[=<>])"
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J2/41151d71332d862d.png",
+        "placement": "question"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_074",
@@ -14290,6 +14356,91 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 74,
+    "question": "Se forman cubos de 1 cm de lado que cumplen con el siguiente arreglo. Si se forma un sólido de dimensiones 2x2x1 cm³, con la condición de que las caras que se tocan entre los cubos debe tener el mismo valor, entonces el menor valor de las caras ocultas del arreglo es",
+    "options": {
+      "A": "20",
+      "B": "18",
+      "C": "15",
+      "D": "12"
+    },
+    "correct_answer": "B",
+    "topic": "spatial_reasoning",
+    "subtopic": "plane_or_solid_geometry",
+    "skill": "plane_or_solid_geometry",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
+    "source_paragraphs": [
+      530,
+      534
+    ],
+    "embedded_image_markers": 3,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2018_1_J2/543cf0c7fe591f6c.png",
+      "assets/UDEA_2018_1_J2/2725ce4ac5c99eff.png",
+      "assets/UDEA_2018_1_J2/71004971b1fc1c6d.png"
+    ],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "direct",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "high",
+    "classification_evidence": [
+      "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J2/543cf0c7fe591f6c.png",
+        "placement": "question"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J2/2725ce4ac5c99eff.png",
+        "placement": "question"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J2/71004971b1fc1c6d.png",
+        "placement": "question"
+      }
+    ],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
+    },
+    "admin_status": "verified",
+    "source_question_number": 75,
+    "source_pages": [
+      8
+    ],
+    "text_resource_ids": [],
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J2_RL_075",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J2",
+    "section": "RL",
+    "original_question_number": 75,
     "question": "Se forma un cubo con el siguiente arreglo, en donde cada cara está formada por un cuadrado y cuatro trapecios. En cada uno de los trapecios de cada cara se escriben los números del 1 al seis. Si se quiere que en cada vértice estén todos los números del uno al seis en contacto, los valores de x y y son respectivamente",
     "options": {
       "A": "2 y 5",
@@ -14306,16 +14457,14 @@
     "source_page": 8,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "blank_block_plus_four_options",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       536,
       544
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -14339,10 +14488,10 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
       "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "source_question_number": 75,
@@ -14353,17 +14502,18 @@
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J2_RL_075",
+    "id": "UDEA_2018_1_J2_RL_076",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
     "year": 2018,
     "period": "1",
     "session": "J2",
     "section": "RL",
-    "original_question_number": 75,
+    "original_question_number": 76,
     "question": "Se tiene un rectángulo dividido en dos cuadrados y figuras en ellos. Se pinta cada región con un color, teniendo en cuenta que dos regiones consecutivas no tengan el mismo color, siendo consecutivos aquellas que comparten mínimo un lado, el número de colores que es necesario usar para colorear el rectángulo es",
     "options": {
       "A": "1",
@@ -14371,7 +14521,7 @@
       "C": "3",
       "D": "4"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "topic": "geometry",
     "subtopic": "plane_or_solid_geometry",
     "skill": "plane_or_solid_geometry",
@@ -14380,16 +14530,14 @@
     "source_page": 8,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "blank_block_plus_four_options",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       546,
       555
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -14413,80 +14561,22 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
       "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
-    "source_question_number": 76,
-    "source_pages": [
-      8
-    ],
     "text_resource_ids": [],
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
-  },
-  {
-    "id": "UDEA_2018_1_J2_RL_076",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx",
-    "year": 2018,
-    "period": "1",
-    "session": "J2",
-    "section": "RL",
-    "original_question_number": 76,
-    "question": "",
-    "options": {},
-    "correct_answer": "C",
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": null,
-    "confidence": "confirmed_by_key",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
+    "supporting_material_status": "complete_verified",
+    "source_question_number": 76,
+    "source_pages": [
+      8
     ],
-    "extraction_method": "range_gap_placeholder",
-    "source_paragraphs": [
-      557,
-      557
-    ],
-    "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "four_options_not_available",
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "semantic_review_phase11",
-    "classification_confidence": "medium",
-    "classification_evidence": [
-      "quantitative_reasoning"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
-    "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": true,
-      "rendered_page_located": false
-    },
-    "admin_status": "incomplete",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_077",
@@ -14497,7 +14587,7 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 77,
-    "question": "El área del cuadrado ABCD es",
+    "question": "En la figura se tiene un cuadrado, en este se unen los puntos medios y se forma otro cuadrado, en este último se unen los puntos medios y se forma un tercer cuadrado, y por último se forma un cuarto cuadrado uniendo los puntos medios del tercero. El área del triángulo rectángulo EFG es 2 cm². El área del cuadrado ABCD es",
     "options": {
       "A": "32",
       "B": "56",
@@ -14512,43 +14602,50 @@
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       566,
       570
     ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "embedded_image_markers": 1,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
       "assets/UDEA_2018_1_J2/cb5501c61f6c8cc1.png"
     ],
-    "asset_link_status": "needs_visual_confirmation",
+    "asset_candidates_nearby": [],
+    "asset_link_status": "direct",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "high",
     "classification_evidence": [
       "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J2/cb5501c61f6c8cc1.png",
+        "placement": "question"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_078",
@@ -14559,12 +14656,12 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 78,
-    "question": "Siguiendo el camino trazado en las líneas de la figura desde A hasta E, la longitud de dicho camino es",
+    "question": "En la figura se tiene un cuadrado, en este se unen los puntos medios y se forma otro cuadrado, en este último se unen los puntos medios y se forma un tercer cuadrado, y por último se forma un cuarto cuadrado uniendo los puntos medios del tercero. El área del triángulo rectángulo EFG es 2 cm². Siguiendo el camino trazado en las líneas de la figura desde A hasta E, la longitud de dicho camino es",
     "options": {
-      "A": "A.",
-      "B": "B. 2",
-      "C": "C. 4 +",
-      "D": "D. 6 + 4"
+      "A": "6√2 + 4",
+      "B": "2√2 + 5",
+      "C": "4 + 2√2",
+      "D": "6 + 4√2"
     },
     "correct_answer": "D",
     "topic": "geometry",
@@ -14574,43 +14671,50 @@
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       572,
       576
     ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "embedded_image_markers": 1,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
       "assets/UDEA_2018_1_J2/cb5501c61f6c8cc1.png"
     ],
-    "asset_link_status": "needs_visual_confirmation",
+    "asset_candidates_nearby": [],
+    "asset_link_status": "direct",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "high",
     "classification_evidence": [
       "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2018_1_J2/cb5501c61f6c8cc1.png",
+        "placement": "question"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_079",
@@ -14637,22 +14741,20 @@
     "source_page": 8,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "blank_block_plus_four_options",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       578,
       594
     ],
     "embedded_image_markers": 2,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
     "assets": [
-      "assets/UDEA_2018_1_J2/5403535b3f43ec8d.png",
-      "assets/UDEA_2018_1_J2/a63fef9c3f8a9632.png"
+      "assets/UDEA_2018_1_J2/a63fef9c3f8a9632.png",
+      "assets/UDEA_2018_1_J2/5403535b3f43ec8d.png"
     ],
     "asset_candidates_nearby": [],
     "asset_link_status": "direct",
@@ -14665,21 +14767,21 @@
     "visual_resources": [
       {
         "type": "image",
-        "asset": "assets/UDEA_2018_1_J2/5403535b3f43ec8d.png",
+        "asset": "assets/UDEA_2018_1_J2/a63fef9c3f8a9632.png",
         "placement": "question"
       },
       {
         "type": "image",
-        "asset": "assets/UDEA_2018_1_J2/a63fef9c3f8a9632.png",
+        "asset": "assets/UDEA_2018_1_J2/5403535b3f43ec8d.png",
         "placement": "question"
       }
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
       "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "source_question_number": 79,
@@ -14690,7 +14792,8 @@
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_RL_080",
@@ -14718,23 +14821,24 @@
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription_and_asset_cross_check",
     "source_paragraphs": [
       602,
       608
     ],
-    "embedded_image_markers": 5,
-    "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
+    "embedded_image_markers": 7,
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j2/clave de respuestas verificada",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
     "assets": [
-      "assets/UDEA_2018_1_J2/1063f9a8e6acbfa8.png",
-      "assets/UDEA_2018_1_J2/36838af20c62a9c0.png",
+      "assets/UDEA_2018_1_J2/35511fe5a1fda9f0.png",
       "assets/UDEA_2018_1_J2/3993519bab15dc18.png",
       "assets/UDEA_2018_1_J2/54313b7a9d42a5b5.png",
-      "assets/UDEA_2018_1_J2/9b4c982ceb623fbd.png",
-      "assets/UDEA_2018_1_J2/aeebb4520c4e6cec.png"
+      "assets/UDEA_2018_1_J2/1063f9a8e6acbfa8.png",
+      "assets/UDEA_2018_1_J2/aeebb4520c4e6cec.png",
+      "assets/UDEA_2018_1_J2/36838af20c62a9c0.png",
+      "assets/UDEA_2018_1_J2/9b4c982ceb623fbd.png"
     ],
     "asset_candidates_nearby": [],
     "asset_link_status": "direct",
@@ -14795,10 +14899,10 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_cross_checked_with_supplementary_zip",
       "source_text_match": true,
       "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "supplementary_package": "banco_preguntas_udea_simulacro.zip"
     },
     "admin_status": "verified",
     "source_question_number": 80,
