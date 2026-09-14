@@ -6812,7 +6812,7 @@
     "session": "J1",
     "section": "CL",
     "original_question_number": 32,
-    "question": "Nos dicen señala a",
+    "question": "La expresión «nos dicen» del texto señala a",
     "options": {
       "A": "el artista, usted y yo, el director del museo, el curador y el coleccionista",
       "B": "columnistas, críticos y escritores como Mario Vargas Llosa",
@@ -6827,10 +6827,8 @@
     "question_type": null,
     "source_page": 5,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
-    "review_reasons": [
-      "short_stem_possible_missing_equation_or_image"
-    ],
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
     "extraction_method": "labelled_options",
     "source_paragraphs": [
       206,
@@ -6839,11 +6837,8 @@
     "embedded_image_markers": 0,
     "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -6854,13 +6849,13 @@
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [
       "UDEA_2017_2_J1_TEXT_2"
     ],
@@ -7371,7 +7366,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 41,
-    "question": "Si A es el de B, entonces el porcentaje de A que representa a B es:",
+    "question": "Si A es el 1/4 % de B, entonces el porcentaje de A que representa B es",
     "options": {
       "A": "40.000%",
       "B": "400.000%",
@@ -7379,27 +7374,25 @@
       "D": "4.000%"
     },
     "correct_answer": "A",
-    "topic": "percentages_and_proportions",
+    "topic": "arithmetic",
     "subtopic": "proportional_reasoning",
     "skill": "proportional_reasoning",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
+    "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       263,
       267
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -7410,16 +7403,17 @@
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_042",
@@ -7445,15 +7439,15 @@
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       269,
       273
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -7469,14 +7463,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_043",
@@ -7502,15 +7497,15 @@
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       275,
       279
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -7526,14 +7521,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_044",
@@ -7559,15 +7555,15 @@
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       281,
       285
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -7583,14 +7579,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_045",
@@ -7616,15 +7613,15 @@
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       287,
       296
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -7640,14 +7637,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_046",
@@ -7658,30 +7656,30 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 46,
-    "question": "Dos números son entre sí como 7 es a 13. Si al menor se le suma 140, el valor del otro número debe multiplicarse por 5 para que la relación no se altere. El mayor de los números es:",
+    "question": "A, B y C son tres cantidades positivas tales que el producto de A y B es igual a 4C. Si A aumenta en un 60% y B disminuye en un 25%, el porcentaje en que deberá aumentar C para que se mantenga la igualdad es",
     "options": {
-      "A": "78",
-      "B": "54",
-      "C": "120",
-      "D": "65"
+      "A": "35%",
+      "B": "25%",
+      "C": "20%",
+      "D": "30%"
     },
     "correct_answer": "C",
-    "topic": "arithmetic",
+    "topic": "algebra",
     "subtopic": "quantitative_reasoning",
     "skill": "quantitative_reasoning",
     "difficulty": null,
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       298,
       302
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -7697,14 +7695,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_047",
@@ -7715,6 +7714,64 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 47,
+    "question": "Dos números son entre sí como 7 es a 13. Si al menor se le suma 140, el valor del otro número debe multiplicarse por 5 para que la relación no se altere. El mayor de los números es:",
+    "options": {
+      "A": "78",
+      "B": "54",
+      "C": "120",
+      "D": "65"
+    },
+    "correct_answer": "D",
+    "topic": "arithmetic",
+    "subtopic": "quantitative_reasoning",
+    "skill": "quantitative_reasoning",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
+    "source_paragraphs": [
+      298,
+      302
+    ],
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "medium",
+    "classification_evidence": [
+      "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
+    },
+    "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_048",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "year": 2017,
+    "period": "2",
+    "session": "J1",
+    "section": "RL",
+    "original_question_number": 48,
     "question": "En una carrera de maratón intervienen 4 africanos, 4 europeos, 4 asiáticos y 4 norteamericanos. Aceptando que un podio consiste en un conjunto de 3 deportistas que ganan medalla de oro, plata y bronce y si suponemos que todos los corredores terminan la carrera, entonces el número de podios que pueden darse al finalizar la carrera si ningún norteamericano queda en el podio es:",
     "options": {
       "A": "1.728",
@@ -7730,15 +7787,15 @@
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       304,
       308
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -7754,24 +7811,25 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2017_2_J1_RL_048",
+    "id": "UDEA_2017_2_J1_RL_049",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 48,
+    "original_question_number": 49,
     "question": "Se tiene un número de dos dígitos. Al intercambiar los dígitos de A se crea un segundo número de dos dígitos, B. Si se debe cumplir que A/B = 4/7, entonces la suma de los dos dígitos del mayor valor que puede tomar A es:",
     "options": {
       "A": "10",
@@ -7779,7 +7837,7 @@
       "C": "16",
       "D": "9"
     },
-    "correct_answer": "D",
+    "correct_answer": "B",
     "topic": "arithmetic",
     "subtopic": "quantitative_reasoning",
     "skill": "quantitative_reasoning",
@@ -7789,13 +7847,13 @@
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       310,
       314
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -7811,76 +7869,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
-      "rendered_page_located": true,
-      "supporting_material_verified": true
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "complete_verified"
-  },
-  {
-    "id": "UDEA_2017_2_J1_RL_049",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
-    "year": 2017,
-    "period": "2",
-    "session": "J1",
-    "section": "RL",
-    "original_question_number": 49,
-    "question": "El valor de m es:",
-    "options": {
-      "A": "7",
-      "B": "5",
-      "C": "6",
-      "D": "8"
-    },
-    "correct_answer": "B",
-    "topic": "algebra_and_equations",
-    "subtopic": "equation_or_defined_operation",
-    "skill": "equation_or_defined_operation",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": 6,
-    "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
-    "review_reasons": [
-      "short_stem_possible_missing_equation_or_image"
-    ],
-    "extraction_method": "labelled_options",
-    "source_paragraphs": [
-      324,
-      328
-    ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "semantic_review_phase11",
-    "classification_confidence": "medium",
-    "classification_evidence": [
-      "equation_or_defined_operation"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
-    "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": true,
-      "rendered_page_located": true
-    },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_050",
@@ -7891,6 +7888,79 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 50,
+    "question": "En el cuadro de la figura deben escribirse los números del 3 al 11, sin repetir, de manera que la suma de los tres números de cada fila, columna y diagonal sea la misma. El valor de m es",
+    "options": {
+      "A": "7",
+      "B": "5",
+      "C": "6",
+      "D": "8"
+    },
+    "correct_answer": "A",
+    "topic": "algebra_and_equations",
+    "subtopic": "equation_or_defined_operation",
+    "skill": "equation_or_defined_operation",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 6,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
+    "source_paragraphs": [
+      324,
+      328
+    ],
+    "embedded_image_markers": 1,
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2017_2_J1/6bb07d024a8cd974.png"
+    ],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "direct",
+    "classification_method": "semantic_review_phase11",
+    "classification_confidence": "medium",
+    "classification_evidence": [
+      "equation_or_defined_operation"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2017_2_J1/6bb07d024a8cd974.png",
+        "placement": "question"
+      }
+    ],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
+    },
+    "admin_status": "verified",
+    "source_question_number": 51,
+    "source_pages": [
+      6,
+      7
+    ],
+    "text_resource_ids": [],
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_051",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "year": 2017,
+    "period": "2",
+    "session": "J1",
+    "section": "RL",
+    "original_question_number": 51,
     "question": "Con una ficha cuadrada y cinco fichas triangulares iguales se forman las figuras A, B y C. La figura A tiene 54 cm de perímetro, la figura B tiene 60 cm de perímetro, y la figura C tiene 34 cm de perímetro. La longitud de la hipotenusa de la ficha triangular es:",
     "options": {
       "A": "13",
@@ -7907,16 +7977,14 @@
     "source_page": 6,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "labelled_options",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       330,
       335
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -7940,81 +8008,22 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "rendered_page_located": true
     },
     "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
     "source_question_number": 51,
     "source_pages": [
       6,
       7
     ],
-    "text_resource_ids": [],
-    "required_supporting_material": [
-      "visual"
-    ],
-    "supporting_material_status": "complete_verified"
-  },
-  {
-    "id": "UDEA_2017_2_J1_RL_051",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
-    "year": 2017,
-    "period": "2",
-    "session": "J1",
-    "section": "RL",
-    "original_question_number": 51,
-    "question": "A una lámina rectangular de “x” centímetros de ancho por “y” centímetros de largo se le cortan en sus esquinas cuadrados de lados 2, 3, 4 y 5, en centímetros, para desecharlos. El valor del perímetro, en centímetros, de la lámina resultante es:",
-    "options": {
-      "A": "A.",
-      "B": "B.",
-      "C": "C.",
-      "D": "D."
-    },
-    "correct_answer": "A",
-    "topic": "geometry",
-    "subtopic": "plane_or_solid_geometry",
-    "skill": "plane_or_solid_geometry",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": 7,
-    "confidence": "confirmed_by_key",
-    "verification_status": "clean",
-    "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
-    "source_paragraphs": [
-      337,
-      341
-    ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "deterministic_semantic_rules_v1",
-    "classification_confidence": "high",
-    "classification_evidence": [
-      "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
-    "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": true,
-      "rendered_page_located": true
-    },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_052",
@@ -8025,6 +8034,68 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 52,
+    "question": "A una lámina rectangular de “x” centímetros de ancho por “y” centímetros de largo se le cortan en sus esquinas cuadrados de lados 2, 3, 4 y 5, en centímetros, para desecharlos. El valor del perímetro, en centímetros, de la lámina resultante es:",
+    "options": {
+      "A": "2(x + y - 14)",
+      "B": "2(x + y - 7)",
+      "C": "2(x + y)",
+      "D": "2(x - y)"
+    },
+    "correct_answer": "C",
+    "topic": "geometry",
+    "subtopic": "plane_or_solid_geometry",
+    "skill": "plane_or_solid_geometry",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 7,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
+    "source_paragraphs": [
+      337,
+      341
+    ],
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "high",
+    "classification_evidence": [
+      "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
+    },
+    "admin_status": "verified",
+    "source_question_number": 53,
+    "source_pages": [
+      7
+    ],
+    "option_assets": {},
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_053",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "year": 2017,
+    "period": "2",
+    "session": "J1",
+    "section": "RL",
+    "original_question_number": 53,
     "question": "Para una presentación acerca del consumo de calorías diarias, una nutricionista quiere usar un polígono que represente las proporciones sugeridas por ella: 60% carbohidratos, 10% proteínas y 30% de grasas. Para ello dibujó cuatro figuras (triángulo equilátero, cuadrado, pentágono y hexágono). Entre las cuatro opciones la que representa correctamente los valores dados es:",
     "options": {
       "A": "triángulo",
@@ -8041,24 +8112,22 @@
     "source_page": 7,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "labelled_options",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       343,
       348
     ],
-    "embedded_image_markers": 3,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "embedded_image_markers": 4,
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
     "assets": [
-      "assets/UDEA_2017_2_J1/5e1ce873c22eee77.png",
+      "assets/UDEA_2017_2_J1/fb70e856322c5534.png",
       "assets/UDEA_2017_2_J1/930cca3093065867.png",
-      "assets/UDEA_2017_2_J1/b0bd437eaf0658b5.png",
-      "assets/UDEA_2017_2_J1/fb70e856322c5534.png"
+      "assets/UDEA_2017_2_J1/5e1ce873c22eee77.png",
+      "assets/UDEA_2017_2_J1/b0bd437eaf0658b5.png"
     ],
     "asset_candidates_nearby": [],
     "asset_link_status": "direct",
@@ -8092,37 +8161,36 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "rendered_page_located": true
     },
     "admin_status": "verified",
     "source_question_number": 53,
     "source_pages": [
       7
     ],
+    "text_resource_ids": [],
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
     "option_assets": {
       "A": "assets/UDEA_2017_2_J1/fb70e856322c5534.png",
       "B": "assets/UDEA_2017_2_J1/930cca3093065867.png",
       "C": "assets/UDEA_2017_2_J1/5e1ce873c22eee77.png",
       "D": "assets/UDEA_2017_2_J1/b0bd437eaf0658b5.png"
-    },
-    "text_resource_ids": [],
-    "required_supporting_material": [
-      "visual"
-    ],
-    "supporting_material_status": "complete_verified"
+    }
   },
   {
-    "id": "UDEA_2017_2_J1_RL_053",
+    "id": "UDEA_2017_2_J1_RL_054",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 53,
+    "original_question_number": 54,
     "question": "A un arreglo de 27 cubos de una unidad cuadrada se le retiran el cúbito de la mitad de cada cara y además se le retira el cúbito del medio. Luego de hacer esto, el área superficial del arreglo resultante es:",
     "options": {
       "A": "80",
@@ -8139,16 +8207,14 @@
     "source_page": 7,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "labelled_options",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       350,
       355
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -8172,31 +8238,31 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "rendered_page_located": true
     },
     "admin_status": "verified",
-    "source_question_number": 54,
-    "source_pages": [
-      7
-    ],
     "text_resource_ids": [],
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "complete_verified",
+    "source_question_number": 54,
+    "source_pages": [
+      7
+    ],
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2017_2_J1_RL_054",
+    "id": "UDEA_2017_2_J1_RL_055",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 54,
+    "original_question_number": 55,
     "question": "En el cuadrado ABCD con centro en X, de área igual a 64 cm², se tiene el punto E que está a 1/4 de la distancia de A a B, y F está a 1/4 de la distancia de B a C. El área de la región sombreada es:",
     "options": {
       "A": "22",
@@ -8214,19 +8280,21 @@
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       366,
       370
     ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "embedded_image_markers": 1,
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
-    "assets": [],
+    "assets": [
+      "assets/UDEA_2017_2_J1/36983b92b0751198.png"
+    ],
     "asset_candidates_nearby": [],
-    "asset_link_status": "none",
+    "asset_link_status": "direct",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "high",
     "classification_evidence": [
@@ -8242,26 +8310,31 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
-      "rendered_page_located": true,
-      "supporting_material_verified": true
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
     },
     "admin_status": "verified",
+    "source_question_number": 56,
+    "source_pages": [
+      7
+    ],
     "text_resource_ids": [],
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2017_2_J1_RL_055",
+    "id": "UDEA_2017_2_J1_RL_056",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 55,
+    "original_question_number": 56,
     "question": "En un cuadrado cuya área es igual a 81 cm2, se dibujan rectángulos como los mostrados en la figura, quedando el rectángulo del centro sombreado, (los valores de los lados de cada rectángulo son números enteros mayores que uno) los números muestran el área respectiva de dos rectángulos. El área, en cm2, del rectángulo del medio es:",
     "options": {
       "A": "3",
@@ -8278,16 +8351,14 @@
     "source_page": 7,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "blank_block_plus_four_options",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       372,
       381
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -8311,80 +8382,21 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "rendered_page_located": true
     },
     "admin_status": "verified",
-    "source_question_number": 56,
-    "source_pages": [
-      7
-    ],
     "text_resource_ids": [],
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
-  },
-  {
-    "id": "UDEA_2017_2_J1_RL_056",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
-    "year": 2017,
-    "period": "2",
-    "session": "J1",
-    "section": "RL",
-    "original_question_number": 56,
-    "question": "Se tiene un rectángulo cuya longitud de la base es el doble de la altura. Se tiene que el 40% del área es igual al 60% del perímetro. El valor de la diagonal de este rectángulo es:",
-    "options": {
-      "A": "A.",
-      "B": "B.",
-      "C": "C.",
-      "D": "D."
-    },
-    "correct_answer": "C",
-    "topic": "geometry",
-    "subtopic": "plane_or_solid_geometry",
-    "skill": "plane_or_solid_geometry",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": 7,
-    "confidence": "confirmed_by_key",
-    "verification_status": "clean",
-    "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
-    "source_paragraphs": [
-      383,
-      387
+    "supporting_material_status": "complete_verified",
+    "source_question_number": 56,
+    "source_pages": [
+      7
     ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "deterministic_semantic_rules_v1",
-    "classification_confidence": "high",
-    "classification_evidence": [
-      "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
-    "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": true,
-      "rendered_page_located": true
-    },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_057",
@@ -8395,55 +8407,54 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 57,
-    "question": "Se tiene un terreno rectangular de medidas , se va a partir en parcelas cuadradas iguales, el menor número de parcelas posibles. Si se planta una lechuga en cada una de las esquinas de los cuadrados, el número de lechugas que se plantearán es:",
+    "question": "Se tiene un rectángulo cuya longitud de la base es el doble de la altura. Se tiene que el 40% del área es igual al 60% del perímetro. El valor de la diagonal de este rectángulo es:",
     "options": {
-      "A": "180",
-      "B": "165",
-      "C": "184",
-      "D": "150"
+      "A": "9√3",
+      "B": "18√2",
+      "C": "9√5/2",
+      "D": "27/2"
     },
     "correct_answer": "C",
-    "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "topic": "geometry",
+    "subtopic": "plane_or_solid_geometry",
+    "skill": "plane_or_solid_geometry",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
+    "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
-      389,
-      393
+      383,
+      387
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
     "classification_method": "deterministic_semantic_rules_v1",
-    "classification_confidence": "medium",
+    "classification_confidence": "high",
     "classification_evidence": [
-      "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
+      "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_058",
@@ -8454,6 +8465,68 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 58,
+    "question": "Se tiene un terreno rectangular de 204 m por 108 m. Se va a partir en el menor número posible de parcelas cuadradas iguales. Si se planta una lechuga en cada esquina de los cuadrados, el número de lechugas que se plantarán es",
+    "options": {
+      "A": "180",
+      "B": "165",
+      "C": "184",
+      "D": "150"
+    },
+    "correct_answer": "A",
+    "topic": "arithmetic",
+    "subtopic": "quantitative_reasoning",
+    "skill": "quantitative_reasoning",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 8,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
+    "source_paragraphs": [
+      389,
+      393
+    ],
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "medium",
+    "classification_evidence": [
+      "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
+    },
+    "admin_status": "verified",
+    "source_question_number": 59,
+    "source_pages": [
+      8
+    ],
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_059",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "year": 2017,
+    "period": "2",
+    "session": "J1",
+    "section": "RL",
+    "original_question_number": 59,
     "question": "Se hace una figura de alambre que consta de una circunferencia de radio igual a 4 cm y dos diámetros perpendiculares. Si una hormiga recorre toda la estructura sin hacer interrupciones, la mínima longitud que recorre es:",
     "options": {
       "A": "4(3π + 4)",
@@ -8461,7 +8534,7 @@
       "C": "2(5π + 8)",
       "D": "2(5π + 9)"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "topic": "geometry",
     "subtopic": "plane_or_solid_geometry",
     "skill": "plane_or_solid_geometry",
@@ -8470,16 +8543,14 @@
     "source_page": 8,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "blank_block_last_four",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       395,
       401
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -8503,31 +8574,31 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "rendered_page_located": true
     },
     "admin_status": "verified",
-    "source_question_number": 59,
-    "source_pages": [
-      8
-    ],
     "text_resource_ids": [],
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "complete_verified",
+    "source_question_number": 59,
+    "source_pages": [
+      8
+    ],
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2017_2_J1_RL_059",
+    "id": "UDEA_2017_2_J1_RL_060",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 59,
+    "original_question_number": 60,
     "question": "Miguel arranca accidentalmente las páginas de un libro: 30, 47, 48, 54, 56, 121, 122, 198 y 199. El libro tenía 100 hojas. El número de hojas que queda:",
     "options": {
       "A": "91",
@@ -8535,7 +8606,7 @@
       "C": "92",
       "D": "95"
     },
-    "correct_answer": "C",
+    "correct_answer": "B",
     "topic": "arithmetic",
     "subtopic": "quantitative_reasoning",
     "skill": "quantitative_reasoning",
@@ -8543,15 +8614,15 @@
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       403,
       407
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -8567,24 +8638,29 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
+    "source_question_number": 61,
+    "source_pages": [
+      8
+    ],
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2017_2_J1_RL_060",
+    "id": "UDEA_2017_2_J1_RL_061",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 60,
+    "original_question_number": 61,
     "question": "60 alumnos presentan un examen, de ellos 48 aprueban el examen. Los niños son la mitad de los aprobados y las niñas que aprobaron es el cuádruple de niños desaprobados. La siguiente tabla sirve de ayuda para organizar la información. El número de niños que aprobaron el examen es",
     "options": {
       "A": "14",
@@ -8601,16 +8677,14 @@
     "source_page": 8,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "labelled_options",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       409,
       417
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -8634,80 +8708,21 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "rendered_page_located": true
     },
     "admin_status": "verified",
-    "source_question_number": 61,
-    "source_pages": [
-      8
-    ],
     "text_resource_ids": [],
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
-  },
-  {
-    "id": "UDEA_2017_2_J1_RL_061",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
-    "year": 2017,
-    "period": "2",
-    "session": "J1",
-    "section": "RL",
-    "original_question_number": 61,
-    "question": "Juan tiene ahorrado dólares y diariamente gana dólares. Si al cabo de 30 días tiene un total de dólares y no ha gastado nada de su dinero, el valor de es Nota: la barra en la parte superior denota un número de dos cifras y no una multiplicación entre los dos números como es común encontrar las letras. Además, la o en el número es un cero.",
-    "options": {
-      "A": "8",
-      "B": "7",
-      "C": "10",
-      "D": "6"
-    },
-    "correct_answer": "B",
-    "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": null,
-    "confidence": "confirmed_by_key",
-    "verification_status": "clean",
-    "review_reasons": [],
-    "extraction_method": "labelled_options",
-    "source_paragraphs": [
-      419,
-      424
+    "supporting_material_status": "complete_verified",
+    "source_question_number": 61,
+    "source_pages": [
+      8
     ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "deterministic_semantic_rules_v1",
-    "classification_confidence": "medium",
-    "classification_evidence": [
-      "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
-    "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": true,
-      "rendered_page_located": false
-    },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_062",
@@ -8718,6 +8733,64 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 62,
+    "question": "Juan tiene ahorrado el número de dos cifras ab y diariamente gana el número de dos cifras ba dólares. Si al cabo de 30 días tiene un total de a0b dólares y no ha gastado nada, el valor de a + b es. Nota: las expresiones ab y ba representan números de dos cifras; en a0b, el carácter central es cero.",
+    "options": {
+      "A": "8",
+      "B": "7",
+      "C": "10",
+      "D": "6"
+    },
+    "correct_answer": "D",
+    "topic": "arithmetic",
+    "subtopic": "quantitative_reasoning",
+    "skill": "quantitative_reasoning",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 8,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
+    "source_paragraphs": [
+      419,
+      424
+    ],
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "medium",
+    "classification_evidence": [
+      "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
+    },
+    "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_063",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "year": 2017,
+    "period": "2",
+    "session": "J1",
+    "section": "RL",
+    "original_question_number": 63,
     "question": "Entre cuatro amigos Antonio, Francisco, Juan y Carlos, todos ellos con edades distintas; se sabe qué, Juan es mayor que Francisco quien a su vez es menor que Carlos, Antonio es mayor que Carlos quien a su vez es menor que Juan. Si se sabe que Antonio no es menor que Juan, de las siguientes afirmaciones: I. Antonio es el mayor. II. Juan es el mayor. III. Francisco es el menor. La(s) proposición(es) verdadera(s) es(son):",
     "options": {
       "A": "solo II",
@@ -8725,7 +8798,7 @@
       "C": "solo I y III",
       "D": "solo II y III"
     },
-    "correct_answer": "D",
+    "correct_answer": "C",
     "topic": "logical_relations",
     "subtopic": "deductive_and_order_reasoning",
     "skill": "deductive_and_order_reasoning",
@@ -8733,15 +8806,15 @@
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       426,
       434
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -8757,73 +8830,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
-  },
-  {
-    "id": "UDEA_2017_2_J1_RL_063",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
-    "year": 2017,
-    "period": "2",
-    "session": "J1",
-    "section": "RL",
-    "original_question_number": 63,
-    "question": "",
-    "options": {},
-    "correct_answer": "C",
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": null,
-    "confidence": "confirmed_by_key",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
-    ],
-    "extraction_method": "range_gap_placeholder",
-    "source_paragraphs": [
-      436,
-      436
-    ],
-    "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "four_options_not_available",
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "semantic_review_phase11",
-    "classification_confidence": "medium",
-    "classification_evidence": [
-      "quantitative_reasoning"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
-    "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": true,
-      "rendered_page_located": false
-    },
-    "admin_status": "incomplete",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_064",
@@ -8834,7 +8849,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 64,
-    "question": "De lo anterior se puede concluir que las dueñas respectivas de la pelota roja y la pelota negra son:",
+    "question": "Cinco niñas van al parque con pelotas, todas de diferente color, e intercambian todas las pelotas. Se sabe que Ana está sentada, triste, porque quisiera tener la pelota blanca de Lucía; Lina juega con la pelota negra de su amiga; la dueña de la pelota roja juega con la pelota verde de Rosa; y Julia juega con su propia pelota mientras mira a la dueña de la pelota azul. De lo anterior se concluye que las dueñas respectivas de la pelota roja y la pelota negra son",
     "options": {
       "A": "Ana y Lina",
       "B": "Julia y Lina",
@@ -8851,13 +8866,13 @@
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       444,
       448
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -8873,18 +8888,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
-      "rendered_page_located": true,
-      "supporting_material_verified": true
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
     },
     "admin_status": "verified",
-    "text_resource_ids": [
-      "UDEA_2017_2_J1_RL_BALLS"
-    ],
-    "required_supporting_material": [
-      "text"
-    ],
-    "supporting_material_status": "complete_verified"
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_065",
@@ -8895,7 +8907,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 65,
-    "question": "la proposición que entra directamente en contradicción con el color de la pelota con la que juegan las niñas es",
+    "question": "Cinco niñas van al parque con pelotas, todas de diferente color, e intercambian todas las pelotas. Se sabe que Ana está sentada, triste, porque quisiera tener la pelota blanca de Lucía; Lina juega con la pelota negra de su amiga; la dueña de la pelota roja juega con la pelota verde de Rosa; y Julia juega con su propia pelota mientras mira a la dueña de la pelota azul. La proposición que entra directamente en contradicción con el color de la pelota con la que juegan las niñas es",
     "options": {
       "A": "la dueña de la pelota roja es Julia",
       "B": "la dueña de la pelota azul es Lina",
@@ -8912,13 +8924,13 @@
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       450,
       454
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -8934,18 +8946,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
-      "rendered_page_located": true,
-      "supporting_material_verified": true
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
     },
     "admin_status": "verified",
-    "text_resource_ids": [
-      "UDEA_2017_2_J1_RL_BALLS"
-    ],
-    "required_supporting_material": [
-      "text"
-    ],
-    "supporting_material_status": "complete_verified"
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_066",
@@ -8973,13 +8982,13 @@
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       458,
       462
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -8995,14 +9004,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
-      "rendered_page_located": true,
-      "supporting_material_verified": true
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_067",
@@ -9028,15 +9038,15 @@
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       464,
       474
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -9052,14 +9062,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_068",
@@ -9085,15 +9096,15 @@
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       476,
       480
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -9109,14 +9120,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_069",
@@ -9142,15 +9154,15 @@
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       482,
       492
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -9166,14 +9178,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_070",
@@ -9201,13 +9214,13 @@
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "two_question_block_part_1",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       494,
       498
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -9223,14 +9236,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
-      "rendered_page_located": true,
-      "supporting_material_verified": true
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_2_J1_RL_071",
@@ -9241,12 +9255,12 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 71,
-    "question": "El cociente entre el número de ladrillos blancos y el total de ladrillos usados para construir el muro es:",
+    "question": "A Andrea, Camila y Sara su abuela les regala un libro de cuentos. Ellas lo leen juntas con el siguiente método. El primer día Andrea lee siete páginas, el segundo día Camila lee 8 páginas, el tercer día Sara lee 6 páginas; y continúan igual en el mismo orden y exactamente la misma cantidad de páginas por día. Si el libro tiene menos de 310 páginas, la cantidad máxima de páginas que tiene, si cada una lee la misma cantidad de días, es:",
     "options": {
-      "A": "A.",
-      "B": "B.",
-      "C": "C.",
-      "D": "D."
+      "A": "301",
+      "B": "309",
+      "C": "294",
+      "D": "300"
     },
     "correct_answer": "C",
     "topic": "arithmetic",
@@ -9256,74 +9270,15 @@
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "two_question_block_part_2",
-    "source_paragraphs": [
-      499,
-      503
-    ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
-    "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [],
-    "asset_link_status": "none",
-    "classification_method": "deterministic_semantic_rules_v1",
-    "classification_confidence": "medium",
-    "classification_evidence": [
-      "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
-    ],
-    "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
-    "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": true,
-      "rendered_page_located": true
-    },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
-  },
-  {
-    "id": "UDEA_2017_2_J1_RL_072",
-    "source_type": "historical_exam",
-    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
-    "year": 2017,
-    "period": "2",
-    "session": "J1",
-    "section": "RL",
-    "original_question_number": 72,
-    "question": "A Andrea, Camila y Sara su abuela les regala un libro de cuentos. Ellas lo leen juntas con el siguiente método. El primer día Andrea lee siete páginas, el segundo día Camila lee 8 páginas, el tercer día Sara lee 6 páginas; y continúan igual en el mismo orden y exactamente la misma cantidad de páginas por día. Si el libro tiene menos de 310 páginas, la cantidad máxima de páginas que tiene, si cada una lee la misma cantidad de días, es:",
-    "options": {
-      "A": "301",
-      "B": "309",
-      "C": "294",
-      "D": "300"
-    },
-    "correct_answer": "D",
-    "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
-    "difficulty": null,
-    "question_type": null,
-    "source_page": 9,
-    "confidence": "confirmed_by_key",
-    "verification_status": "clean",
-    "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       505,
       509
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -9339,32 +9294,33 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2017_2_J1_RL_073",
+    "id": "UDEA_2017_2_J1_RL_072",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 73,
-    "question": "Se tiene la siguiente operación arbitraria *, representada en la tabla, en donde se lee primero la letra de la fila y luego la letra de la columna, así, el resultado de a*b es b, y el resultado de b*c es d; además, si x² es igual a x*x, entonces, el resultado de la operación (((a*b)*c)*d)² es:",
+    "original_question_number": 72,
+    "question": "Se tiene la operación arbitraria * representada en la tabla. Se lee primero la letra de la fila y luego la de la columna; así, a*b = b y b*a = d. Además, x² = x*x. El resultado de (((a*b)*c)*d)² es",
     "options": {
       "A": "c",
       "B": "d",
       "C": "b",
       "D": "a"
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "topic": "data_interpretation",
     "subtopic": "tables_and_charts",
     "skill": "tables_and_charts",
@@ -9373,16 +9329,14 @@
     "source_page": 9,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "labelled_options",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       511,
       516
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -9406,31 +9360,31 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "rendered_page_located": true
     },
     "admin_status": "verified",
-    "source_question_number": 72,
-    "source_pages": [
-      9
-    ],
     "text_resource_ids": [],
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "complete_verified",
+    "source_question_number": 72,
+    "source_pages": [
+      9
+    ],
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2017_2_J1_RL_074",
+    "id": "UDEA_2017_2_J1_RL_073",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 74,
+    "original_question_number": 73,
     "question": "En un supermercado se organizan las cajas de cereales en forma de pirámide. Los tres niveles superiores son como se muestra la figura. Si el arreglo tiene 20 niveles de alto, el número de cajas de cereal de la base es:",
     "options": {
       "A": "420",
@@ -9438,7 +9392,7 @@
       "C": "380",
       "D": "340"
     },
-    "correct_answer": "D",
+    "correct_answer": "B",
     "topic": "geometry",
     "subtopic": "plane_or_solid_geometry",
     "skill": "plane_or_solid_geometry",
@@ -9447,16 +9401,14 @@
     "source_page": 10,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
-    "extraction_method": "labelled_options",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       518,
       524
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -9480,10 +9432,9 @@
     ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review_against_rendered_source_phase11",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": true,
-      "visual_resource_placement_verified": true
+      "rendered_page_located": true
     },
     "admin_status": "verified",
     "source_question_number": 73,
@@ -9494,17 +9445,18 @@
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2017_2_J1_RL_075",
+    "id": "UDEA_2017_2_J1_RL_074",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 75,
+    "original_question_number": 74,
     "question": "Un comerciante va a realizar una promoción para la venta de pantalones, sin embargo, en vez de dar un descuento del 20%, este se equivoca y da un descuento de $20.000. En la noche, al hacer cuentas el obrero se da cuenta que tenía un faltante de $4.000. El pantalón debió ser vendido en:",
     "options": {
       "A": "$62.000",
@@ -9512,7 +9464,7 @@
       "C": "$58.000",
       "D": "$64.000"
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "topic": "percentages_and_proportions",
     "subtopic": "proportional_reasoning",
     "skill": "proportional_reasoning",
@@ -9520,15 +9472,15 @@
     "question_type": null,
     "source_page": 10,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       526,
       530
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -9544,24 +9496,29 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
+    "source_question_number": 73,
+    "source_pages": [
+      10
+    ],
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2017_2_J1_RL_076",
+    "id": "UDEA_2017_2_J1_RL_075",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 76,
+    "original_question_number": 75,
     "question": "El número de rectángulos que pueden formarse con las siguientes 3 propiedades: ●Los lados son números enteros. ●La diferencia del lado mayor y el lado menor es 6 ●El perímetro es menor o igual a 30. El número es:",
     "options": {
       "A": "3",
@@ -9569,7 +9526,7 @@
       "C": "5",
       "D": "6"
     },
-    "correct_answer": "D",
+    "correct_answer": "B",
     "topic": "geometry",
     "subtopic": "plane_or_solid_geometry",
     "skill": "plane_or_solid_geometry",
@@ -9577,15 +9534,15 @@
     "question_type": null,
     "source_page": 10,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       532,
       540
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -9601,24 +9558,25 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2017_2_J1_RL_077",
+    "id": "UDEA_2017_2_J1_RL_076",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 77,
+    "original_question_number": 76,
     "question": "Un terreno rectangular de 120 m de ancho por 84 m de alto se va a dividir en parcelas cuadradas iguales y que cada parcela tenga la mayor cantidad de m²; entonces la cantidad de parcelas que se obtienen es:",
     "options": {
       "A": "120",
@@ -9626,7 +9584,7 @@
       "C": "50",
       "D": "70"
     },
-    "correct_answer": "C",
+    "correct_answer": "D",
     "topic": "arithmetic",
     "subtopic": "quantitative_reasoning",
     "skill": "quantitative_reasoning",
@@ -9636,13 +9594,13 @@
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       542,
       546
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -9658,24 +9616,25 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
-      "rendered_page_located": true,
-      "supporting_material_verified": true
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "complete_verified"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2017_2_J1_RL_078",
+    "id": "UDEA_2017_2_J1_RL_077",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 78,
+    "original_question_number": 77,
     "question": "En un club de millonarios, el promedio entre todos es 100 millones por persona, si al club entra otro millonario con 80 millones, el promedio de los millonarios más el nuevo miembro se sitúa en 96 millones. El total de millonarios, incluyendo al nuevo miembro, es:",
     "options": {
       "A": "9",
@@ -9683,7 +9642,7 @@
       "C": "5",
       "D": "7"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "topic": "data_interpretation",
     "subtopic": "tables_and_charts",
     "skill": "tables_and_charts",
@@ -9691,15 +9650,15 @@
     "question_type": null,
     "source_page": 10,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       548,
       552
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -9715,53 +9674,52 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2017_2_J1_RL_079",
+    "id": "UDEA_2017_2_J1_RL_078",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 79,
-    "question": "Se tiene los primeros cinco términos de una secuencia , en donde se conoce que a partir del tercer término, C, cada término es el resultado de la suma de los dos términos anteriores, también se sabe que . La suma de los términos , es:",
+    "original_question_number": 78,
+    "question": "Se tienen los primeros cinco términos a, b, c, d y e de una secuencia. A partir del tercer término, cada término es la suma de los dos anteriores, y se sabe que a = e = 9. La suma a + b + c + d + e es",
     "options": {
       "A": "24",
       "B": "27",
       "C": "66",
       "D": "30"
     },
-    "correct_answer": "D",
+    "correct_answer": "A",
     "topic": "sequences_and_patterns",
     "subtopic": "numeric_or_visual_sequences",
     "skill": "numeric_or_visual_sequences",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
+    "source_page": 10,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "labelled_options",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       554,
       558
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -9772,34 +9730,35 @@
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2017_2_J1_RL_080",
+    "id": "UDEA_2017_2_J1_RL_079",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
     "year": 2017,
     "period": "2",
     "session": "J1",
     "section": "RL",
-    "original_question_number": 80,
-    "question": "Se tienen cinco luces de cinco colores diferentes, una se enciende cada 4 minutos, la segunda cada 5 minutos, la tercera cada 6 minutos, la cuarta cada 7 minutos, y la última cada 8 minutos. Si todas se encienden a las simultáneamente, el siguiente instante en el cual las 5 coinciden nuevamente, es:",
+    "original_question_number": 79,
+    "question": "Se tienen cinco luces de colores diferentes. Se encienden, respectivamente, cada 4, 5, 6, 7 y 8 minutos. Si todas se encienden simultáneamente a las 8:00 a. m., el siguiente instante en que las cinco coinciden es",
     "options": {
-      "A": "A.",
-      "B": "B.",
-      "C": "C.",
-      "D": "D."
+      "A": "10:40 p. m.",
+      "B": "12:40 p. m.",
+      "C": "6:00 p. m.",
+      "D": "10:00 p. m."
     },
-    "correct_answer": "C",
+    "correct_answer": "D",
     "topic": "arithmetic_quantitative",
     "subtopic": "quantitative_relation",
     "skill": "quantitative_relation",
@@ -9807,20 +9766,18 @@
     "question_type": null,
     "source_page": 10,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       560,
       564
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -9831,16 +9788,75 @@
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
       "source_text_match": true,
       "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_080",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "year": 2017,
+    "period": "2",
+    "session": "J1",
+    "section": "RL",
+    "original_question_number": 80,
+    "question": "Tres números naturales son múltiplos consecutivos de 5. El triple del menor es igual al doble del mayor. Acerca del mayor se puede afirmar que es",
+    "options": {
+      "A": "un cuadrado perfecto",
+      "B": "múltiplo de 4",
+      "C": "múltiplo de 3",
+      "D": "un número impar"
+    },
+    "correct_answer": "C",
+    "topic": "arithmetic",
+    "subtopic": "quantitative_relation",
+    "skill": "quantitative_relation",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 10,
+    "confidence": "confirmed_by_key",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
+    "source_paragraphs": [
+      560,
+      564
+    ],
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
+    "answer_key_verification": "manual_visual_transcription",
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "semantic_review_phase11",
+    "classification_confidence": "medium",
+    "classification_evidence": [
+      "quantitative_relation"
+    ],
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "full_rendered_rl_sequence_reconstruction_and_key_match",
+      "source_text_match": true,
+      "rendered_page_located": true
+    },
+    "admin_status": "verified",
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J2_CL_001",

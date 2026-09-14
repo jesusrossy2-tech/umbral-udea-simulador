@@ -54,6 +54,13 @@ const j1_2017_answerKey = [
   'DDCCCCBBBD', 'BBDBACDCCD', 'CABDBCCDCB', 'DADBADBCAD',
   'DBBCDBDBDD', 'CDAAACDDBB', 'DCADBABBCD', 'CACCABCAAC',
 ].join('');
+const j1_2017_2 = eligible
+  .filter((question) => question.year === 2017 && question.period === '2' && question.session === 'J1')
+  .sort((a, b) => a.original_question_number - b.original_question_number);
+const j1_2017_2_answerKey = [
+  'BADACBCCDB', 'ACBDCACBCD', 'BACBCBBCAD', 'AADDCBCDDA',
+  'ABBBBCDDBA', 'ACCCCCCACB', 'BDCCCACCBA', 'CDBDBDCADC',
+].join('');
 if ((sections.CL?.length ?? 0) < 40 || (sections.RL?.length ?? 0) < 40) throw new Error('The eligible bank cannot support 40 CL + 40 RL.');
 if (sources.size < 2) throw new Error('The eligible bank does not contain multiple historical exams.');
 if (visual.length < 23) throw new Error(`Expected at least 23 eligible visual questions, found ${visual.length}.`);
@@ -76,6 +83,28 @@ for (const [number, expectedVisuals] of new Map([[41, 1], [42, 1], [44, 1], [49,
     throw new Error(`UDEA 2017-1 J1 question ${number} does not have its complete verified visual material.`);
   }
 }
+if (j1_2017_2.length !== 80
+  || j1_2017_2.filter((question) => question.section === 'CL').length !== 40
+  || j1_2017_2.filter((question) => question.section === 'RL').length !== 40
+  || j1_2017_2.some((question, index) => question.original_question_number !== index + 1)) {
+  throw new Error('UDEA 2017-2 J1 must be a verified consecutive historical exam with 40 CL + 40 RL.');
+}
+if (j1_2017_2_answerKey.length !== 80
+  || j1_2017_2.some((question, index) => question.correct_answer !== j1_2017_2_answerKey[index])) {
+  throw new Error('UDEA 2017-2 J1 does not match the independently transcribed 80-answer key.');
+}
+for (const [number, expectedVisuals] of new Map([[50, 1], [51, 1], [53, 4], [54, 1], [55, 1], [56, 1], [59, 1], [61, 1], [72, 1], [73, 1]])) {
+  const question = j1_2017_2.find((item) => item.original_question_number === number);
+  if ((question?.visual_resources?.length ?? 0) !== expectedVisuals) {
+    throw new Error(`UDEA 2017-2 J1 question ${number} does not have its complete verified visual material.`);
+  }
+}
+
+const readyHistoricalExams = [j1_2017, j1_2017_2]
+  .filter((questions) => questions.length === 80
+    && questions.filter((question) => question.section === 'CL').length === 40
+    && questions.filter((question) => question.section === 'RL').length === 40)
+  .map((questions) => `UDEA_${questions[0].year}_${questions[0].period}_${questions[0].session}`);
 
 console.log(JSON.stringify({
   total: bank.length,
@@ -84,7 +113,7 @@ console.log(JSON.stringify({
   eligibleSources: sources.size,
   eligibleWithVisualResources: visual.length,
   linkedEligibleClQuestions: eligible.filter((question) => question.section === 'CL' && question.text_resource_ids?.length).length,
-  readyHistoricalExams: ['UDEA_2017_1_J1'],
+  readyHistoricalExams,
   pendingReview: bank.filter((question) => question.admin_status === 'needs_review').length,
   incomplete: bank.filter((question) => question.admin_status === 'incomplete').length,
 }, null, 2));
