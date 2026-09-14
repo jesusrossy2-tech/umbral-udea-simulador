@@ -1,5 +1,5 @@
-import exam from '../../../data/exam.json';
 import { getD1 } from '../../../db';
+import { eligibleQuestions } from '../../../lib/exam-engine';
 
 type Detail = { section: 'CL' | 'RL'; topic: string; outcome: 'correct' | 'incorrect' | 'omitted' };
 type AttemptDetailRow = { details_json: string };
@@ -27,7 +27,7 @@ export async function GET(request: Request) {
     topicStats.set(key, current);
   }
   const availableByTopic = new Map<string, number>();
-  for (const question of exam) availableByTopic.set(`${question.section}:${question.topic}`, (availableByTopic.get(`${question.section}:${question.topic}`) ?? 0) + 1);
+  for (const question of eligibleQuestions(new Set())) availableByTopic.set(`${question.section}:${question.topic}`, (availableByTopic.get(`${question.section}:${question.topic}`) ?? 0) + 1);
   const stats = [...topicStats.values()].map((item) => ({
     ...item,
     label: label(item.topic),

@@ -1,0 +1,20 @@
+{
+  "total": 464,
+  "eligible": 185,
+  "eligible_sources": 3,
+  "eligible_by_source": {
+    "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx": 64,
+    "ExamenUdeA 2017 II J1 print El arte.docx": 61,
+    "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx": 60
+  },
+  "unclassified_total": 0,
+  "unclassified_eligible": 0,
+  "verbatim": {
+    "verified": 185,
+    "needs_review": 279
+  },
+  "eligible_sections": {
+    "CL": 119,
+    "RL": 66
+  }
+}
