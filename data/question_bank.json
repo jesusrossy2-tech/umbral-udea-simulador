@@ -3062,7 +3062,7 @@
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
     "source_paragraphs": [
@@ -3086,14 +3086,18 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "text_resource_ids": [
+      "UDEA_2017_1_J1_RL_BINARY_SET"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2017_1_J1_RL_051",
@@ -3602,7 +3606,7 @@
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "incomplete",
     "review_reasons": [],
     "extraction_method": "two_question_block_part_1",
     "source_paragraphs": [
@@ -3612,8 +3616,10 @@
     "embedded_image_markers": 0,
     "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": true,
-    "eligibility_reasons": [],
+    "official_exam_eligible": false,
+    "eligibility_reasons": [
+      "extracted_shared_stimulus_as_standalone_question"
+    ],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -3624,16 +3630,16 @@
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "verified",
+    "verbatim_confidence": "needs_review",
     "verbatim_verification": {
       "method": "source_text_match_plus_rendered_page_locator",
       "source_text_match": true,
       "rendered_page_located": true
     },
-    "admin_status": "verified",
+    "admin_status": "incomplete",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "incomplete"
   },
   {
     "id": "UDEA_2017_1_J1_RL_060",
@@ -3659,7 +3665,7 @@
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "two_question_block_part_2",
     "source_paragraphs": [
@@ -3683,14 +3689,18 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "text_resource_ids": [
+      "UDEA_2017_1_J1_RL_BOXES"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2017_1_J1_RL_061",
@@ -3773,7 +3783,7 @@
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
     "source_paragraphs": [
@@ -3797,14 +3807,18 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "text_resource_ids": [
+      "UDEA_2017_1_J1_RL_PARK"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2017_1_J1_RL_063",
@@ -7755,7 +7769,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 48,
-    "question": "Se tienen un número de dos dígitos. Al intercambiar los dígitos de A se crea un segundo número de dos dígitos, B. Si se debe cumplir que , entonces la suma de los dos dígitos del mayor valor que puede tomar A es:",
+    "question": "Se tiene un número de dos dígitos. Al intercambiar los dígitos de A se crea un segundo número de dos dígitos, B. Si se debe cumplir que A/B = 4/7, entonces la suma de los dos dígitos del mayor valor que puede tomar A es:",
     "options": {
       "A": "10",
       "B": "12",
@@ -7770,7 +7784,7 @@
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "labelled_options",
     "source_paragraphs": [
@@ -7794,14 +7808,14 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2017_2_J1_RL_049",
@@ -8180,7 +8194,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 54,
-    "question": "El área de la región sombreada es:",
+    "question": "En el cuadrado ABCD con centro en X, de área igual a 64 cm², se tiene el punto E que está a 1/4 de la distancia de A a B, y F está a 1/4 de la distancia de B a C. El área de la región sombreada es:",
     "options": {
       "A": "22",
       "B": "20",
@@ -8195,7 +8209,7 @@
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "labelled_options",
     "source_paragraphs": [
@@ -8216,17 +8230,25 @@
       "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2017_2_J1/36983b92b0751198.png",
+        "placement": "question"
+      }
+    ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2017_2_J1_RL_055",
@@ -8824,7 +8846,7 @@
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "labelled_options",
     "source_paragraphs": [
@@ -8848,14 +8870,18 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "text_resource_ids": [
+      "UDEA_2017_2_J1_RL_BALLS"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2017_2_J1_RL_065",
@@ -8881,7 +8907,7 @@
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "labelled_options",
     "source_paragraphs": [
@@ -8905,14 +8931,18 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "text_resource_ids": [
+      "UDEA_2017_2_J1_RL_BALLS"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2017_2_J1_RL_066",
@@ -8923,7 +8953,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 66,
-    "question": "El resultado de la suma de los dígitos A, H y E, es:",
+    "question": "En la siguiente suma cada letra diferente corresponde a un número diferente y letras iguales corresponden a números iguales: HE + HE + HE + HE = AH. El resultado de la suma de los dígitos A, H y E es:",
     "options": {
       "A": "14",
       "B": "15",
@@ -8938,7 +8968,7 @@
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "labelled_options",
     "source_paragraphs": [
@@ -8962,14 +8992,14 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2017_2_J1_RL_067",
@@ -9151,12 +9181,12 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 70,
-    "question": "En una obra civil se va a construir un muro de 9 m de alto por 24 m de ancho con ladrillos color marrón y color blanco. Todos los ladrillos son iguales y tienen 80 cm de ancho y 60 cm de alto, y no importa el grosor de estos. El muro se construye siguiendo las siguientes reglas.",
+    "question": "En una obra civil se va a construir un muro de 9 m de alto por 24 m de ancho con ladrillos color marrón y color blanco. Todos los ladrillos son iguales y tienen 80 cm de ancho y 60 cm de alto, y no importa el grosor de estos. El muro se construye siguiendo las siguientes reglas: en la primera fila todos los ladrillos son marrones; en la segunda fila todos los ladrillos son marrones excepto uno; en la tercera fila todos los ladrillos son marrones excepto dos; y así sucesivamente. El cociente entre el número de ladrillos blancos y el total de ladrillos usados para construir el muro es:",
     "options": {
-      "A": "-En la primera fila todos los ladrillos son marrones.",
-      "B": "-En la segunda fila todos los ladrillos son marrones excepto uno.",
-      "C": "-En la tercera fila todos los ladrillos son marrones excepto dos.",
-      "D": "Y así sucesivamente."
+      "A": "7/30",
+      "B": "2/5",
+      "C": "1/2",
+      "D": "2/15"
     },
     "correct_answer": "A",
     "topic": "logical_relations",
@@ -9166,7 +9196,7 @@
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "two_question_block_part_1",
     "source_paragraphs": [
@@ -9190,14 +9220,14 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2017_2_J1_RL_071",
@@ -9586,7 +9616,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 77,
-    "question": "Un terreno rectangular de 120 m de ancho por 84 m de alto se va a dividir en parcelas cuadradas iguales y que cada parcela tenga la mayor cantidad de , entonces la cantidad de parcelas que se obtienen es:",
+    "question": "Un terreno rectangular de 120 m de ancho por 84 m de alto se va a dividir en parcelas cuadradas iguales y que cada parcela tenga la mayor cantidad de m²; entonces la cantidad de parcelas que se obtienen es:",
     "options": {
       "A": "120",
       "B": "144",
@@ -9601,7 +9631,7 @@
     "question_type": null,
     "source_page": 10,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "labelled_options",
     "source_paragraphs": [
@@ -9625,14 +9655,14 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2017_2_J1_RL_078",
@@ -12720,7 +12750,7 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 49,
-    "question": "El valor de a en la siguiente ecuación es:",
+    "question": "El valor de a en la siguiente ecuación es: 3⁹ - 3⁷ + 3⁸ = a·3⁷.",
     "options": {
       "A": "10",
       "B": "11",
@@ -12735,7 +12765,7 @@
     "question_type": null,
     "source_page": 5,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "blank_block_plus_four_options",
     "source_paragraphs": [
@@ -12759,14 +12789,14 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2018_1_J2_RL_050",
@@ -13484,7 +13514,7 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 62,
-    "question": "Cuatro estudiantes obtienen los siguientes resultados: Camilo: 6,5 Luisa: 6,0 Andrés: 5,5 Juanita: 5,0. De entre ellos tres de ellos realizaron bien la suma, pero dejaron de coger un número, mientras que el último escogió todos los números, pero hizo una operación mal. El estudiante que no omitió algún número fue:",
+    "question": "El profesor en un salón escribe los siguientes números y pide hallar su promedio: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11. Cuatro estudiantes obtienen los siguientes resultados: Camilo: 6,5; Luisa: 6,0; Andrés: 5,5; Juanita: 5,0. De entre ellos tres realizaron bien la suma, pero dejaron de coger un número, mientras que el último escogió todos los números, pero hizo una operación mal. El estudiante que no omitió algún número fue:",
     "options": {
       "A": "Camilo",
       "B": "Luis",
@@ -13499,7 +13529,7 @@
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "labelled_options",
     "source_paragraphs": [
@@ -13523,14 +13553,14 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2018_1_J2_RL_063",
@@ -13660,7 +13690,7 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 65,
-    "question": "El número de parejas posibles que cumplen con la ecuación es",
+    "question": "Se tienen dos números enteros a y b mayores que cero y menores que 20 tales que a/3 - b/2 = 1/6. El número de parejas posibles que cumplen con la ecuación es:",
     "options": {
       "A": "4",
       "B": "5",
@@ -13675,7 +13705,7 @@
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "labelled_options",
     "source_paragraphs": [
@@ -13699,14 +13729,14 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2018_1_J2_RL_066",
@@ -13853,12 +13883,12 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 68,
-    "question": "Se tiene un número de tres cifras mayor que 200, con las siguientes condiciones. -la diferencia entre el mayor y el menor dígito es siete -las cifras de las decenas y las unidades son impares consecutivos",
+    "question": "Se tiene un número de tres cifras mayor que 200, con las siguientes condiciones: la diferencia entre el mayor y el menor dígito es siete; las cifras de las decenas y las unidades son impares consecutivos; el número es divisible entre nueve. El número que va en la mitad es:",
     "options": {
-      "A": "-el número es divisible entre nueve",
-      "B": "El número que va en la mitad es",
-      "C": "A. 3",
-      "D": "B. 5"
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "D": "8"
     },
     "correct_answer": "A",
     "topic": "arithmetic",
@@ -13868,7 +13898,7 @@
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
     "source_paragraphs": [
@@ -13892,14 +13922,14 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
-      "source_text_match": true,
-      "rendered_page_located": true
+      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
+      "rendered_page_located": true,
+      "supporting_material_verified": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "complete_verified"
   },
   {
     "id": "UDEA_2018_1_J2_RL_069",

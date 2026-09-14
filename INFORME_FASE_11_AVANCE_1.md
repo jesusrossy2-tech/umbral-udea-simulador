@@ -79,3 +79,12 @@ El usuario autorizó usar todo el contenido pertinente del ZIP. Para mantener la
 - Material de otras universidades, Formarte, talleres y teoría podrá incorporarse al modo de práctica y a explicaciones, con su procedencia y tipo de fuente visibles.
 - Ningún material externo será rotulado como examen histórico oficial UdeA.
 - Toda pregunta, sin importar su fuente, deberá incluir el texto, fórmula, tabla, gráfica, imagen o estímulo indispensable y superar la misma validación de integridad.
+
+## Avance 4 - corrección de enunciados de Razonamiento Lógico
+
+- Se revisaron las 88 preguntas RL que estaban habilitadas y se identificaron 15 con pérdida comprobable de información.
+- Se reconstruyeron 14 preguntas directamente desde las páginas fuente: ecuaciones, listas numéricas, condiciones, opciones y escenarios compartidos.
+- Se añadieron cuatro recursos textuales compartidos para preguntas sobre números binarios, cajas y objetos, recorridos en un parque y pelotas de colores.
+- Se recuperó la figura faltante de la región sombreada y se vinculó a su enunciado correcto.
+- `UDEA_2017_1_J1_RL_059` fue bloqueada porque era un estímulo compartido extraído erróneamente como pregunta independiente.
+- El banco queda con 206 preguntas elegibles: 119 CL y 87 RL. De ellas, 22 contienen recursos visuales y 124 incorporan texto fuente o contexto compartido.

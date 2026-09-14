@@ -39,7 +39,7 @@ const sources = new Set(eligible.map((question) => `${question.year}-${question.
 const visual = eligible.filter((question) => (question.visual_resources ?? []).length > 0);
 if ((sections.CL?.length ?? 0) < 40 || (sections.RL?.length ?? 0) < 40) throw new Error('The eligible bank cannot support 40 CL + 40 RL.');
 if (sources.size < 2) throw new Error('The eligible bank does not contain multiple historical exams.');
-if (visual.length !== 21) throw new Error(`Expected 21 eligible visual questions, found ${visual.length}.`);
+if (visual.length !== 22) throw new Error(`Expected 22 eligible visual questions, found ${visual.length}.`);
 
 console.log(JSON.stringify({
   total: bank.length,

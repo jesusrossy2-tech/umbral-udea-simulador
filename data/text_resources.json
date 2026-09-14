@@ -70,5 +70,49 @@
       158
     ],
     "verbatim_confidence": "verified"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_BINARY_SET",
+    "type": "text",
+    "title": "Información para responder",
+    "content": "Se tiene el siguiente conjunto de números binarios: {100111, 101101, 101010, 110001}.",
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "source_pages": [
+      8
+    ],
+    "verbatim_confidence": "verified"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_BOXES",
+    "type": "text",
+    "title": "Información para responder",
+    "content": "Sobre una mesa hay 3 cajas y 3 objetos, cada objeto en una caja diferente: un clavo, una llave, una moneda. Se sabe que:\n\n- La caja verde está a la izquierda de la azul.\n- El clavo está inmediatamente a la izquierda de la moneda.\n- La roja está inmediatamente a la derecha de la llave.\n- La moneda está a la derecha de la roja.",
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "source_pages": [
+      9
+    ],
+    "verbatim_confidence": "verified"
+  },
+  {
+    "id": "UDEA_2017_1_J1_RL_PARK",
+    "type": "text",
+    "title": "Información para las preguntas relacionadas",
+    "content": "José da una vuelta al parque caminando a una velocidad constante, María da la vuelta corriendo también a una velocidad constante que es mayor que la de José. Si ambos salen del mismo punto y al mismo tiempo, María pasa a José dos veces y llegan juntos al lugar de partida.",
+    "source_file": "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx",
+    "source_pages": [
+      9
+    ],
+    "verbatim_confidence": "verified"
+  },
+  {
+    "id": "UDEA_2017_2_J1_RL_BALLS",
+    "type": "text",
+    "title": "Información para las preguntas 64 y 65",
+    "content": "Cinco niñas van al parque con pelotas todas ellas de diferente color, intercambian todas las pelotas. Se sabe que:\n\n- Ana está sentada, triste y mira con envidia porque quisiera tener la pelota blanca de Lucía.\n- Lina juega alegremente con la pelota negra de su amiga.\n- La dueña de la pelota roja está jugando con la pelota verde de Rosa.\n- Julia juega a la pelota, mientras mira con envidia a la dueña de la pelota azul.",
+    "source_file": "ExamenUdeA 2017 II J1 print El arte.docx",
+    "source_pages": [
+      8
+    ],
+    "verbatim_confidence": "verified"
   }
 ]
