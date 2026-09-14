@@ -3,6 +3,8 @@ import path from 'node:path';
 
 const projectRoot = path.resolve(import.meta.dirname, '..');
 const bank = JSON.parse(fs.readFileSync(path.join(projectRoot, 'data/question_bank.json'), 'utf8'));
+const textResources = JSON.parse(fs.readFileSync(path.join(projectRoot, 'data/text_resources.json'), 'utf8'));
+const textResourceIds = new Set(textResources.map((resource) => resource.id));
 const ids = new Set();
 
 for (const question of bank) {
@@ -26,6 +28,9 @@ for (const question of bank) {
   if (Object.keys(question.options ?? {}).sort().join('') !== 'ABCD' || Object.values(question.options).some((value) => !String(value).trim())) {
     throw new Error(`Eligible question lacks four complete options: ${question.id}`);
   }
+  if (question.section === 'CL' && (!question.text_resource_ids?.length || question.text_resource_ids.some((id) => !textResourceIds.has(id)))) {
+    throw new Error(`Eligible CL question lacks a valid source text: ${question.id}`);
+  }
 }
 
 const eligible = bank.filter((question) => question.official_exam_eligible);
@@ -34,7 +39,7 @@ const sources = new Set(eligible.map((question) => `${question.year}-${question.
 const visual = eligible.filter((question) => (question.visual_resources ?? []).length > 0);
 if ((sections.CL?.length ?? 0) < 40 || (sections.RL?.length ?? 0) < 40) throw new Error('The eligible bank cannot support 40 CL + 40 RL.');
 if (sources.size < 2) throw new Error('The eligible bank does not contain multiple historical exams.');
-if (visual.length !== 20) throw new Error(`Expected 20 eligible visual questions, found ${visual.length}.`);
+if (visual.length !== 21) throw new Error(`Expected 21 eligible visual questions, found ${visual.length}.`);
 
 console.log(JSON.stringify({
   total: bank.length,
@@ -42,6 +47,7 @@ console.log(JSON.stringify({
   sections: { CL: sections.CL?.length ?? 0, RL: sections.RL?.length ?? 0 },
   eligibleSources: sources.size,
   eligibleWithVisualResources: visual.length,
+  linkedEligibleClQuestions: eligible.filter((question) => question.section === 'CL' && question.text_resource_ids?.length).length,
   pendingReview: bank.filter((question) => question.admin_status === 'needs_review').length,
   incomplete: bank.filter((question) => question.admin_status === 'incomplete').length,
 }, null, 2));

@@ -1,9 +1,11 @@
 import bankData from '../data/question_bank.json';
+import textResourceData from '../data/text_resources.json';
 
 export type BankQuestion = (typeof bankData)[number];
 export type ExamMode = 'full' | 'historical' | 'practice';
 
 export const bank = bankData as BankQuestion[];
+const textResources = new Map(textResourceData.map((resource) => [resource.id, resource]));
 export const examId = (question: BankQuestion) => `UDEA_${question.year}_${question.period}_${question.session || 'J?'}`;
 
 const shuffle = <T,>(items: T[]) => {
@@ -67,5 +69,5 @@ export function buildPractice(pool: BankQuestion[], seen: Set<string>, filters: 
 
 export function publicQuestion(question: BankQuestion, position: number) {
   const { correct_answer: _correct, answer_key_source: _key, eligibility_reasons: _reasons, ...safe } = question;
-  return { ...safe, position, exam_id: examId(question) };
+  return { ...safe, position, exam_id: examId(question), text_resources: question.text_resource_ids.map((id) => textResources.get(id)).filter(Boolean) };
 }

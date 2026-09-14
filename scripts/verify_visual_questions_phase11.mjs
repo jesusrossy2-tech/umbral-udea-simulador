@@ -12,6 +12,11 @@ const verified = {
   UDEA_2017_1_J1_RL_056: { sourceQuestion: 57, pages: [9] },
   UDEA_2017_1_J1_RL_064: { sourceQuestion: 64, pages: [9] },
   UDEA_2017_1_J1_RL_075: { sourceQuestion: 75, pages: [10], visuals: [] },
+  UDEA_2017_1_J1_RL_080: {
+    sourceQuestion: 80,
+    pages: [10, 11],
+    visuals: [['question', 'assets/UDEA_2017_1_J1/5fd8f84d6ea122e6.png']],
+  },
   UDEA_2017_2_J1_RL_050: { sourceQuestion: 51, pages: [6, 7] },
   UDEA_2017_2_J1_RL_052: {
     sourceQuestion: 53,

@@ -60,3 +60,22 @@ Hasta completar esos puntos no debe afirmarse que la fase 11 satisface todo su c
 - La interfaz ahora interpreta tanto recursos del enunciado como recursos asociados específicamente a las opciones A-D.
 
 La fase 11 continúa abierta: faltan por verificar los exámenes sin clave y reparar el resto de registros incompletos o pendientes.
+
+## Avance 3 - integridad del material necesario para responder
+
+- La elegibilidad ahora exige no solo pregunta y opciones, sino también el material indispensable para responderla.
+- Se extrajeron y verificaron seis textos fuente completos correspondientes a los tres exámenes con clave confirmada.
+- Las 119 preguntas CL elegibles quedaron vinculadas a su texto uno, texto dos o a ambos cuando son preguntas comparativas.
+- La interfaz presenta el texto original en un panel legible y desplazable antes del enunciado.
+- La tabla requerida por `UDEA_2017_1_J1_RL_080` se reasignó desde una pregunta vecina y ahora aparece con la pregunta correcta.
+- El banco conserva 207 preguntas elegibles: 119 CL con texto fuente y 88 RL; 21 de ellas incluyen material visual verificado.
+- Las validaciones bloquean la compilación si una pregunta CL elegible carece de texto fuente o si un recurso referenciado no existe.
+
+## Política ampliada de fuentes autorizada por el usuario
+
+El usuario autorizó usar todo el contenido pertinente del ZIP. Para mantener la lógica y trazabilidad del proyecto:
+
+- `Simulacro completo` y `Recrear histórico` conservarán la condición de examen histórico oficial UdeA.
+- Material de otras universidades, Formarte, talleres y teoría podrá incorporarse al modo de práctica y a explicaciones, con su procedencia y tipo de fuente visibles.
+- Ningún material externo será rotulado como examen histórico oficial UdeA.
+- Toda pregunta, sin importar su fuente, deberá incluir el texto, fórmula, tabla, gráfica, imagen o estímulo indispensable y superar la misma validación de integridad.
