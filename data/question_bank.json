@@ -2668,7 +2668,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 44,
-    "question": "En la figura anterior se representan dos cortes de los planos en un cubo, donde uno de ellos contiene la diagonal de la cara frontal y el 2° pasa por los puntos medios de esa misma cara. La fracción del volumen del cubo sombreado",
+    "question": "En la figura se representan dos cortes de planos en un cubo: uno contiene la diagonal de la cara frontal y el segundo pasa por los puntos medios de esa misma cara. La fracción del volumen sombreado del cubo es",
     "options": {
       "A": "1/2",
       "B": "1/4",
@@ -2677,52 +2677,55 @@
     },
     "correct_answer": "C",
     "topic": "geometry",
-    "subtopic": "plane_or_solid_geometry",
-    "skill": "plane_or_solid_geometry",
+    "subtopic": "geometry",
+    "skill": "geometry",
     "difficulty": null,
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
-    "review_reasons": [
-      "visual_reference_requires_asset_check"
-    ],
-    "extraction_method": "blank_block_last_four",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       326,
       330
     ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "embedded_image_markers": 1,
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
       "assets/UDEA_2017_1_J1/367fe199c99ae195.png"
     ],
-    "asset_link_status": "needs_visual_confirmation",
+    "asset_candidates_nearby": [],
+    "asset_link_status": "direct",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "high",
     "classification_evidence": [
       "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2017_1_J1/367fe199c99ae195.png",
+        "placement": "question"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
       "source_text_match": true,
       "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_045",
@@ -2847,7 +2850,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 47,
-    "question": "Se tiene la siguiente operación * definida así El valor de es",
+    "question": "Se tiene la operación * definida por m*n = m·n - m - n. El valor de [(2*2)*2]*2 es",
     "options": {
       "A": "0",
       "B": "-2",
@@ -2855,27 +2858,25 @@
       "D": "-4"
     },
     "correct_answer": "D",
-    "topic": "algebra_and_equations",
-    "subtopic": "equation_or_defined_operation",
-    "skill": "equation_or_defined_operation",
+    "topic": "arithmetic",
+    "subtopic": "arithmetic",
+    "skill": "arithmetic",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
+    "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       344,
       349
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -2886,16 +2887,17 @@
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_048",
@@ -2906,7 +2908,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 48,
-    "question": "El valor de en",
+    "question": "Se tienen las operaciones a ■ b = a² + b² + 2ab y a △ b = a² + b² - 2ab. El valor de y en [(2 ■ 3) + (4 △ 5)]y + 1 = 0 es",
     "options": {
       "A": "25",
       "B": "-1/26",
@@ -2914,30 +2916,25 @@
       "D": "-26"
     },
     "correct_answer": "B",
-    "topic": "algebra_and_equations",
-    "subtopic": "equation_or_defined_operation",
-    "skill": "equation_or_defined_operation",
+    "topic": "algebra",
+    "subtopic": "algebra",
+    "skill": "algebra",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
+    "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
-    "review_reasons": [
-      "short_stem_possible_missing_equation_or_image"
-    ],
-    "extraction_method": "blank_block_last_four",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       353,
       357
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -2948,16 +2945,17 @@
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_049",
@@ -2968,41 +2966,33 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 49,
-    "question": "El sistema binario, es un sistema de numeración en el que los números se representan utilizando solamente dos cifras: cero y uno (0 y 1). Para convertir números en el sistema decimal a sistema binario usamos las potencias de 2 PASO 1 – Numeramos las posiciones de derecha a izquierda comenzando desde el 0. PASO 2 – A cada posición le hacemos corresponder una potencia de base 2 y exponente igual al número de bit. PASO 3 – Por último, se suman todas las potencias que tienen uno en su posición. Ejemplo",
+    "question": "El sistema binario representa los números usando únicamente 0 y 1. Para convertir un número binario al sistema decimal se numeran sus posiciones de derecha a izquierda desde 0, se asocia cada posición con la potencia de 2 correspondiente y se suman las potencias cuyas posiciones contienen 1. En el ejemplo visual, 11001011 equivale a 1 + 2 + 8 + 64 + 128 = 203. Si se tiene el conjunto de números binarios {100111, 101101, 101010, 110001}, ordenados de menor a mayor se obtiene",
     "options": {
-      "A": "El número en el sistema decimal equivale a",
-      "B": "",
-      "C": "1+2+8+64+128= 203",
-      "D": "Si se tiene el siguiente conjunto de números binarios:"
+      "A": "101101, 100111, 110001, 101010",
+      "B": "110001, 101101, 101010, 100111",
+      "C": "101010, 100111, 110001, 101101",
+      "D": "100111, 101010, 101101, 110001"
     },
     "correct_answer": "D",
-    "topic": "algebra_and_equations",
-    "subtopic": "symbolic_reasoning",
-    "skill": "symbolic_reasoning",
+    "topic": "number_systems",
+    "subtopic": "number_systems",
+    "skill": "number_systems",
     "difficulty": null,
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
-    ],
-    "extraction_method": "blank_block_last_four",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       359,
       366
     ],
     "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation",
-      "question_or_options_incomplete_after_visual_review"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_1_J1/ac8db2a84a0de3cb.png"
     ],
@@ -3021,13 +3011,13 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
       "source_text_match": true,
       "rendered_page_located": true
     },
-    "admin_status": "incomplete",
+    "admin_status": "verified",
     "source_question_number": 49,
     "source_pages": [
       8
@@ -3036,7 +3026,8 @@
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_050",
@@ -3047,30 +3038,30 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 50,
-    "question": "Ordenados de menor a mayor se obtiene:",
+    "question": "Luisa quiere sumar 2 números distintos del conjunto {9, 10, 8} y Andrés quiere multiplicar 2 números distintos del conjunto {3, 5, 6}. ¿En cuántos casos es posible que la suma de los números de Luisa sea mayor que la multiplicación de los números de Andrés?",
     "options": {
-      "A": "101101, 100111, 110001, 101010",
-      "B": "110001, 101101, 101010, 100111",
-      "C": "101010, 100111, 110001, 101101",
-      "D": "100111, 101010, 101101, 110001"
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
     },
     "correct_answer": "D",
-    "topic": "logical_relations",
-    "subtopic": "deductive_and_order_reasoning",
-    "skill": "deductive_and_order_reasoning",
+    "topic": "counting",
+    "subtopic": "counting",
+    "skill": "counting",
     "difficulty": null,
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       368,
       372
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -3086,18 +3077,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_reconstruction_from_rendered_source_phase11",
-      "rendered_page_located": true,
-      "supporting_material_verified": true
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
+      "source_text_match": true,
+      "rendered_page_located": true
     },
     "admin_status": "verified",
-    "text_resource_ids": [
-      "UDEA_2017_1_J1_RL_BINARY_SET"
-    ],
-    "required_supporting_material": [
-      "text"
-    ],
-    "supporting_material_status": "complete_verified"
+    "text_resource_ids": [],
+    "required_supporting_material": [],
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_051",
@@ -3108,30 +3096,30 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 51,
-    "question": "Luisa quiere sumar 2 números distintos del conjunto 9, 10, 8, y Andrés quiere multiplicar 2 números distintos del conjunto 3, 5, 6. ¿En cuántos casos es posible que la suma de los números de luisa sea mayor que la multiplicación de dos números de Andrés?",
+    "question": "Ana y Bernardo tienen el siguiente diálogo. Ana le pide a Bernardo que piense un número, le sume 2, multiplique el resultado por el número inicial y finalmente sume 1. Cuando Bernardo dice el resultado, Ana descubre de inmediato el número que pensó. El mínimo número de operaciones que Ana debe efectuar para descubrirlo es",
     "options": {
-      "A": "1",
-      "B": "2",
-      "C": "3",
-      "D": "4"
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "1"
     },
     "correct_answer": "C",
-    "topic": "sets",
-    "subtopic": "set_operations",
-    "skill": "set_operations",
+    "topic": "algebra",
+    "subtopic": "algebra",
+    "skill": "algebra",
     "difficulty": null,
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       374,
       378
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -3147,14 +3135,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_052",
@@ -3165,30 +3154,30 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 52,
-    "question": "Ana y Bernardo tienen el siguiente dialogo: Ana: Piense un número, Bernardo Bernardo: ¡listo! Ana: Ahora súmale 2 a ese número Bernardo: O.K. Ana: Multiplica el resultado por el número que pensaste inicialmente Bernardo: O.K. Ana: Súmale ahora 1 a ese resultado Bernardo: O.K. Ana: ¿Cuál fue el resultado? En ese momento Bernardo responde y casi que inmediatamente Ana le dice: Ana: el número que pensaste fue… El mínimo número de operaciones que Ana debe efectuar para descubrir el número que pensó Bernardo es:",
+    "question": "Ana tiene 18 dulces menos que Beatriz y Carolina juntas. Beatriz tiene 8 dulces menos que Ana y Carolina juntas. Son verdaderas: I. Ana tiene menos dulces que Beatriz. II. Carolina tiene 13 dulces. III. La diferencia entre los dulces de Beatriz y Ana es 5.",
     "options": {
-      "A": "4",
-      "B": "3",
-      "C": "2",
-      "D": "1"
+      "A": "II y III",
+      "B": "I y II",
+      "C": "I y III",
+      "D": "I, II y III"
     },
     "correct_answer": "D",
-    "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "topic": "algebra",
+    "subtopic": "algebra",
+    "skill": "algebra",
     "difficulty": null,
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       380,
       396
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
@@ -3204,14 +3193,15 @@
     "visual_resources": [],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_053",
@@ -3222,53 +3212,64 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 53,
-    "question": "Ana tiene 18 dulces menos que Beatriz y Carolina juntos. Beatriz tiene 8 dulces menos que Ana y Carolina juntas. Son verdaderas Ana tiene menos dulces que Beatriz Carolina tiene 13 La diferencia entre los dulces de Beatriz y Ana es 5",
+    "question": "Cuatro dados cuyas caras opuestas suman 7 están unidos por las caras con el mismo valor, como muestra la figura. El valor de ? es",
     "options": {
-      "A": "II y III",
-      "B": "I y II",
-      "C": "I y III",
-      "D": "I, II y III"
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "2"
     },
     "correct_answer": "A",
-    "topic": "logical_relations",
-    "subtopic": "ordering_or_deductive_relation",
-    "skill": "ordering_or_deductive_relation",
+    "topic": "spatial_reasoning",
+    "subtopic": "spatial_reasoning",
+    "skill": "spatial_reasoning",
     "difficulty": null,
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       398,
       405
     ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "embedded_image_markers": 1,
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
     "official_exam_eligible": true,
     "eligibility_reasons": [],
-    "assets": [],
+    "assets": [
+      "assets/UDEA_2017_1_J1/9060de168fa8294d.png"
+    ],
     "asset_candidates_nearby": [],
-    "asset_link_status": "none",
+    "asset_link_status": "direct",
     "classification_method": "semantic_review_phase11",
     "classification_confidence": "medium",
     "classification_evidence": [
       "ordering_or_deductive_relation"
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2017_1_J1/9060de168fa8294d.png",
+        "placement": "question"
+      }
+    ],
     "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
       "source_text_match": true,
       "rendered_page_located": true
     },
     "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_054",
@@ -3467,7 +3468,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 57,
-    "question": "Se forma un cubo con 64 cubitos, del cual se pinta 3 caras de color negro y 3 caras de color blanca de tal forma que ningún cubito tenga tres caras pintadas de color negro El número de cubitos que tienen solo una cara pintada de negro y otra de blanco son",
+    "question": "Se forma un cubo con 64 cubitos. Se pintan 3 caras del cubo de color negro y 3 de color blanco, de tal forma que ningún cubito tenga tres caras pintadas de negro. El número de cubitos que tienen solo una cara pintada de negro y otra de blanco es",
     "options": {
       "A": "30",
       "B": "24",
@@ -3476,32 +3477,27 @@
     },
     "correct_answer": "D",
     "topic": "geometry",
-    "subtopic": "plane_or_solid_geometry",
-    "skill": "plane_or_solid_geometry",
+    "subtopic": "geometry",
+    "skill": "geometry",
     "difficulty": null,
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       437,
       442
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
-    "asset_candidates_nearby": [
-      "assets/UDEA_2017_1_J1/b6dcee625f15e191.png"
-    ],
-    "asset_link_status": "needs_visual_confirmation",
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "high",
     "classification_evidence": [
@@ -3509,16 +3505,17 @@
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
       "source_text_match": true,
       "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_058",
@@ -3529,7 +3526,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 58,
-    "question": "Un piso cuadrado se recubre con baldosines cuadrados iguales. Las baldosas de las dos diagonales son de color negro y el resto son blancas, si hay exactamente 101 baldosines negros, entonces el número total de baldosines que cubren el piso es",
+    "question": "Un piso cuadrado se recubre con baldosines cuadrados iguales. Los baldosines de las dos diagonales son negros y el resto son blancos. Si hay exactamente 101 baldosines negros, el número total de baldosines que cubren el piso es",
     "options": {
       "A": "3600",
       "B": "2500",
@@ -3537,33 +3534,28 @@
       "D": "2601"
     },
     "correct_answer": "D",
-    "topic": "geometry",
-    "subtopic": "plane_or_solid_geometry",
-    "skill": "plane_or_solid_geometry",
+    "topic": "arithmetic",
+    "subtopic": "arithmetic",
+    "skill": "arithmetic",
     "difficulty": null,
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       444,
       448
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
-    "asset_candidates_nearby": [
-      "assets/UDEA_2017_1_J1/b6dcee625f15e191.png"
-    ],
-    "asset_link_status": "needs_visual_confirmation",
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "high",
     "classification_evidence": [
@@ -3571,16 +3563,17 @@
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
       "source_text_match": true,
       "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_059",
@@ -3591,55 +3584,64 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 59,
-    "question": "Sobre una mesa hay 3 cajas y 3 objetos, cada objeto en una caja diferente: un clavo, una llave, una moneda. Se sabe que:",
+    "question": "En la figura se tiene un hexágono regular y un cuadrado cuyo lado es igual al lado del hexágono. El cociente entre el área del hexágono y el área del cuadrado es",
     "options": {
-      "A": "La caja verde está a la izquierda de la azul",
-      "B": "El clavo está inmediatamente a la izquierda de la moneda",
-      "C": "La roja está inmediatamente a la derecha de la llave",
-      "D": "La moneda está a la derecha de la roja"
+      "A": "√2/3",
+      "B": "3√3/2",
+      "C": "2√2/3",
+      "D": "√3/3"
     },
     "correct_answer": "B",
-    "topic": "logical_relations",
-    "subtopic": "ordering_or_deductive_relation",
-    "skill": "ordering_or_deductive_relation",
+    "topic": "geometry",
+    "subtopic": "geometry",
+    "skill": "geometry",
     "difficulty": null,
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "incomplete",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "two_question_block_part_1",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       457,
       461
     ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "embedded_image_markers": 1,
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "extracted_shared_stimulus_as_standalone_question"
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2017_1_J1/q59_hexagono_cuadrado.png"
     ],
-    "assets": [],
     "asset_candidates_nearby": [],
-    "asset_link_status": "none",
+    "asset_link_status": "direct",
     "classification_method": "semantic_review_phase11",
     "classification_confidence": "medium",
     "classification_evidence": [
       "ordering_or_deductive_relation"
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2017_1_J1/q59_hexagono_cuadrado.png",
+        "placement": "question"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "source_text_match_plus_rendered_page_locator",
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
       "source_text_match": true,
       "rendered_page_located": true
     },
-    "admin_status": "incomplete",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "incomplete"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_060",
@@ -4074,7 +4076,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 67,
-    "question": "Si , la suma de los dígitos de x es",
+    "question": "Si x = 10 + 10² + 10³ + … + 10²⁰, la suma de los dígitos de x es",
     "options": {
       "A": "19",
       "B": "20",
@@ -4083,26 +4085,24 @@
     },
     "correct_answer": "B",
     "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "subtopic": "arithmetic",
+    "skill": "arithmetic",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
+    "source_page": 10,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       506,
       510
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -4113,16 +4113,17 @@
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_068",
@@ -4361,46 +4362,36 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 72,
-    "question": "En un colegio hay 300 estudiantes donde todos reciben clase al mismo tiempo. Cada estudiante recibe 4 cursos y cada profesor dicta clase en 4 de estos cursos. Si cada curso está formado por 4 profesores y 25 estudiantes, el número de profesores del colegio es 12 24",
+    "question": "En un colegio hay 300 estudiantes y todos reciben clase al mismo tiempo. Cada estudiante recibe 4 cursos y cada profesor dicta clase en 4 de estos cursos. Si cada curso está formado por 4 profesores y 25 estudiantes, el número de profesores del colegio es",
     "options": {
-      "A": "36",
-      "B": "48",
-      "C": "Los siguientes arreglos de platos P, Q, R, están colocados en orden creciente de peso",
-      "D": ""
+      "A": "12",
+      "B": "24",
+      "C": "36",
+      "D": "48"
     },
     "correct_answer": "A",
     "topic": "arithmetic",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "subtopic": "arithmetic",
+    "skill": "arithmetic",
     "difficulty": null,
     "question_type": null,
     "source_page": 10,
     "confidence": "confirmed_by_key",
-    "verification_status": "incomplete",
-    "review_reasons": [
-      "embedded_image_in_question_block",
-      "missing_stem_or_four_options"
-    ],
-    "extraction_method": "blank_block_last_four",
+    "verification_status": "verified_by_visual_review",
+    "review_reasons": [],
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       540,
       546
     ],
-    "embedded_image_markers": 1,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "embedded_image_markers": 0,
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation",
-      "question_or_options_incomplete_after_visual_review"
-    ],
-    "assets": [
-      "assets/UDEA_2017_1_J1/85ece73cd1acfcc1.png"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [],
     "asset_candidates_nearby": [],
-    "asset_link_status": "direct",
+    "asset_link_status": "none",
     "classification_method": "deterministic_semantic_rules_v1",
     "classification_confidence": "medium",
     "classification_evidence": [
@@ -4408,20 +4399,21 @@
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
       "source_text_match": true,
       "rendered_page_located": true
     },
-    "admin_status": "incomplete",
+    "admin_status": "verified",
     "source_question_number": 72,
     "source_pages": [
       10
     ],
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_073",
@@ -4432,7 +4424,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 73,
-    "question": "Se quiere acomodar el arreglo S, conservando el mismo orden, entonces el lugar donde debe situarse S es:",
+    "question": "Los arreglos de platos P, Q y R de la primera figura están colocados en orden creciente de peso. Se quiere acomodar el arreglo S de la segunda figura conservando el mismo orden. El lugar donde debe situarse S es",
     "options": {
       "A": "Antes de P",
       "B": "Entre P y Q",
@@ -4440,50 +4432,62 @@
       "D": "Después de R"
     },
     "correct_answer": "C",
-    "topic": "arithmetic_quantitative",
-    "subtopic": "quantitative_reasoning",
-    "skill": "quantitative_reasoning",
+    "topic": "logical_relations",
+    "subtopic": "logical_relations",
+    "skill": "logical_relations",
     "difficulty": null,
     "question_type": null,
     "source_page": 10,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       554,
       558
     ],
-    "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "embedded_image_markers": 2,
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
-    "assets": [],
-    "asset_candidates_nearby": [
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
+    "assets": [
+      "assets/UDEA_2017_1_J1/85ece73cd1acfcc1.png",
       "assets/UDEA_2017_1_J1/a005f642dbc87b7a.png"
     ],
-    "asset_link_status": "needs_visual_confirmation",
+    "asset_candidates_nearby": [],
+    "asset_link_status": "direct",
     "classification_method": "semantic_review_phase11",
     "classification_confidence": "medium",
     "classification_evidence": [
       "quantitative_reasoning"
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "visual_resources": [
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2017_1_J1/85ece73cd1acfcc1.png",
+        "placement": "question"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2017_1_J1/a005f642dbc87b7a.png",
+        "placement": "question"
+      }
+    ],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
       "source_text_match": true,
       "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "required_supporting_material": [
+      "visual"
+    ],
+    "supporting_material_status": "complete_verified",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_074",
@@ -4731,7 +4735,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 78,
-    "question": "En la siguiente secuencia El primero y el último de la fila 30 son",
+    "question": "En la siguiente secuencia: fila 1, 1 + 2 = 3; fila 2, 4 + 5 + 6 = 7 + 8; fila 3, 9 + 10 + 11 + 12 = 13 + 14 + 15. El primero y el último de la fila 30 son",
     "options": {
       "A": "900 y 960",
       "B": "850 y 900",
@@ -4739,27 +4743,25 @@
       "D": "925 y 999"
     },
     "correct_answer": "A",
-    "topic": "sequences_and_patterns",
-    "subtopic": "numeric_or_visual_sequences",
-    "skill": "numeric_or_visual_sequences",
+    "topic": "sequences",
+    "subtopic": "sequences",
+    "skill": "sequences",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
+    "source_page": 11,
     "confidence": "confirmed_by_key",
-    "verification_status": "clean",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [],
-    "extraction_method": "blank_block_last_four",
+    "extraction_method": "manual_rendered_page_transcription",
     "source_paragraphs": [
       588,
       593
     ],
     "embedded_image_markers": 0,
-    "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
+    "answer_key_source": "Exámenes/Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -4770,16 +4772,17 @@
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
-      "source_text_match": false,
-      "rendered_page_located": false
+      "method": "manual_rendered_page_transcription_and_key_match_with_source_numbering_normalized",
+      "source_text_match": true,
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2017_1_J1_RL_079",
