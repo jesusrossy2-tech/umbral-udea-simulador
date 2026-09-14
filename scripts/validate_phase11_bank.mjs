@@ -31,6 +31,12 @@ for (const question of bank) {
   if (question.section === 'CL' && (!question.text_resource_ids?.length || question.text_resource_ids.some((id) => !textResourceIds.has(id)))) {
     throw new Error(`Eligible CL question lacks a valid source text: ${question.id}`);
   }
+  if (question.required_supporting_material?.includes('visual') && !(question.visual_resources ?? []).length) {
+    throw new Error(`Eligible question lacks its required visual material: ${question.id}`);
+  }
+  if (question.required_supporting_material?.includes('text') && (!question.text_resource_ids?.length || question.text_resource_ids.some((id) => !textResourceIds.has(id)))) {
+    throw new Error(`Eligible question lacks its required text material: ${question.id}`);
+  }
 }
 
 const eligible = bank.filter((question) => question.official_exam_eligible);
@@ -39,7 +45,7 @@ const sources = new Set(eligible.map((question) => `${question.year}-${question.
 const visual = eligible.filter((question) => (question.visual_resources ?? []).length > 0);
 if ((sections.CL?.length ?? 0) < 40 || (sections.RL?.length ?? 0) < 40) throw new Error('The eligible bank cannot support 40 CL + 40 RL.');
 if (sources.size < 2) throw new Error('The eligible bank does not contain multiple historical exams.');
-if (visual.length !== 22) throw new Error(`Expected 22 eligible visual questions, found ${visual.length}.`);
+if (visual.length < 23) throw new Error(`Expected at least 23 eligible visual questions, found ${visual.length}.`);
 
 console.log(JSON.stringify({
   total: bank.length,

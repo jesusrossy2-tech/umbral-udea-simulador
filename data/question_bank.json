@@ -16992,14 +16992,14 @@
       "C": "9",
       "D": "12"
     },
-    "correct_answer": null,
+    "correct_answer": "C",
     "topic": "arithmetic",
     "subtopic": "quantitative_reasoning",
     "skill": "quantitative_reasoning",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 5,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -17008,12 +17008,8 @@
       279
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -17022,18 +17018,20 @@
     "classification_evidence": [
       "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "source_text_match_plus_rendered_page_locator",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_042",
@@ -17051,14 +17049,14 @@
       "C": "1.3 Kg",
       "D": "1.4 Kg"
     },
-    "correct_answer": null,
+    "correct_answer": "D",
     "topic": "arithmetic_quantitative",
     "subtopic": "quantitative_reasoning",
     "skill": "quantitative_reasoning",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 5,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -17067,12 +17065,8 @@
       285
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -17081,18 +17075,20 @@
     "classification_evidence": [
       "quantitative_reasoning"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "source_text_match_plus_rendered_page_locator",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_043",
@@ -17110,14 +17106,14 @@
       "C": "Hubo una ganancia total de $20000",
       "D": "Hubo una pérdida total de $5000"
     },
-    "correct_answer": null,
+    "correct_answer": "A",
     "topic": "percentages_and_proportions",
     "subtopic": "proportional_reasoning",
     "skill": "proportional_reasoning",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 5,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -17126,12 +17122,8 @@
       291
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -17140,18 +17132,20 @@
     "classification_evidence": [
       "(?:%|\\bporcentaje|proporci[oó]n|regla de tres|razón|duplica|triple|mitad|tercera parte)"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "source_text_match_plus_rendered_page_locator",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_044",
@@ -17169,14 +17163,14 @@
       "C": "60",
       "D": "70"
     },
-    "correct_answer": null,
+    "correct_answer": "D",
     "topic": "percentages_and_proportions",
     "subtopic": "proportional_reasoning",
     "skill": "proportional_reasoning",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 5,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -17185,12 +17179,8 @@
       297
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -17199,18 +17189,20 @@
     "classification_evidence": [
       "(?:%|\\bporcentaje|proporci[oó]n|regla de tres|razón|duplica|triple|mitad|tercera parte)"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "source_text_match_plus_rendered_page_locator",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_045",
@@ -17228,31 +17220,24 @@
       "C": "2/60",
       "D": "1/6"
     },
-    "correct_answer": null,
+    "correct_answer": "B",
     "topic": "probability",
     "subtopic": "random_events",
     "skill": "random_events",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
-    "verification_status": "needs_review",
-    "review_reasons": [
-      "embedded_image_in_question_block"
-    ],
+    "source_page": 5,
+    "confidence": "confirmed_by_key",
+    "verification_status": "clean",
+    "review_reasons": [],
     "extraction_method": "blank_block_last_four",
     "source_paragraphs": [
       299,
       305
     ],
     "embedded_image_markers": 1,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2018_1_J3/6e6b50b6e4d43c76.png"
     ],
@@ -17263,7 +17248,7 @@
     "classification_evidence": [
       "\\b(probabilidad|azar|balotas?|bolas?|dados?|cartas?)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [
       {
         "type": "image",
@@ -17271,18 +17256,20 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "source_text_match_plus_rendered_page_locator",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [
       "visual"
     ],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "complete_verified",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_046",
@@ -17300,14 +17287,14 @@
       "C": "15%",
       "D": "20%"
     },
-    "correct_answer": null,
+    "correct_answer": "A",
     "topic": "percentages_and_proportions",
     "subtopic": "proportional_reasoning",
     "skill": "proportional_reasoning",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 5,
+    "confidence": "confirmed_by_key",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "blank_block_last_four",
@@ -17316,12 +17303,8 @@
       311
     ],
     "embedded_image_markers": 0,
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [],
     "asset_candidates_nearby": [],
     "asset_link_status": "none",
@@ -17330,18 +17313,20 @@
     "classification_evidence": [
       "(?:%|\\bporcentaje|proporci[oó]n|regla de tres|razón|duplica|triple|mitad|tercera parte)"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "source_text_match_plus_rendered_page_locator",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true
     },
-    "admin_status": "needs_review",
+    "admin_status": "verified",
     "text_resource_ids": [],
     "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "supporting_material_status": "not_required",
+    "answer_key_source": "Exámenes/Con respuestas/2018-1 j3/Screenshot_20200318-225258.png",
+    "answer_key_verification": "manual_visual_transcription"
   },
   {
     "id": "UDEA_2018_1_J3_RL_047",

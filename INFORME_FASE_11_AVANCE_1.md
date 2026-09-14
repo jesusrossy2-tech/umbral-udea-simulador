@@ -88,3 +88,14 @@ El usuario autorizó usar todo el contenido pertinente del ZIP. Para mantener la
 - Se recuperó la figura faltante de la región sombreada y se vinculó a su enunciado correcto.
 - `UDEA_2017_1_J1_RL_059` fue bloqueada porque era un estímulo compartido extraído erróneamente como pregunta independiente.
 - El banco queda con 206 preguntas elegibles: 119 CL y 87 RL. De ellas, 22 contienen recursos visuales y 124 incorporan texto fuente o contexto compartido.
+
+## Avance 5 - incorporación del examen UdeA 2018-1 Jornada 3
+
+- Se localizó y revisó visualmente la clave original asociada al examen `UDEA_2018_1_J3`.
+- La clave confirma respuestas de Razonamiento Lógico para las preguntas 41 a 77; las respuestas de Competencia Lectora aparecen vacías y permanecen bloqueadas.
+- Se cotejaron contra la página renderizada del DOCX las preguntas 41 a 46 y sus cuatro opciones.
+- Se habilitaron seis preguntas RL adicionales con respuesta confirmada, página localizada y literalidad verificada.
+- La pregunta 45 conserva la tabla de congresistas necesaria para responderla y queda marcada como material visual completo y verificado.
+- El banco alcanza 212 preguntas elegibles: 119 CL y 93 RL, procedentes de cuatro exámenes históricos UdeA con clave.
+- Hay 23 preguntas elegibles con recursos visuales verificados.
+- Las preguntas 47 a 77 continúan bloqueadas hasta reconstruir su numeración, escenarios compartidos, fórmulas y figuras sin pérdidas.
