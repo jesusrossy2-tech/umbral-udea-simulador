@@ -47,3 +47,16 @@ La orden correctiva está en ejecución. Este avance completa la auditoría inte
 5. Revalidar la distribución temática con el banco ampliado.
 
 Hasta completar esos puntos no debe afirmarse que la fase 11 satisface todo su criterio de aceptación.
+
+## Avance 2 - verificación de recursos visuales
+
+- Se compararon contra las páginas renderizadas los 24 registros visuales de los tres exámenes que tienen clave confirmada.
+- Se verificaron 22 preguntas adicionales; el banco elegible pasó de 185 a 207 preguntas (119 CL y 88 RL).
+- Veinte preguntas elegibles ya conservan y muestran recursos visuales revisados.
+- Se corrigió la asignación individual de las cuatro figuras de respuesta de la pregunta `UDEA_2017_2_J1_RL_052`.
+- Se reconstruyeron desde la fuente las expresiones matemáticas omitidas en `UDEA_2017_2_J1_RL_058` y `UDEA_2017_2_J1_RL_073`.
+- Se retiraron asociaciones falsas en las que una imagen pertenecía a una pregunta vecina.
+- Dos registros visuales de este lote continúan bloqueados por extracción incompleta: `UDEA_2017_1_J1_RL_049` y `UDEA_2017_1_J1_RL_072`.
+- La interfaz ahora interpreta tanto recursos del enunciado como recursos asociados específicamente a las opciones A-D.
+
+La fase 11 continúa abierta: faltan por verificar los exámenes sin clave y reparar el resto de registros incompletos o pendientes.

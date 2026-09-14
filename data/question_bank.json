@@ -2183,7 +2183,7 @@
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -2195,12 +2195,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_1_J1/0dd8126ec1ebf48a.png"
     ],
@@ -2219,13 +2215,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 41,
+    "source_pages": [
+      7
+    ]
   },
   {
     "id": "UDEA_2017_1_J1_RL_042",
@@ -2251,7 +2252,7 @@
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -2263,12 +2264,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_1_J1/41616767ddce9e6a.png"
     ],
@@ -2287,13 +2284,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 42,
+    "source_pages": [
+      7
+    ]
   },
   {
     "id": "UDEA_2017_1_J1_RL_043",
@@ -2319,7 +2321,7 @@
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -2331,12 +2333,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_1_J1/367fe199c99ae195.png"
     ],
@@ -2348,20 +2346,19 @@
       "\\b(área|perímetro|volumen|ángulo|triángulo|cuadrado|rectángulo|círculo|circunferencia|cubo|cilindro|radio|diagonal|plano|figura|sólido)\\b"
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [
-      {
-        "type": "image",
-        "asset": "assets/UDEA_2017_1_J1/367fe199c99ae195.png",
-        "placement": "question"
-      }
-    ],
-    "verbatim_confidence": "needs_review",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 43,
+    "source_pages": [
+      7
+    ]
   },
   {
     "id": "UDEA_2017_1_J1_RL_044",
@@ -2689,7 +2686,8 @@
     "eligibility_reasons": [
       "question_extraction_not_clean",
       "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
+      "visual_asset_requires_confirmation",
+      "question_or_options_incomplete_after_visual_review"
     ],
     "assets": [
       "assets/UDEA_2017_1_J1/ac8db2a84a0de3cb.png"
@@ -2715,7 +2713,11 @@
       "source_text_match": true,
       "rendered_page_located": true
     },
-    "admin_status": "incomplete"
+    "admin_status": "incomplete",
+    "source_question_number": 49,
+    "source_pages": [
+      8
+    ]
   },
   {
     "id": "UDEA_2017_1_J1_RL_050",
@@ -3065,7 +3067,7 @@
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -3077,12 +3079,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_1_J1/b6dcee625f15e191.png"
     ],
@@ -3101,13 +3099,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 57,
+    "source_pages": [
+      9
+    ]
   },
   {
     "id": "UDEA_2017_1_J1_RL_057",
@@ -3521,7 +3524,7 @@
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -3533,12 +3536,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_1_J1/e5ea8a3ba113f255.png"
     ],
@@ -3557,13 +3556,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 64,
+    "source_pages": [
+      9
+    ]
   },
   {
     "id": "UDEA_2017_1_J1_RL_065",
@@ -3986,7 +3990,8 @@
     "eligibility_reasons": [
       "question_extraction_not_clean",
       "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
+      "visual_asset_requires_confirmation",
+      "question_or_options_incomplete_after_visual_review"
     ],
     "assets": [
       "assets/UDEA_2017_1_J1/85ece73cd1acfcc1.png"
@@ -3999,20 +4004,18 @@
       "\\b(suma|resta|multiplica|divide|fracción|número|cantidad|dinero|precio|edad|dígitos?)\\b"
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [
-      {
-        "type": "image",
-        "asset": "assets/UDEA_2017_1_J1/85ece73cd1acfcc1.png",
-        "placement": "question"
-      }
-    ],
+    "visual_resources": [],
     "verbatim_confidence": "needs_review",
     "verbatim_verification": {
       "method": "pending_manual_review",
       "source_text_match": true,
       "rendered_page_located": true
     },
-    "admin_status": "incomplete"
+    "admin_status": "incomplete",
+    "source_question_number": 72,
+    "source_pages": [
+      10
+    ]
   },
   {
     "id": "UDEA_2017_1_J1_RL_073",
@@ -4151,7 +4154,7 @@
     "question_type": null,
     "source_page": 10,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -4163,12 +4166,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2017-1 j1/Screenshot_20200318-223714.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_1_J1/5fd8f84d6ea122e6.png"
     ],
@@ -4180,20 +4179,19 @@
       "\\b(tabla|gráfica|diagrama|encuesta|promedio|media aritmética)\\b"
     ],
     "source_category": "EXAM_WITH_ANSWERS_UDEA",
-    "visual_resources": [
-      {
-        "type": "image",
-        "asset": "assets/UDEA_2017_1_J1/5fd8f84d6ea122e6.png",
-        "placement": "question"
-      }
-    ],
-    "verbatim_confidence": "needs_review",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 75,
+    "source_pages": [
+      10
+    ]
   },
   {
     "id": "UDEA_2017_1_J1_RL_076",
@@ -7149,7 +7147,7 @@
     "question_type": null,
     "source_page": 6,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -7161,12 +7159,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_2_J1/17cb31d003bc4cd9.png"
     ],
@@ -7185,13 +7179,19 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 51,
+    "source_pages": [
+      6,
+      7
+    ]
   },
   {
     "id": "UDEA_2017_2_J1_RL_051",
@@ -7273,7 +7273,7 @@
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -7285,12 +7285,8 @@
     "embedded_image_markers": 3,
     "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_2_J1/5e1ce873c22eee77.png",
       "assets/UDEA_2017_2_J1/930cca3093065867.png",
@@ -7308,32 +7304,43 @@
     "visual_resources": [
       {
         "type": "image",
-        "asset": "assets/UDEA_2017_2_J1/5e1ce873c22eee77.png",
-        "placement": "question"
+        "asset": "assets/UDEA_2017_2_J1/fb70e856322c5534.png",
+        "placement": "option_A"
       },
       {
         "type": "image",
         "asset": "assets/UDEA_2017_2_J1/930cca3093065867.png",
-        "placement": "question"
+        "placement": "option_B"
+      },
+      {
+        "type": "image",
+        "asset": "assets/UDEA_2017_2_J1/5e1ce873c22eee77.png",
+        "placement": "option_C"
       },
       {
         "type": "image",
         "asset": "assets/UDEA_2017_2_J1/b0bd437eaf0658b5.png",
-        "placement": "question"
-      },
-      {
-        "type": "image",
-        "asset": "assets/UDEA_2017_2_J1/fb70e856322c5534.png",
-        "placement": "question"
+        "placement": "option_D"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 53,
+    "source_pages": [
+      7
+    ],
+    "option_assets": {
+      "A": "assets/UDEA_2017_2_J1/fb70e856322c5534.png",
+      "B": "assets/UDEA_2017_2_J1/930cca3093065867.png",
+      "C": "assets/UDEA_2017_2_J1/5e1ce873c22eee77.png",
+      "D": "assets/UDEA_2017_2_J1/b0bd437eaf0658b5.png"
+    }
   },
   {
     "id": "UDEA_2017_2_J1_RL_053",
@@ -7359,7 +7366,7 @@
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -7371,12 +7378,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_2_J1/deeef7d36aa92e36.png"
     ],
@@ -7395,13 +7398,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 54,
+    "source_pages": [
+      7
+    ]
   },
   {
     "id": "UDEA_2017_2_J1_RL_054",
@@ -7481,7 +7489,7 @@
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -7493,12 +7501,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_2_J1/e0f1b6d7610aed74.png"
     ],
@@ -7517,13 +7521,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 56,
+    "source_pages": [
+      7
+    ]
   },
   {
     "id": "UDEA_2017_2_J1_RL_056",
@@ -7646,12 +7655,12 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 58,
-    "question": "Se hace una figura de alambre que consta de una circunferencia de radio igual a 4 cm y dos diámetros perpendiculares. Si una hormiga recorre toda la estructura son hacer interrupciones, la mínima longitud que recorre es:",
+    "question": "Se hace una figura de alambre que consta de una circunferencia de radio igual a 4 cm y dos diámetros perpendiculares. Si una hormiga recorre toda la estructura sin hacer interrupciones, la mínima longitud que recorre es:",
     "options": {
-      "A": "A.",
-      "B": "B.",
-      "C": "C.",
-      "D": "D."
+      "A": "4(3π + 4)",
+      "B": "6(2π + 3)",
+      "C": "2(5π + 8)",
+      "D": "2(5π + 9)"
     },
     "correct_answer": "A",
     "topic": "geometry",
@@ -7661,7 +7670,7 @@
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -7673,12 +7682,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_2_J1/364cc63704796e28.png"
     ],
@@ -7697,13 +7702,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 59,
+    "source_pages": [
+      8
+    ]
   },
   {
     "id": "UDEA_2017_2_J1_RL_059",
@@ -7783,7 +7793,7 @@
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -7795,12 +7805,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_2_J1/54d565531c717606.png"
     ],
@@ -7819,13 +7825,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 61,
+    "source_pages": [
+      8
+    ]
   },
   {
     "id": "UDEA_2017_2_J1_RL_061",
@@ -8490,7 +8501,7 @@
     "session": "J1",
     "section": "RL",
     "original_question_number": 73,
-    "question": "Se tiene la siguiente operación arbitraria *, representada en la tabla, en donde se lee primero la letra de la fila y luego la letra de la columna, así, el resultado de es , y el resultado de es , además, si es igual a , entonces, el resultado de la operación es:",
+    "question": "Se tiene la siguiente operación arbitraria *, representada en la tabla, en donde se lee primero la letra de la fila y luego la letra de la columna, así, el resultado de a*b es b, y el resultado de b*c es d; además, si x² es igual a x*x, entonces, el resultado de la operación (((a*b)*c)*d)² es:",
     "options": {
       "A": "c",
       "B": "d",
@@ -8505,7 +8516,7 @@
     "question_type": null,
     "source_page": 9,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -8517,12 +8528,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_2_J1/09b8492567e234f5.png"
     ],
@@ -8541,13 +8548,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 72,
+    "source_pages": [
+      9
+    ]
   },
   {
     "id": "UDEA_2017_2_J1_RL_074",
@@ -8573,7 +8585,7 @@
     "question_type": null,
     "source_page": 10,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -8585,12 +8597,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2017-2 j1/Screenshot_20200318-224037.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2017_2_J1/e41bcc374825585d.png"
     ],
@@ -8609,13 +8617,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 73,
+    "source_pages": [
+      10
+    ]
   },
   {
     "id": "UDEA_2017_2_J1_RL_075",
@@ -11781,7 +11794,7 @@
     "question_type": null,
     "source_page": 5,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -11793,12 +11806,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2018_1_J2/e87958e8f3ca90e6.png"
     ],
@@ -11817,13 +11826,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 54,
+    "source_pages": [
+      5
+    ]
   },
   {
     "id": "UDEA_2018_1_J2_RL_054",
@@ -12506,7 +12520,7 @@
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -12518,12 +12532,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2018_1_J2/39d50783735fd9d8.png"
     ],
@@ -12542,13 +12552,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 67,
+    "source_pages": [
+      7
+    ]
   },
   {
     "id": "UDEA_2018_1_J2_RL_067",
@@ -12743,7 +12758,7 @@
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -12755,12 +12770,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2018_1_J2/c8b1f3147404cd3f.png"
     ],
@@ -12779,13 +12790,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 71,
+    "source_pages": [
+      7
+    ]
   },
   {
     "id": "UDEA_2018_1_J2_RL_071",
@@ -12811,7 +12827,7 @@
     "question_type": null,
     "source_page": 7,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -12823,12 +12839,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2018_1_J2/d484f47fde45bba8.png"
     ],
@@ -12847,13 +12859,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 72,
+    "source_pages": [
+      7
+    ]
   },
   {
     "id": "UDEA_2018_1_J2_RL_072",
@@ -12997,7 +13014,7 @@
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -13009,12 +13026,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2018_1_J2/681b98699fa107e1.png"
     ],
@@ -13033,13 +13046,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 75,
+    "source_pages": [
+      8
+    ]
   },
   {
     "id": "UDEA_2018_1_J2_RL_075",
@@ -13065,7 +13083,7 @@
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -13077,12 +13095,8 @@
     "embedded_image_markers": 1,
     "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2018_1_J2/d1a0d50a245a0c35.png"
     ],
@@ -13101,13 +13115,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 76,
+    "source_pages": [
+      8
+    ]
   },
   {
     "id": "UDEA_2018_1_J2_RL_076",
@@ -13307,7 +13326,7 @@
     "question_type": null,
     "source_page": 8,
     "confidence": "confirmed_by_key",
-    "verification_status": "needs_review",
+    "verification_status": "verified_by_visual_review",
     "review_reasons": [
       "embedded_image_in_question_block"
     ],
@@ -13319,12 +13338,8 @@
     "embedded_image_markers": 2,
     "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "question_extraction_not_clean",
-      "verbatim_or_visual_review_pending",
-      "visual_asset_requires_confirmation"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2018_1_J2/5403535b3f43ec8d.png",
       "assets/UDEA_2018_1_J2/a63fef9c3f8a9632.png"
@@ -13349,13 +13364,18 @@
         "placement": "question"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_visual_review_against_rendered_source_phase11",
       "source_text_match": true,
-      "rendered_page_located": true
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 79,
+    "source_pages": [
+      8
+    ]
   },
   {
     "id": "UDEA_2018_1_J2_RL_080",
@@ -13366,7 +13386,7 @@
     "session": "J2",
     "section": "RL",
     "original_question_number": 80,
-    "question": "Se tienen dos figuras, un cuadrado y un triángulo rectángulo, con flechas que representan el lado hacia donde es posible que roten. Si se forma un arreglo de dos figuras, hay uno compatible y otro incompatible, como se muestra. En el siguiente arreglo, ¿cuál es el único compatible?",
+    "question": "Se tienen dos figuras, un cuadrado y un triángulo rectángulo y se escriben flechas en su interior que representan el lado hacía donde es posible que roten. Si se forma un arreglo de dos figuras, hay uno en donde son compatibles y otro en donde no, como se ve a continuación. En el siguiente arreglo, el único que es compatible es:",
     "options": {
       "A": "Ver imagen A",
       "B": "Ver imagen B",
@@ -13379,7 +13399,7 @@
     "skill": "plane_or_solid_geometry",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
+    "source_page": 8,
     "confidence": "confirmed_by_key",
     "verification_status": "verified_by_visual_review",
     "review_reasons": [],
@@ -13391,10 +13411,8 @@
     "embedded_image_markers": 5,
     "answer_key_source": "Exámenes /Con respuestas/2018-1 j2/Screenshot_20200318-224804.png",
     "answer_key_verification": "manual_visual_transcription",
-    "official_exam_eligible": false,
-    "eligibility_reasons": [
-      "verbatim_or_visual_review_pending"
-    ],
+    "official_exam_eligible": true,
+    "eligibility_reasons": [],
     "assets": [
       "assets/UDEA_2018_1_J2/1063f9a8e6acbfa8.png",
       "assets/UDEA_2018_1_J2/36838af20c62a9c0.png",
@@ -13460,13 +13478,19 @@
         "placement": "option_D"
       }
     ],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "manual_visual_review",
-      "source_text_match": false,
-      "rendered_page_located": false
+      "method": "manual_visual_review_against_rendered_source_phase11",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "visual_resource_placement_verified": true
     },
-    "admin_status": "needs_review"
+    "admin_status": "verified",
+    "source_question_number": 80,
+    "source_pages": [
+      8,
+      9
+    ]
   },
   {
     "id": "UDEA_2018_1_J3_CL_001",
