@@ -37,3 +37,17 @@ export async function GET(request: Request) {
   }));
   return Response.json({ attempts });
 }
+
+export async function DELETE(request: Request) {
+  const learnerId = new URL(request.url).searchParams.get('learnerId') ?? '';
+  if (!/^[a-zA-Z0-9-]{16,80}$/.test(learnerId)) {
+    return Response.json({ error: 'Identificador de historial inválido.' }, { status: 400 });
+  }
+
+  const db = getD1();
+  await db.batch([
+    db.prepare('DELETE FROM attempts WHERE learner_id = ?').bind(learnerId),
+    db.prepare('DELETE FROM simulations WHERE learner_id = ?').bind(learnerId),
+  ]);
+  return Response.json({ deleted: true }, { headers: { 'Cache-Control': 'no-store' } });
+}
