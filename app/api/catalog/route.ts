@@ -1,4 +1,5 @@
 import { bank, eligibleQuestions, examId } from '../../../lib/exam-engine';
+import { topicLabel } from '../../../lib/display-labels';
 
 export async function GET() {
   const eligible = eligibleQuestions(new Set());
@@ -15,7 +16,7 @@ export async function GET() {
   }
   const topics = [...new Set(eligible.map((question) => question.topic))].sort().map((topic) => ({
     value: topic,
-    label: topic.replaceAll('_', ' ').replace(/^./, (letter) => letter.toUpperCase()),
+    label: topicLabel(topic),
     sections: [...new Set(eligible.filter((question) => question.topic === topic).map((question) => question.section))],
     count: eligible.filter((question) => question.topic === topic).length,
   }));
