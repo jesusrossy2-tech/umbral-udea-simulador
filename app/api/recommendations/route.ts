@@ -1,10 +1,9 @@
 import { getD1 } from '../../../db';
 import { eligibleQuestions } from '../../../lib/exam-engine';
+import { topicLabel } from '../../../lib/display-labels';
 
 type Detail = { section: 'CL' | 'RL'; topic: string; outcome: 'correct' | 'incorrect' | 'omitted' };
 type AttemptDetailRow = { details_json: string };
-
-const label = (value: string) => value.replaceAll('_', ' ').replace(/^./, (letter) => letter.toUpperCase());
 
 export async function GET(request: Request) {
   const learnerId = new URL(request.url).searchParams.get('learnerId') ?? '';
@@ -30,7 +29,7 @@ export async function GET(request: Request) {
   for (const question of eligibleQuestions(new Set())) availableByTopic.set(`${question.section}:${question.topic}`, (availableByTopic.get(`${question.section}:${question.topic}`) ?? 0) + 1);
   const stats = [...topicStats.values()].map((item) => ({
     ...item,
-    label: label(item.topic),
+    label: topicLabel(item.topic),
     accuracy: Math.round(item.correct / item.total * 100),
     historicalQuestionsAvailable: availableByTopic.get(`${item.section}:${item.topic}`) ?? 0,
   }));
