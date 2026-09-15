@@ -75,6 +75,13 @@ const j1_2019_2_answerKey = [
   'DDDDBDBDCD', 'CCBCCBBBDA', 'CBABBBADAA', 'CBACCDDCBC',
   'ABBBCAABCA', 'CCDCBCDDCB', 'ACDCCABBBB', 'BDDDAAAACC',
 ].join('');
+const j1_2019_1 = eligible
+  .filter((question) => question.year === 2019 && question.period === '1' && question.session === 'J1')
+  .sort((a, b) => a.original_question_number - b.original_question_number);
+const j1_2019_1_answerKey = [
+  'DACCCABBBA', 'BBDBACBAAC', 'BBBABCCDCC', 'ACBCBAACBD',
+  'BDDBAADBDC', 'BDDDDABDBC', 'CADACBACAB', 'ADAABCBBBC',
+].join('');
 if ((sections.CL?.length ?? 0) < 40 || (sections.RL?.length ?? 0) < 40) throw new Error('The eligible bank cannot support 40 CL + 40 RL.');
 if (sources.size < 2) throw new Error('The eligible bank does not contain multiple historical exams.');
 if (visual.length < 23) throw new Error(`Expected at least 23 eligible visual questions, found ${visual.length}.`);
@@ -153,7 +160,33 @@ for (const [number, expectedVisuals] of new Map([
   }
 }
 
-const readyHistoricalExams = [j1_2017, j1_2017_2, j2_2018_1, j1_2019_2]
+if (j1_2019_1.length !== 80
+  || j1_2019_1.filter((question) => question.section === 'CL').length !== 40
+  || j1_2019_1.filter((question) => question.section === 'RL').length !== 40
+  || j1_2019_1.some((question, index) => question.original_question_number !== index + 1)) {
+  throw new Error('UDEA 2019-1 J1 must be a verified consecutive historical exam with 40 CL + 40 RL.');
+}
+if (j1_2019_1_answerKey.length !== 80
+  || j1_2019_1.some((question, index) => question.correct_answer !== j1_2019_1_answerKey[index])) {
+  throw new Error('UDEA 2019-1 J1 does not match the independently transcribed 80-answer key.');
+}
+for (const [number, expectedVisuals] of new Map([
+  [41, 2], [42, 1], [43, 1], [44, 1], [45, 1], [46, 1], [47, 1],
+  [48, 1], [49, 1], [50, 1], [51, 1], [56, 1], [77, 1], [78, 1], [80, 2],
+])) {
+  const question = j1_2019_1.find((item) => item.original_question_number === number);
+  if ((question?.visual_resources?.length ?? 0) !== expectedVisuals) {
+    throw new Error(`UDEA 2019-1 J1 question ${number} does not have its complete verified visual material.`);
+  }
+}
+for (const number of [58, 59, 67, 71, 72, 75, 76, 79]) {
+  const question = j1_2019_1.find((item) => item.original_question_number === number);
+  if (!question?.text_resource_ids?.length) {
+    throw new Error(`UDEA 2019-1 J1 question ${number} does not have its complete verified supporting material.`);
+  }
+}
+
+const readyHistoricalExams = [j1_2017, j1_2017_2, j2_2018_1, j1_2019_1, j1_2019_2]
   .filter((questions) => questions.length === 80
     && questions.filter((question) => question.section === 'CL').length === 40
     && questions.filter((question) => question.section === 'RL').length === 40)
