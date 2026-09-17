@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-09-17T21:57:52.713Z",
+  "result": "PASS_WITH_DOCUMENTED_EXCLUSIONS",
+  "totals": {
+    "records": 477,
+    "eligible": 437,
+    "excluded_without_key": 40,
+    "pending_review": 0,
+    "incomplete": 0,
+    "ready_historical_exams": 5
+  },
+  "source_integrity": {
+    "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx": {
+      "sha256": "47a25bed68cd071b39d7a1972d63fa07262408b5a5b7b3882df02da603032200",
+      "hash_matches_audited_copy": true
+    },
+    "ExamenUdeA 2017 II J1 print El arte.docx": {
+      "sha256": "821f66ae98514f05dac6111715b59bb087e25760d4aa99c68eeaaa6b8b51b788",
+      "hash_matches_audited_copy": true
+    },
+    "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx": {
+      "sha256": "92c5185deedac0853640b1b648daf9800fe4e226a799b51970680a8f36614ed1",
+      "hash_matches_audited_copy": true
+    },
+    "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx": {
+      "sha256": "4d835fe46d6489ec9f7e15dd33d564f11e3079d305fa2004fc3af3cfa41f0f0c",
+      "hash_matches_audited_copy": true
+    },
+    "ExamenUdeA 2019 I J I print El humor.docx": {
+      "sha256": "7ecbb64f3ac968591bb403b954932119e8858e26b5c9fe42dbc97ba588571126",
+      "hash_matches_audited_copy": true
+    },
+    "Documento de Cristian Molina.docx": {
+      "sha256": "94fbf2fc124e8597d93a703b2c5682afe4b1ed010eba458319db00f22b575b2b",
+      "hash_matches_audited_copy": true
+    }
+  },
+  "direct_text_comparison": {
+    "ExamenUdeA 2017 I  J1 print La utilidad de la luna.docx": {
+      "total": 80,
+      "eligible": 80,
+      "excluded": 0,
+      "direct_complete_matches": 66,
+      "question_text_matches": 66,
+      "option_text_matches": 317,
+      "option_text_total": 320,
+      "manual_or_visual_reconstruction": 14
+    },
+    "ExamenUdeA 2017 II J1 print El arte.docx": {
+      "total": 80,
+      "eligible": 80,
+      "excluded": 0,
+      "direct_complete_matches": 60,
+      "question_text_matches": 63,
+      "option_text_matches": 300,
+      "option_text_total": 320,
+      "manual_or_visual_reconstruction": 20
+    },
+    "ExamenUdeA 2018 I J2 print Fútbol Galeano.docx": {
+      "total": 80,
+      "eligible": 80,
+      "excluded": 0,
+      "direct_complete_matches": 70,
+      "question_text_matches": 72,
+      "option_text_matches": 300,
+      "option_text_total": 320,
+      "manual_or_visual_reconstruction": 10
+    },
+    "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx": {
+      "total": 77,
+      "eligible": 37,
+      "excluded": 40,
+      "direct_complete_matches": 55,
+      "question_text_matches": 59,
+      "option_text_matches": 286,
+      "option_text_total": 308,
+      "manual_or_visual_reconstruction": 22
+    },
+    "ExamenUdeA 2019 I J I print El humor.docx": {
+      "total": 80,
+      "eligible": 80,
+      "excluded": 0,
+      "direct_complete_matches": 49,
+      "question_text_matches": 52,
+      "option_text_matches": 302,
+      "option_text_total": 320,
+      "manual_or_visual_reconstruction": 31
+    },
+    "Documento de Cristian Molina.docx": {
+      "total": 80,
+      "eligible": 80,
+      "excluded": 0,
+      "direct_complete_matches": 69,
+      "question_text_matches": 72,
+      "option_text_matches": 316,
+      "option_text_total": 320,
+      "manual_or_visual_reconstruction": 11
+    }
+  },
+  "partial_answer_key_2018_1_j3": {
+    "file": "Screenshot_20200318-225258.png",
+    "sha256": "d2d2e59edc51470ebd55f7fcab62106ebc944536a2b1c254912594926c3e873d",
+    "observed_scope": "RL 41-77 only",
+    "cl_1_40": "blank",
+    "rl_78_80": "blank_and_absent_from_source_exam"
+  },
+  "closure_decision": {
+    "enabled": "Five complete 80-question historical exams plus the verified 2018-1 J3 RL block 41-77.",
+    "excluded": "2018-1 J3 CL 1-40: literal text verified, but no answers exist in the supplied key.",
+    "not_invented": "2018-1 J3 RL 78-80: absent from both the source exam and supplied key."
+  }
+}

@@ -47,6 +47,9 @@ const j3Rl = eligible
   .filter((question) => question.year === 2018 && question.period === '1' && question.session === 'J3' && question.section === 'RL')
   .map((question) => question.original_question_number)
   .sort((a, b) => a - b);
+const j3Cl = bank
+  .filter((question) => question.year === 2018 && question.period === '1' && question.session === 'J3' && question.section === 'CL')
+  .sort((a, b) => a.original_question_number - b.original_question_number);
 const j1_2017 = eligible
   .filter((question) => question.year === 2017 && question.period === '1' && question.session === 'J1')
   .sort((a, b) => a.original_question_number - b.original_question_number);
@@ -87,6 +90,27 @@ if (sources.size < 2) throw new Error('The eligible bank does not contain multip
 if (visual.length < 23) throw new Error(`Expected at least 23 eligible visual questions, found ${visual.length}.`);
 if (j3Rl.length !== 37 || j3Rl.some((number, index) => number !== index + 41)) {
   throw new Error('UDEA 2018-1 J3 logical reasoning must contain the verified consecutive block 41-77.');
+}
+if (j3Cl.length !== 40 || j3Cl.some((question, index) => question.original_question_number !== index + 1)) {
+  throw new Error('UDEA 2018-1 J3 reading comprehension must preserve the complete source sequence 1-40.');
+}
+for (const question of j3Cl) {
+  if (question.admin_status !== 'excluded'
+    || question.official_exam_eligible !== false
+    || question.correct_answer !== null
+    || question.verbatim_confidence !== 'verified'
+    || !question.eligibility_reasons?.includes('answer_key_missing_in_source')) {
+    throw new Error(`UDEA 2018-1 J3 CL question must remain verified but excluded without an answer key: ${question.id}`);
+  }
+  if (Object.keys(question.options ?? {}).sort().join('') !== 'ABCD'
+    || Object.values(question.options).some((value) => !String(value).trim())
+    || !String(question.question ?? '').trim()) {
+    throw new Error(`UDEA 2018-1 J3 CL question is incomplete: ${question.id}`);
+  }
+  if (!question.text_resource_ids?.length
+    || question.text_resource_ids.some((id) => !textResourceIds.has(id))) {
+    throw new Error(`UDEA 2018-1 J3 CL question lacks its audited source text: ${question.id}`);
+  }
 }
 if (j1_2017.length !== 80
   || j1_2017.filter((question) => question.section === 'CL').length !== 40
@@ -202,4 +226,5 @@ console.log(JSON.stringify({
   readyHistoricalExams,
   pendingReview: bank.filter((question) => question.admin_status === 'needs_review').length,
   incomplete: bank.filter((question) => question.admin_status === 'incomplete').length,
+  verifiedButExcludedWithoutAnswerKey: j3Cl.length,
 }, null, 2));

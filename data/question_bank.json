@@ -14938,8 +14938,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -14950,9 +14950,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -14962,18 +14961,30 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_CL_002",
@@ -14997,8 +15008,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15009,9 +15020,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15021,18 +15031,30 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_CL_003",
@@ -15056,8 +15078,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15068,9 +15090,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15080,18 +15101,30 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_CL_004",
@@ -15115,8 +15148,8 @@
     "skill": "referential_cohesion",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15127,9 +15160,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15139,18 +15171,30 @@
     "classification_evidence": [
       "\\b(pronombre|conector|conectivo|ello|estos?\\s+(?:se\\s+)?refiere|hace referencia)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_CL_005",
@@ -15161,6 +15205,76 @@
     "session": "J3",
     "section": "CL",
     "original_question_number": 5,
+    "question": "El término afinar (párrafo 1) se entiende, conservando el sentido del párrafo, como",
+    "options": {
+      "A": "criticar",
+      "B": "transitar",
+      "C": "construir",
+      "D": "perfeccionar"
+    },
+    "correct_answer": null,
+    "topic": "contextual_vocabulary",
+    "subtopic": "contextual_vocabulary",
+    "skill": "infer_word_meaning_from_context",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 2,
+    "confidence": "high",
+    "verification_status": "clean",
+    "review_reasons": [],
+    "extraction_method": "labelled_options",
+    "source_paragraphs": [
+      36,
+      45
+    ],
+    "embedded_image_markers": 0,
+    "official_exam_eligible": false,
+    "eligibility_reasons": [
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
+    ],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "high",
+    "classification_evidence": [
+      "\\b(pronombre|conector|conectivo|ello|estos?\\s+(?:se\\s+)?refiere|hace referencia)\\b"
+    ],
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
+    },
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J3_CL_006",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J3",
+    "section": "CL",
+    "original_question_number": 6,
     "question": "Las palabras son para comunicar y también son",
     "options": {
       "A": "acciones",
@@ -15174,8 +15288,8 @@
     "skill": "retrieval_or_contrast_in_passage",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15186,9 +15300,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15198,28 +15311,40 @@
     "classification_evidence": [
       "retrieval_or_contrast_in_passage"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_006",
+    "id": "UDEA_2018_1_J3_CL_007",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 6,
+    "original_question_number": 7,
     "question": "La expresión “perdona, que no quise decir la barbaridad que he dicho” da a entender que",
     "options": {
       "A": "quien habla barbaridades suele sentirse arrepentido y avergonzado",
@@ -15233,8 +15358,8 @@
     "skill": "inferential_comprehension",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15245,9 +15370,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15257,28 +15381,40 @@
     "classification_evidence": [
       "\\b(inferir|infiere|deduce|deducir|concluye|se desprende|da a entender|presupone|implica)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_007",
+    "id": "UDEA_2018_1_J3_CL_008",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 7,
+    "original_question_number": 8,
     "question": "El texto se refiere a que la “excusa barata” (párrafo 2) es",
     "options": {
       "A": "decir barbaridades",
@@ -15292,8 +15428,8 @@
     "skill": "meaning_or_reference_in_context",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15304,9 +15440,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15316,28 +15451,40 @@
     "classification_evidence": [
       "meaning_or_reference_in_context"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_008",
+    "id": "UDEA_2018_1_J3_CL_009",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 8,
+    "original_question_number": 9,
     "question": "Austin plantea que la _______ de los catedráticos debe reemplazarse por el lenguaje _______",
     "options": {
       "A": "exageración – modesto",
@@ -15351,8 +15498,8 @@
     "skill": "retrieval_or_contrast_in_passage",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15363,9 +15510,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15375,28 +15521,40 @@
     "classification_evidence": [
       "retrieval_or_contrast_in_passage"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_009",
+    "id": "UDEA_2018_1_J3_CL_010",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 9,
+    "original_question_number": 10,
     "question": "Austin le dio una patada al balón del deporte favorito de algunos catedráticos al proponer",
     "options": {
       "A": "un lenguaje ordinario o natural",
@@ -15410,8 +15568,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15422,9 +15580,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15434,28 +15591,40 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_010",
+    "id": "UDEA_2018_1_J3_CL_011",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 10,
+    "original_question_number": 11,
     "question": "En el texto, quien plantea que “en un lenguaje más técnico jamás se debe perder de vista la lengua más sencilla”, es",
     "options": {
       "A": "Leibniz",
@@ -15469,8 +15638,8 @@
     "skill": "retrieval_or_contrast_in_passage",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15481,9 +15650,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15493,28 +15661,40 @@
     "classification_evidence": [
       "retrieval_or_contrast_in_passage"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_011",
+    "id": "UDEA_2018_1_J3_CL_012",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 11,
+    "original_question_number": 12,
     "question": "La expresión «de lo que no se puede hablar, hay que callar» se le atribuye a",
     "options": {
       "A": "Austin",
@@ -15528,8 +15708,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15540,9 +15720,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15552,28 +15731,40 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_012",
+    "id": "UDEA_2018_1_J3_CL_013",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 12,
+    "original_question_number": 13,
     "question": "Al prometer, felicitar, saludar, insultar, se interviene al acto",
     "options": {
       "A": "ilocutivo",
@@ -15587,8 +15778,8 @@
     "skill": "retrieval_or_contrast_in_passage",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15599,9 +15790,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15611,28 +15801,40 @@
     "classification_evidence": [
       "retrieval_or_contrast_in_passage"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_013",
+    "id": "UDEA_2018_1_J3_CL_014",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 13,
+    "original_question_number": 14,
     "question": "El tema central del texto radica en",
     "options": {
       "A": "la definición de la filosofía del lenguaje",
@@ -15646,8 +15848,8 @@
     "skill": "global_comprehension",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15658,9 +15860,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15670,28 +15871,40 @@
     "classification_evidence": [
       "\\b(tema central|idea (?:que )?resume|idea principal|hace énfasis|propósito (?:del|de la|del autor|comunicativo))\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_014",
+    "id": "UDEA_2018_1_J3_CL_015",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 14,
+    "original_question_number": 15,
     "question": "Austin es una persona de, EXCEPTO",
     "options": {
       "A": "alegrías infalibles",
@@ -15705,8 +15918,8 @@
     "skill": "retrieval_or_contrast_in_passage",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15717,9 +15930,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15729,28 +15941,40 @@
     "classification_evidence": [
       "retrieval_or_contrast_in_passage"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_015",
+    "id": "UDEA_2018_1_J3_CL_016",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 15,
+    "original_question_number": 16,
     "question": "Los pensadores que fundamentan la teoría de Austin son, EXCEPTO",
     "options": {
       "A": "Leibniz",
@@ -15764,8 +15988,8 @@
     "skill": "retrieval_or_contrast_in_passage",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 2,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15776,9 +16000,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15788,28 +16011,40 @@
     "classification_evidence": [
       "retrieval_or_contrast_in_passage"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      2
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_016",
+    "id": "UDEA_2018_1_J3_CL_017",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 16,
+    "original_question_number": 17,
     "question": "Armando Miguel en El lenguaje de las manos ( ) dice “el gesto de coger una taza de té levantando el dedo meñique se consideraba en la Inglaterra victoriana como una demostración de vulgaridad”, respecto a los británicos de hoy, se considera",
     "options": {
       "A": "una señal de pertenecer a la nobleza",
@@ -15823,8 +16058,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 3,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15835,9 +16070,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15847,28 +16081,40 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      3
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_017",
+    "id": "UDEA_2018_1_J3_CL_018",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 17,
+    "original_question_number": 18,
     "question": "La universidad para Austin debe ser un espacio",
     "options": {
       "A": "participativo",
@@ -15882,8 +16128,8 @@
     "skill": "retrieval_or_contrast_in_passage",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 3,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15894,9 +16140,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15906,28 +16151,40 @@
     "classification_evidence": [
       "retrieval_or_contrast_in_passage"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      3
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_018",
+    "id": "UDEA_2018_1_J3_CL_019",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 18,
+    "original_question_number": 19,
     "question": "El término ladinos (párrafo 2) equivale a, EXCEPTO",
     "options": {
       "A": "tramposos",
@@ -15941,8 +16198,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 3,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -15953,9 +16210,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -15965,28 +16221,40 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      3
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_019",
+    "id": "UDEA_2018_1_J3_CL_020",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 19,
+    "original_question_number": 20,
     "question": "El término proactiva (párrafo 3) se relaciona con",
     "options": {
       "A": "creativa",
@@ -16000,8 +16268,8 @@
     "skill": "comparison_and_analogy",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 3,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16012,9 +16280,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16024,28 +16291,40 @@
     "classification_evidence": [
       "\\b(ambos textos|textos? (?:uno|i) y (?:dos|ii)|analog(?:ía|ógica)|concuerda con|se relaciona con|cita)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      3
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_020",
+    "id": "UDEA_2018_1_J3_CL_021",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 20,
+    "original_question_number": 21,
     "question": "El término inviable (párrafo 5) equivale a decir",
     "options": {
       "A": "inexistente",
@@ -16059,8 +16338,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 3,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16071,9 +16350,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16083,28 +16361,40 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      3
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_021",
+    "id": "UDEA_2018_1_J3_CL_022",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 21,
+    "original_question_number": 22,
     "question": "“Nadie ofrece tanto como el que no va a cumplir” (Francisco de Quevedo) se relaciona con lo planteado en los párrafos",
     "options": {
       "A": "2 y 4",
@@ -16118,8 +16408,8 @@
     "skill": "comparison_and_analogy",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 3,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16130,9 +16420,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16142,28 +16431,40 @@
     "classification_evidence": [
       "\\b(ambos textos|textos? (?:uno|i) y (?:dos|ii)|analog(?:ía|ógica)|concuerda con|se relaciona con|cita)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      3
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_022",
+    "id": "UDEA_2018_1_J3_CL_023",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 22,
+    "original_question_number": 23,
     "question": "Según el texto, la vida de los colombianos sería distinta si",
     "options": {
       "A": "fuéramos más sinceros",
@@ -16177,8 +16478,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 3,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16189,9 +16490,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16201,28 +16501,110 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      3
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_023",
+    "id": "UDEA_2018_1_J3_CL_024",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 23,
+    "original_question_number": 24,
+    "question": "En el texto se expresa que “somos un país lleno de merengues”. El término subrayado equivale a decir",
+    "options": {
+      "A": "quisquillosos",
+      "B": "indecisos",
+      "C": "hipersensibles",
+      "D": "cobardes"
+    },
+    "correct_answer": null,
+    "topic": "contextual_vocabulary",
+    "subtopic": "contextual_vocabulary",
+    "skill": "infer_word_meaning_from_context",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 4,
+    "confidence": "high",
+    "verification_status": "clean",
+    "review_reasons": [],
+    "extraction_method": "labelled_options",
+    "source_paragraphs": [
+      163,
+      172
+    ],
+    "embedded_image_markers": 0,
+    "official_exam_eligible": false,
+    "eligibility_reasons": [
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
+    ],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "high",
+    "classification_evidence": [
+      "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
+    ],
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
+    },
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J3_CL_025",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J3",
+    "section": "CL",
+    "original_question_number": 25,
     "question": "“El valor de la palabra se deshace en medio de la baba” tiene el mismo sentido de una de las siguientes frases tomadas del texto",
     "options": {
       "A": "“nos movemos al vaivén de lo que nos pasa y de lo que nos conviene”",
@@ -16236,8 +16618,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 4,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16248,9 +16630,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16260,28 +16641,40 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_024",
+    "id": "UDEA_2018_1_J3_CL_026",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 24,
+    "original_question_number": 26,
     "question": "Ser notario es el mejor de los negocios porque",
     "options": {
       "A": "recibe muy buena remuneración por su trabajo",
@@ -16295,8 +16688,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 4,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16307,9 +16700,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16319,28 +16711,40 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_025",
+    "id": "UDEA_2018_1_J3_CL_027",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 25,
+    "original_question_number": 27,
     "question": "El segundo párrafo es aplicable a, EXCEPTO",
     "options": {
       "A": "los padres de familia",
@@ -16354,8 +16758,8 @@
     "skill": "retrieval_or_contrast_in_passage",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 4,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16366,9 +16770,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16378,28 +16781,40 @@
     "classification_evidence": [
       "retrieval_or_contrast_in_passage"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_026",
+    "id": "UDEA_2018_1_J3_CL_028",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 26,
+    "original_question_number": 28,
     "question": "Sin ponernos colorados” se relaciona con la siguiente expresión",
     "options": {
       "A": "sin pelos en la lengua",
@@ -16413,8 +16828,8 @@
     "skill": "comparison_and_analogy",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 4,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16425,9 +16840,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16437,28 +16851,40 @@
     "classification_evidence": [
       "\\b(ambos textos|textos? (?:uno|i) y (?:dos|ii)|analog(?:ía|ógica)|concuerda con|se relaciona con|cita)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_027",
+    "id": "UDEA_2018_1_J3_CL_029",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 27,
+    "original_question_number": 29,
     "question": "Es facilidad nuestra el incumplir la palabra ya que",
     "options": {
       "A": "le decimos sí a todo",
@@ -16472,8 +16898,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 4,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16484,9 +16910,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16496,28 +16921,40 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_028",
+    "id": "UDEA_2018_1_J3_CL_030",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 28,
+    "original_question_number": 30,
     "question": "Una frase que se acomoda a lo planteado en el texto es",
     "options": {
       "A": "“para completar, tenemos la capacidad para voltear las situaciones”",
@@ -16531,8 +16968,8 @@
     "skill": "retrieval_or_contrast_in_passage",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 4,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16543,9 +16980,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16555,28 +16991,40 @@
     "classification_evidence": [
       "retrieval_or_contrast_in_passage"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_029",
+    "id": "UDEA_2018_1_J3_CL_031",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 29,
+    "original_question_number": 31,
     "question": "La expresión “colgando de una brocha” da a entender que la gente",
     "options": {
       "A": "promete con facilidad",
@@ -16590,8 +17038,8 @@
     "skill": "inferential_comprehension",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 4,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16602,9 +17050,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16614,28 +17061,40 @@
     "classification_evidence": [
       "\\b(inferir|infiere|deduce|deducir|concluye|se desprende|da a entender|presupone|implica)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_030",
+    "id": "UDEA_2018_1_J3_CL_032",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 30,
+    "original_question_number": 32,
     "question": "La expresión “el valor de la palabra se deshace en medio de la baba” significa que los colombianos somos",
     "options": {
       "A": "susceptibles",
@@ -16649,8 +17108,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 4,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16661,9 +17120,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16673,28 +17131,40 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_031",
+    "id": "UDEA_2018_1_J3_CL_033",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 31,
+    "original_question_number": 33,
     "question": "Fariñas en Normas de papel escribe que “en América Latina la viveza es considerada como un valor esencial de la supervivencia”, esto tiene la misma connotación al decir que",
     "options": {
       "A": "“por cuenta de nuestra irresponsabilidad hay un montón de gente colgando de una brocha”",
@@ -16708,8 +17178,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 4,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16720,9 +17190,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16732,28 +17201,40 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_032",
+    "id": "UDEA_2018_1_J3_CL_034",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 32,
+    "original_question_number": 34,
     "question": "La frase con la que inicia el texto connota",
     "options": {
       "A": "duda",
@@ -16767,8 +17248,8 @@
     "skill": "lexical_semantics",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 4,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16779,9 +17260,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16791,28 +17271,40 @@
     "classification_evidence": [
       "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_033",
+    "id": "UDEA_2018_1_J3_CL_035",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 33,
+    "original_question_number": 35,
     "question": "El conector “por el contrario”, subrayado en el tercer párrafo indica __________ entre las ideas",
     "options": {
       "A": "causalidad",
@@ -16826,8 +17318,8 @@
     "skill": "referential_cohesion",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 4,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16838,9 +17330,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16850,28 +17341,40 @@
     "classification_evidence": [
       "\\b(pronombre|conector|conectivo|ello|estos?\\s+(?:se\\s+)?refiere|hace referencia)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_034",
+    "id": "UDEA_2018_1_J3_CL_036",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 34,
+    "original_question_number": 36,
     "question": "Textos I y II Fariñas en Normas de papel dice que “la historia de la humanidad puede tomar formas de repliegue o de avance. Actualmente vivimos tiempos de repliegue o de regresión en muchos ámbitos de nuestra vida… En el marco de [la] regresión democrática ocupa un papel central el incumplimiento sistemático de las reglas legales”, por lo que puede compararse con lo planteado en",
     "options": {
       "A": "ambos textos",
@@ -16885,8 +17388,8 @@
     "skill": "comparison_and_analogy",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 4,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16897,9 +17400,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16909,28 +17411,41 @@
     "classification_evidence": [
       "\\b(ambos textos|textos? (?:uno|i) y (?:dos|ii)|analog(?:ía|ógica)|concuerda con|se relaciona con|cita)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1",
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_035",
+    "id": "UDEA_2018_1_J3_CL_037",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 35,
+    "original_question_number": 37,
     "question": "Searle plantea que “el objetivo de la ciencia es ofrecer una descripción sistemática del modo como funciona el mundo. Una parte del mundo está constituida por fenómenos ontológicamente subjetivos. Si utilizamos una definición de la ciencia que no nos permita investigar esta parte del mundo, entonces se debe cambiar tal definición, no el mundo”, esto se relaciona con lo expuesto en",
     "options": {
       "A": "el texto dos",
@@ -16944,8 +17459,8 @@
     "skill": "comparison_and_analogy",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 4,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -16956,9 +17471,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -16968,28 +17482,41 @@
     "classification_evidence": [
       "\\b(ambos textos|textos? (?:uno|i) y (?:dos|ii)|analog(?:ía|ógica)|concuerda con|se relaciona con|cita)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1",
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      4
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
-    "id": "UDEA_2018_1_J3_CL_036",
+    "id": "UDEA_2018_1_J3_CL_038",
     "source_type": "historical_exam",
     "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
     "year": 2018,
     "period": "1",
     "session": "J3",
     "section": "CL",
-    "original_question_number": 36,
+    "original_question_number": 38,
     "question": "El tema en común de ambos textos es la palabra. En el Uno es su _______, mientras que en el Dos es su _______.",
     "options": {
       "A": "uso – cumplimiento",
@@ -17003,8 +17530,8 @@
     "skill": "comparison_and_analogy",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 5,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -17015,9 +17542,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -17027,18 +17553,102 @@
     "classification_evidence": [
       "\\b(ambos textos|textos? (?:uno|i) y (?:dos|ii)|analog(?:ía|ógica)|concuerda con|se relaciona con|cita)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1",
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      5
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
+  },
+  {
+    "id": "UDEA_2018_1_J3_CL_039",
+    "source_type": "historical_exam",
+    "source_file": "ExamenUdeA 2018 I J3 print Hacemos cosas con palabras.docx",
+    "year": 2018,
+    "period": "1",
+    "session": "J3",
+    "section": "CL",
+    "original_question_number": 39,
+    "question": "Una diferencia fundamental entre ambos textos es que",
+    "options": {
+      "A": "mientras el texto uno es expositivo, el dos es argumentativo",
+      "B": "mientras el texto dos es expositivo, el uno es argumentativo",
+      "C": "mientras el texto uno se fundamenta teóricamente para argumentar, el dos lo hace desde la percepción del autor",
+      "D": "el texto uno está escrito en tercera persona, mientras el dos lo está en primera persona"
+    },
+    "correct_answer": null,
+    "topic": "intertextual_comparison",
+    "subtopic": "text_type_and_argumentation",
+    "skill": "compare_discursive_structure",
+    "difficulty": null,
+    "question_type": null,
+    "source_page": 5,
+    "confidence": "high",
+    "verification_status": "clean",
+    "review_reasons": [],
+    "extraction_method": "labelled_options",
+    "source_paragraphs": [
+      18,
+      22
+    ],
+    "embedded_image_markers": 0,
+    "official_exam_eligible": false,
+    "eligibility_reasons": [
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
+    ],
+    "assets": [],
+    "asset_candidates_nearby": [],
+    "asset_link_status": "none",
+    "classification_method": "deterministic_semantic_rules_v1",
+    "classification_confidence": "high",
+    "classification_evidence": [
+      "\\b(término|palabra|expresión|equivale|equivalente|reemplazad[ao]|acepción|connota|significa|sentido)\\b"
+    ],
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
+    "visual_resources": [],
+    "verbatim_confidence": "verified",
+    "verbatim_verification": {
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
+      "source_text_match": true,
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
+    },
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1",
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      5
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_CL_040",
@@ -17062,8 +17672,8 @@
     "skill": "comparison_and_analogy",
     "difficulty": null,
     "question_type": null,
-    "source_page": null,
-    "confidence": "uncertain",
+    "source_page": 5,
+    "confidence": "high",
     "verification_status": "clean",
     "review_reasons": [],
     "extraction_method": "labelled_options",
@@ -17074,9 +17684,8 @@
     "embedded_image_markers": 0,
     "official_exam_eligible": false,
     "eligibility_reasons": [
-      "answer_key_not_validated_in_this_phase",
-      "answer_uncertain",
-      "verbatim_or_visual_review_pending"
+      "answer_key_missing_in_source",
+      "excluded_until_verified_answer_key_available"
     ],
     "assets": [],
     "asset_candidates_nearby": [],
@@ -17086,18 +17695,31 @@
     "classification_evidence": [
       "\\b(ambos textos|textos? (?:uno|i) y (?:dos|ii)|analog(?:ía|ógica)|concuerda con|se relaciona con|cita)\\b"
     ],
-    "source_category": "OFFICIAL_EXAM_UDEA",
+    "source_category": "EXAM_WITH_PARTIAL_ANSWERS_UDEA",
     "visual_resources": [],
-    "verbatim_confidence": "needs_review",
+    "verbatim_confidence": "verified",
     "verbatim_verification": {
-      "method": "pending_manual_review",
+      "method": "manual_rendered_pdf_transcription_and_direct_docx_text_match",
       "source_text_match": true,
-      "rendered_page_located": false
+      "rendered_page_located": true,
+      "answer_key_audited": true,
+      "answer_key_result": "blank_for_cl_questions_1_40"
     },
-    "admin_status": "needs_review",
-    "text_resource_ids": [],
-    "required_supporting_material": [],
-    "supporting_material_status": "not_required"
+    "admin_status": "excluded",
+    "text_resource_ids": [
+      "UDEA_2018_1_J3_CL_TEXT_1",
+      "UDEA_2018_1_J3_CL_TEXT_2"
+    ],
+    "required_supporting_material": [
+      "text"
+    ],
+    "supporting_material_status": "complete",
+    "source_pages": [
+      5
+    ],
+    "answer_key_source": "Screenshot_20200318-225258.png",
+    "answer_key_verification": "source_key_contains_blank_cl_column",
+    "option_assets": {}
   },
   {
     "id": "UDEA_2018_1_J3_RL_041",
