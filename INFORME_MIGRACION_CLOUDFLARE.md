@@ -28,6 +28,8 @@ La configuración independiente se encuentra en `wrangler.cloudflare.jsonc`. Las
 
 La base D1 de Cloudflare es independiente de la base administrada por ChatGPT Sites. Los nuevos intentos y simulaciones se guardan en `umbral-udea-db`. El banco de preguntas y sus recursos visuales forman parte del despliegue y no dependen de la base anterior.
 
+La autenticación opcional con Google permite sincronizar el historial entre dispositivos. La arquitectura y las medidas de seguridad están documentadas en `INFORME_AUTENTICACION_GOOGLE.md`.
+
 ## Dominio
 
 `workers.dev` y HTTPS se suministran sin comprar un dominio. Un dominio propio como `.com` puede añadirse posteriormente, pero su registro no es gratuito.

@@ -1,4 +1,5 @@
 import { getD1 } from '../../../db';
+import { requestHasTrustedOrigin, resolveLearnerId } from '../../../lib/auth';
 
 type AttemptRow = {
   id: string;
@@ -14,8 +15,8 @@ type AttemptRow = {
 };
 
 export async function GET(request: Request) {
-  const learnerId = new URL(request.url).searchParams.get('learnerId') ?? '';
-  if (!/^[a-zA-Z0-9-]{16,80}$/.test(learnerId)) {
+  const learnerId = await resolveLearnerId(request, new URL(request.url).searchParams.get('learnerId'));
+  if (!learnerId) {
     return Response.json({ error: 'Identificador de historial inválido.' }, { status: 400 });
   }
 
@@ -39,8 +40,9 @@ export async function GET(request: Request) {
 }
 
 export async function DELETE(request: Request) {
-  const learnerId = new URL(request.url).searchParams.get('learnerId') ?? '';
-  if (!/^[a-zA-Z0-9-]{16,80}$/.test(learnerId)) {
+  if (!requestHasTrustedOrigin(request)) return Response.json({ error: 'Origen no permitido.' }, { status: 403 });
+  const learnerId = await resolveLearnerId(request, new URL(request.url).searchParams.get('learnerId'));
+  if (!learnerId) {
     return Response.json({ error: 'Identificador de historial inválido.' }, { status: 400 });
   }
 

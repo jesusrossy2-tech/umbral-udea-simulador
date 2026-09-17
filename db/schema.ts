@@ -38,3 +38,23 @@ export const questionReviews = sqliteTable('question_reviews', {
   note: text('note'),
   updatedAt: text('updated_at').notNull(),
 });
+
+export const users = sqliteTable('users', {
+  id: text('id').primaryKey(),
+  googleSub: text('google_sub').notNull().unique(),
+  email: text('email').notNull(),
+  name: text('name').notNull(),
+  pictureUrl: text('picture_url'),
+  createdAt: text('created_at').notNull(),
+  lastLoginAt: text('last_login_at').notNull(),
+});
+
+export const sessions = sqliteTable('sessions', {
+  tokenHash: text('token_hash').primaryKey(),
+  userId: text('user_id').notNull(),
+  createdAt: text('created_at').notNull(),
+  expiresAt: text('expires_at').notNull(),
+}, (table) => [
+  index('idx_sessions_user').on(table.userId),
+  index('idx_sessions_expires').on(table.expiresAt),
+]);

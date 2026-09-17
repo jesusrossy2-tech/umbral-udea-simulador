@@ -1,13 +1,14 @@
 import { getD1 } from '../../../db';
 import { eligibleQuestions } from '../../../lib/exam-engine';
 import { topicLabel } from '../../../lib/display-labels';
+import { resolveLearnerId } from '../../../lib/auth';
 
 type Detail = { section: 'CL' | 'RL'; topic: string; outcome: 'correct' | 'incorrect' | 'omitted' };
 type AttemptDetailRow = { details_json: string };
 
 export async function GET(request: Request) {
-  const learnerId = new URL(request.url).searchParams.get('learnerId') ?? '';
-  if (!/^[a-zA-Z0-9-]{16,80}$/.test(learnerId)) {
+  const learnerId = await resolveLearnerId(request, new URL(request.url).searchParams.get('learnerId'));
+  if (!learnerId) {
     return Response.json({ error: 'Identificador de historial inválido.' }, { status: 400 });
   }
 

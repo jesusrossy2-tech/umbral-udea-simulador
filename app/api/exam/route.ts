@@ -1,5 +1,6 @@
 import { getD1 } from '../../../db';
 import { bank, buildFullExam, buildPractice, eligibleQuestions, examId, publicQuestion, type ExamMode } from '../../../lib/exam-engine';
+import { requestHasTrustedOrigin, resolveLearnerId } from '../../../lib/auth';
 
 const validLearner = (value: string) => /^[a-zA-Z0-9-]{16,80}$/.test(value);
 const noStore = { 'Cache-Control': 'no-store' };
@@ -22,9 +23,9 @@ async function selectionContext(learnerId: string) {
 
 export async function GET(request: Request) {
   const url = new URL(request.url);
-  const learnerId = url.searchParams.get('learnerId') ?? '';
+  const learnerId = await resolveLearnerId(request, url.searchParams.get('learnerId'));
   const mode = (url.searchParams.get('mode') ?? 'full') as ExamMode;
-  if (!validLearner(learnerId) || !['full','historical','practice'].includes(mode)) return Response.json({ error: 'Solicitud de examen inválida.' }, { status: 400, headers: noStore });
+  if (!learnerId || !validLearner(learnerId) || !['full','historical','practice'].includes(mode)) return Response.json({ error: 'Solicitud de examen inválida.' }, { status: 400, headers: noStore });
   const now = Date.now();
   const db = getD1();
   await db.prepare(`DELETE FROM simulations
@@ -68,10 +69,12 @@ export async function GET(request: Request) {
 }
 
 export async function POST(request: Request) {
+  if (!requestHasTrustedOrigin(request)) return Response.json({ error: 'Origen no permitido.' }, { status: 403, headers: noStore });
   const body = await request.json() as { simulationId?: string; learnerId?: string; answers?: Record<string,string>; elapsedSeconds?: number; timedOut?: boolean };
-  if (!body.simulationId || !body.learnerId || !validLearner(body.learnerId)) return Response.json({ error: 'Entrega inválida.' }, { status: 400, headers: noStore });
+  const learnerId = await resolveLearnerId(request, body.learnerId);
+  if (!body.simulationId || !learnerId || !validLearner(learnerId)) return Response.json({ error: 'Entrega inválida.' }, { status: 400, headers: noStore });
   const simulation = await getD1().prepare(`SELECT id, mode, source_exam_id, question_ids_json, started_at, duration_seconds, submitted_at FROM simulations
-    WHERE id = ? AND learner_id = ?`).bind(body.simulationId, body.learnerId).first<{id:string;mode:ExamMode;source_exam_id:string|null;question_ids_json:string;started_at:string;duration_seconds:number;submitted_at:string|null}>();
+    WHERE id = ? AND learner_id = ?`).bind(body.simulationId, learnerId).first<{id:string;mode:ExamMode;source_exam_id:string|null;question_ids_json:string;started_at:string;duration_seconds:number;submitted_at:string|null}>();
   if (!simulation || simulation.submitted_at) return Response.json({ error: 'El simulacro no existe o ya fue entregado.' }, { status: 409, headers: noStore });
   const questionIds = JSON.parse(simulation.question_ids_json) as string[];
   const selected = questionIds.map((id) => bank.find((question) => question.id === id)).filter(Boolean) as typeof bank;
@@ -105,7 +108,7 @@ export async function POST(request: Request) {
     db.prepare(`INSERT INTO attempts
       (id, learner_id, exam_id, submitted_at, elapsed_seconds, timed_out, total_correct, total_incorrect, total_omitted, percentage, cl_correct, rl_correct, details_json, mode)
       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
-      .bind(attemptId, body.learnerId, simulation.source_exam_id || simulation.id, savedAt, elapsedSeconds, timedOut ? 1 : 0,
+      .bind(attemptId, learnerId, simulation.source_exam_id || simulation.id, savedAt, elapsedSeconds, timedOut ? 1 : 0,
         totals.correct, totals.incorrect, totals.omitted, Math.round(totals.percentage * 100), sections.CL.correct, sections.RL.correct, JSON.stringify(details), simulation.mode),
   ]);
   return Response.json({ status: timedOut ? 'timed_out' : 'submitted', mode: simulation.mode, elapsedSeconds, totals, sections, attemptId, savedAt, historySaved: true,
