@@ -34,6 +34,8 @@ El sistema conserva el modo anónimo: iniciar sesión es opcional.
 ## Validación en producción
 
 - El inicio de sesión con la cuenta de prueba finalizó correctamente.
+- Google Auth Platform quedó en estado **En producción**, disponible para cualquier persona con Cuenta de Google.
+- La cuenta administradora tiene activa la verificación en dos pasos exigida por Google Cloud.
 - La interfaz mostró el nombre, correo y el estado «progreso sincronizado».
 - La sesión permaneció activa al recargar el sitio.
 - Los endpoints de inicio, sesión, privacidad y condiciones respondieron con estado HTTP 200.
