@@ -10,7 +10,11 @@
     "build": "vinext build",
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
-    "db:generate": "drizzle-kit generate"
+    "db:generate": "drizzle-kit generate",
+    "cf:whoami": "wrangler whoami",
+    "cf:db:migrate": "wrangler d1 migrations apply umbral-udea-db --remote --config wrangler.cloudflare.jsonc",
+    "cf:deploy:check": "wrangler deploy --dry-run --config wrangler.cloudflare.jsonc",
+    "cf:deploy": "wrangler deploy --config wrangler.cloudflare.jsonc"
   },
   "dependencies": {
     "next": "16.2.6",
