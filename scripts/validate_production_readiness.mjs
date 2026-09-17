@@ -5,6 +5,7 @@ const root = path.resolve(import.meta.dirname, '..');
 const bank = JSON.parse(fs.readFileSync(path.join(root, 'data/question_bank.json'), 'utf8'));
 const page = fs.readFileSync(path.join(root, 'app/page.tsx'), 'utf8');
 const adminRoute = fs.readFileSync(path.join(root, 'app/api/admin/questions/route.ts'), 'utf8');
+const examRoute = fs.readFileSync(path.join(root, 'app/api/exam/route.ts'), 'utf8');
 const engine = fs.readFileSync(path.join(root, 'lib/exam-engine.ts'), 'utf8');
 
 for (const required of ['dist/server/index.js', 'dist/.openai/hosting.json']) {
@@ -18,6 +19,10 @@ if (!adminRoute.includes('status: 404') || adminRoute.includes('correct_answer')
 }
 if (!engine.includes('correct_answer: _correct') || !engine.includes('answer_key_source: _key')) {
   throw new Error('The learner response sanitizer no longer removes answer-key data.');
+}
+if (examRoute.includes('correctAnswer') || !examRoute.includes('maxSimulationsPerHour')
+  || !examRoute.includes("'Retry-After': '3600'") || !examRoute.includes('simulation.started_at')) {
+  throw new Error('The exam API no longer enforces answer-key protection, rate limiting, and server-side timing.');
 }
 
 const eligible = bank.filter((question) => question.official_exam_eligible
@@ -44,4 +49,7 @@ console.log(JSON.stringify({
   readyHistoricalExams: ready.length,
   historicalExamContract: '80 questions; 40 CL + 40 RL',
   learnerAnswerSanitizer: 'present',
+  submittedAnswerKeyExposure: 'blocked',
+  simulationRateLimit: 'present',
+  serverSideTiming: 'present',
 }, null, 2));
